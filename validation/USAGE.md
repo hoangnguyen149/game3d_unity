@@ -19,3 +19,7 @@ Exit codes for `check.py`:
 `self_test.py` returns `0` only when five cases pass: actual artifact integrity, strict-readiness rejection, altered source detection, altered ZIP detection and missing assembly detection. All mutations occur in ordinary temporary copies. It does not alter the repository payloads. Its result checks the validator, not target runtime behavior.
 
 `fixture.json` pins the preserved evidence baseline. Reconstructed code can live elsewhere without changing these files. Do not update fixture hashes merely to make damaged artifacts pass. The original-artifact readiness state is separate from any later reconstruction build/test result.
+
+## Selected-account regression tests
+
+`docker compose run --rm selection-tests` compiles the actual production `AccountSelection.cs` with its .NET 8 test harness using the installed SDK, without restore or external packages. Nine cases cover absent/empty selection, placeholder/invalid indices, exact dispatch for valid indices, and zero launch/delete effects for rejected selection. This executes neither the reconstructed executable nor WinForms. Results are written to `docker-output/selection-tests/tests.json`; failed tests or compilation return nonzero.

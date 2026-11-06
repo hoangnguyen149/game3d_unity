@@ -1,0 +1,44 @@
+{
+  "scope": "Production selection/dispatch logic; WinForms GUI and game not executed",
+  "tests": 9,
+  "passed": 9,
+  "failed": 0,
+  "cases": [
+    {
+      "name": "no_current_cell_does_not_dereference_or_dispatch",
+      "passed": true
+    },
+    {
+      "name": "empty_account_list_rejected",
+      "passed": true
+    },
+    {
+      "name": "negative_row_index_rejected",
+      "passed": true
+    },
+    {
+      "name": "stale_row_at_account_count_rejected",
+      "passed": true
+    },
+    {
+      "name": "placeholder_row_rejected",
+      "passed": true
+    },
+    {
+      "name": "first_account_dispatched_once",
+      "passed": true
+    },
+    {
+      "name": "last_account_dispatched_without_changing_index",
+      "passed": true
+    },
+    {
+      "name": "invalid_delete_keeps_button_enabled_and_data_unchanged",
+      "passed": true
+    },
+    {
+      "name": "invalid_launch_starts_no_worker",
+      "passed": true
+    }
+  ]
+}

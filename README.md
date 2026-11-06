@@ -12,10 +12,13 @@ Dùng Linux containers, mở PowerShell tại repository:
 docker compose build toolchain
 docker compose run --rm audit
 docker compose run --rm validator-tests
+docker compose run --rm selection-tests
 docker compose run --rm rebuild-manager
 ```
 
-EXE phục dựng: `docker-output/manager/QLTK_NR.exe`. Đã kiểm chứng bằng Docker Engine Linux: 330 kiểm tra toàn vẹn đạt, 5/5 ca kiểm tra validator đạt, build EXE thành công với 10 warning. Các lượt kiểm tra/build chạy không mạng và chỉ đọc checkout.
+EXE phục dựng: `docker-output/manager/QLTK_NR.exe`. Đã kiểm chứng bằng Docker Engine Linux: 330 kiểm tra toàn vẹn đạt, 5/5 ca kiểm tra validator đạt, 9/9 kiểm thử hồi quy chọn tài khoản đạt, build EXE thành công với 10 warning. Các lượt kiểm tra/build chạy không mạng và chỉ đọc checkout.
+
+Đã sửa lỗi `NullReferenceException` khi bấm chạy/xóa mà bảng chưa có ô hiện hành. Bản sửa kiểm tra dòng được chọn trước mọi thao tác và hiển thị hướng dẫn thêm/chọn tài khoản. [Chi tiết bản sửa và phạm vi kiểm thử](reports/SELECTION_FIX.md).
 
 `docker compose run --rm readiness` hiện trả exit `2`, thể hiện bản export gốc còn thiếu điều kiện khôi phục toàn bộ. Không dùng kết quả integrity để kết luận game đã hoạt động.
 
@@ -49,7 +52,7 @@ EXE phục dựng: `docker-output/manager/QLTK_NR.exe`. Đã kiểm chứng bằ
 - Các gói ZIP đã được kiểm tra toàn vẹn và có checksum.
 - C# game declarations: 219 tệp, 0 lỗi cú pháp trong lần kiểm tra Roslyn; đây là kiểm tra khai báo, không xác nhận logic game.
 - Auto Manager resolved ban đầu: không còn 39 chú thích `Unknown result type` của bản raw, nhưng vẫn còn 1 lỗi cú pháp `CS1001` trong `-.cs`.
-- Auto Manager reconstruction: đã compile Windows PE32/.NET Framework 4.7.2, 77.312 byte, giữ 10 warning và ghi rõ khác biệt metadata/tên phục dựng.
+- Auto Manager reconstruction: đã compile Windows PE32/.NET Framework 4.7.2, giữ 10 warning và ghi rõ khác biệt metadata/tên phục dựng. Bản hiện tại có kiểm tra lựa chọn tài khoản; hash/size từng lần build nằm trong báo cáo.
 - Chưa chạy EXE, kiểm thử Windows 11 hoặc build game Unity. Game declarations vẫn thiếu thân hàm C# thực và project Unity đầy đủ.
 
 Mở tệp bằng Visual Studio Code/Visual Studio để đọc. Đường build đã kiểm chứng của bản phục dựng là `build.py` qua Docker, không phải project ILSpy xuất ban đầu. Cấu hình tài khoản từ `Data/*.ini` của bản tham khảo không được đưa vào repository.

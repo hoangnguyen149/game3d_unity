@@ -1,0 +1,41 @@
+8.0.427 [/opt/dotnet/sdk]
+Microsoft (R) Visual C# Compiler version 4.11.0-3.25569.22 (3fb752d4)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Packed and verified one serialized icon resource without deserialization.
+Microsoft (R) Visual C# Compiler version 4.11.0-3.25569.22 (3fb752d4)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+reconstruction/auto-manager/--------------------.cs(165,5): warning CS0162: Unreachable code detected
+reconstruction/auto-manager/--------------------.cs(202,5): warning CS0162: Unreachable code detected
+reconstruction/auto-manager/--------------------.cs(2123,10): warning CS0162: Unreachable code detected
+reconstruction/auto-manager/--------------------.cs(1426,8): warning CS0162: Unreachable code detected
+reconstruction/auto-manager/--------------------.cs(1567,8): warning CS0162: Unreachable code detected
+reconstruction/auto-manager/--------------------.cs(3435,8): warning CS0162: Unreachable code detected
+reconstruction/auto-manager/--------------------.cs(49,14): warning CS0649: Field '_F4DE_E4B6_EFC0_E906_E7DE_EFA2_F567_F8CA_F1ED_EEF8_F18F_E002_F2C3_EAA0_E089_E787_E156_EB04_F559_E28E._E4EF_EE2C_EFD2_E3A2_F7DF_EC38_F0F3_E5D4_E5F4_E9E5_F4F9_E0C0_EB46_E20A_F5A9_F73B_E533_E213_F8DD_F7BC.data' is never assigned to, and will always have its default value 0
+reconstruction/auto-manager/--------------------.cs(47,14): warning CS0649: Field '_F4DE_E4B6_EFC0_E906_E7DE_EFA2_F567_F8CA_F1ED_EEF8_F18F_E002_F2C3_EAA0_E089_E787_E156_EB04_F559_E28E._E4EF_EE2C_EFD2_E3A2_F7DF_EC38_F0F3_E5D4_E5F4_E9E5_F4F9_E0C0_EB46_E20A_F5A9_F73B_E533_E213_F8DD_F7BC.index' is never assigned to, and will always have its default value 0
+reconstruction/auto-manager/--------------------.cs(36,14): warning CS0649: Field '_F4DE_E4B6_EFC0_E906_E7DE_EFA2_F567_F8CA_F1ED_EEF8_F18F_E002_F2C3_EAA0_E089_E787_E156_EB04_F559_E28E._E4EF_EE2C_EFD2_E3A2_F7DF_EC38_F0F3_E5D4_E5F4_E9E5_F4F9_E0C0_EB46_E20A_F5A9_F73B_E533_E213_F8DD_F7BB.index' is never assigned to, and will always have its default value 0
+reconstruction/auto-manager/--------------------.cs(34,111): warning CS0649: Field '_F4DE_E4B6_EFC0_E906_E7DE_EFA2_F567_F8CA_F1ED_EEF8_F18F_E002_F2C3_EAA0_E089_E787_E156_EB04_F559_E28E._E4EF_EE2C_EFD2_E3A2_F7DF_EC38_F0F3_E5D4_E5F4_E9E5_F4F9_E0C0_EB46_E20A_F5A9_F73B_E533_E213_F8DD_F7BB._003C_003E4__this' is never assigned to, and will always have its default value null
+{
+  "result": "compiled_only_not_executed",
+  "target": ".NET Framework 4.7.2 WinForms, PE32 with original 32-bit-preferred CLI flags",
+  "sources": [
+    "--------------------.cs",
+    "AccountSelection.cs",
+    "CryptoOverrides.cs",
+    "Properties/AssemblyInfo.cs",
+    "QLTK_NR/Properties/Resources.cs",
+    "QLTK_NR/Properties/Settings.cs",
+    "ReconstructionAssemblyInfo.cs"
+  ],
+  "excluded_metadata_only_type": "0x0200001D: empty name, invalid parent, zero members",
+  "resource_logical_names": [
+    "TMiu",
+    "HEkV",
+    "_F4DE_E4B6_EFC0_E906_E7DE_EFA2_F567_F8CA_F1ED_EEF8_F18F_E002_F2C3_EAA0_E089_E787_E156_EB04_F559_E28E.resources"
+  ],
+  "output": "QLTK_NR.exe",
+  "bytes": 78848,
+  "sha256": "9eab6a3b2979f4462a34de16150c25aed5f5609ae4241db5fb752398f0ad2dc5",
+  "runtime_equivalence_verified": false
+}

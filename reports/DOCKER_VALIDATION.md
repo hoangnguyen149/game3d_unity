@@ -1,5 +1,7 @@
 # Kết quả Docker và bản phục dựng Auto Manager
 
+Đây là báo cáo lần build phục dựng đầu tiên. Bản sửa lỗi lựa chọn tài khoản và EXE cập nhật được ghi riêng tại [SELECTION_FIX.md](SELECTION_FIX.md); hash/size 77.312 byte dưới đây thuộc bản đầu, không phải EXE hiện tại trong gói tải.
+
 Đã thực hiện trên Docker Engine Linux amd64 trong cloud, Docker Compose v2.40.3, .NET SDK 8.0.427. Các lệnh Compose này cũng được cung cấp cho Docker Desktop ở chế độ Linux containers; chưa chạy Docker Desktop hoặc GUI trên máy Windows của người dùng.
 
 ## Kết quả thực tế

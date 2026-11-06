@@ -41,3 +41,7 @@ services:
   rebuild-manager:
     <<: *offline
     command: [python, reconstruction/auto-manager/build.py, --dotnet, /opt/dotnet/dotnet, --refs, /opt/net472refs, --out, /out/manager]
+
+  selection-tests:
+    <<: *offline
+    command: [python, validation/run_manager_selection_tests.py, --dotnet, /opt/dotnet/dotnet, --out, /out/selection-tests]

@@ -34,6 +34,8 @@ Script biên dịch công cụ đóng resource riêng bằng `csc`, chép nguyê
 
 ## Kết quả và giới hạn
 
+Bản sửa thao tác chọn tài khoản: hai nút chạy/xóa dùng `AccountSelection` kiểm tra ô hiện hành, dòng placeholder và giới hạn danh sách trước mọi thao tác. Khi danh sách trống hoặc chưa chọn dòng, hiển thị hướng dẫn thêm/chọn tài khoản. Đây là sửa lỗi chức năng theo báo lỗi Windows, không phải khôi phục nguyên byte hành vi lỗi của bản đầu vào. Có 9 kiểm thử hồi quy cho logic chọn/thực hiện thao tác, chạy trong Docker; chưa chạy lại GUI Windows của bản sửa. Chi tiết: [báo cáo sửa lỗi](../../reports/SELECTION_FIX.md).
+
 Lần csc trực tiếp trước khi bổ sung TargetFramework/platform: exit 0, 10 warning (6 unreachable code và 4 closure field chưa được gán). Công cụ đóng resource riêng build và kiểm tra byte thành công. Kết quả Docker hiện hành và hash đầu ra cuối cùng nằm trong báo cáo ở root repository và trong `build-summary.json` của lần chạy đó.
 
 Không có kiểm thử chạy executable, đăng nhập tài khoản, mở game hoặc GUI Windows. Mã còn làm rối, reflection và helper giải mã dữ liệu runtime. Tên kiểu/thành viên được ILSpy escaped sang ASCII; tên chuỗi reflection, layout metadata, property/default-member và cờ tham số không được chứng minh tương đương đầu vào. Một bản IL của lần rebuild sơ bộ có 32 type / 162 method / 111 field, khác số metadata gốc 29 / 146 / 106 do compiler và các wrapper; không dùng số đó để khẳng định phục hồi toàn bộ logic.
