@@ -1,0 +1,8 @@
+# Preserve the hashes recorded in the decompilation package manifest.
+decompiled/** -text
+downloads/** -text
+*.zip binary
+*.dll binary
+*.ico binary
+README.md text eol=lf
+THONG_BAO.md text eol=lf

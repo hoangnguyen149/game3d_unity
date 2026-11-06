@@ -1,0 +1,382 @@
+{
+  "scope": "Static parsing only; no uploaded executable or assembly was run.",
+  "inputs": {
+    "Auto Manager.exe": {
+      "bytes": 69120,
+      "sha256": "a2f7fab7c34270efcdaeca16f10b598a365123f3dab95a4f1de042767d3b401a"
+    },
+    "GameAssembly.dll": {
+      "bytes": 18920960,
+      "sha256": "70a205f03a217a44ce74236f35ac0363de3a72cce18c52dae9f2ef5ca135cff4"
+    },
+    "Mod_Mabu6sao_Tv.exe": {
+      "bytes": 641536,
+      "sha256": "b400bf71fceb012afd0ba4c7d17d50e55e67897b8e706a31441680e8d703077e"
+    },
+    "Mod_Mabu6sao_Tv_Data/il2cpp_data/Metadata/global-metadata.dat": {
+      "bytes": 3282208,
+      "sha256": "dc01efca13c4f8e8114efdd2c351dad931e05982988be4d2053c13021a92a3d2"
+    },
+    "Mod_Mabu6sao_Tv_Data/ScriptingAssemblies.json": {
+      "bytes": 2848,
+      "sha256": "a11841005eb858eb9df071df829f97070a037e43ef48b8b592dfc2fc6c090b06"
+    }
+  },
+  "il2cpp": {
+    "metadata_magic": "0xfab11baf",
+    "metadata_version": 27,
+    "header_bytes": 256,
+    "header_pairs_are_offset_and_byte_length": true,
+    "record_sizes": {
+      "type_definition": 88,
+      "method_definition": 32,
+      "field_definition": 12,
+      "image_definition": 40,
+      "string_literal": 8
+    },
+    "metadata_types": 3328,
+    "metadata_methods": 31180,
+    "metadata_fields": 17433,
+    "metadata_images": 38,
+    "string_literal_count": 7683,
+    "string_literal_data_bytes": 197156,
+    "identifier_string_data_bytes": 550448,
+    "validation": "Validated header ranges, type/method/field identifier indexes, declared method/field ranges and totals, image type totals, and all string-literal ranges. Literal values omitted.",
+    "images": [
+      {
+        "name": "mscorlib.dll",
+        "types": 1614,
+        "methods": 11102,
+        "fields": 6475
+      },
+      {
+        "name": "System.Configuration.dll",
+        "types": 10,
+        "methods": 17,
+        "fields": 4
+      },
+      {
+        "name": "Mono.Security.dll",
+        "types": 75,
+        "methods": 414,
+        "fields": 536
+      },
+      {
+        "name": "System.Xml.dll",
+        "types": 3,
+        "methods": 1,
+        "fields": 3
+      },
+      {
+        "name": "System.dll",
+        "types": 538,
+        "methods": 3004,
+        "fields": 2578
+      },
+      {
+        "name": "System.Core.dll",
+        "types": 16,
+        "methods": 78,
+        "fields": 40
+      },
+      {
+        "name": "UnityEngine.SharedInternalsModule.dll",
+        "types": 28,
+        "methods": 64,
+        "fields": 39
+      },
+      {
+        "name": "UnityEngine.CoreModule.dll",
+        "types": 500,
+        "methods": 1293,
+        "fields": 1554
+      },
+      {
+        "name": "UnityEngine.InputLegacyModule.dll",
+        "types": 5,
+        "methods": 20,
+        "fields": 7
+      },
+      {
+        "name": "UnityEngine.TextRenderingModule.dll",
+        "types": 4,
+        "methods": 5,
+        "fields": 12
+      },
+      {
+        "name": "UnityEngine.AssetBundleModule.dll",
+        "types": 4,
+        "methods": 0,
+        "fields": 0
+      },
+      {
+        "name": "UnityEngine.AudioModule.dll",
+        "types": 14,
+        "methods": 39,
+        "fields": 10
+      },
+      {
+        "name": "UnityEngine.GridModule.dll",
+        "types": 2,
+        "methods": 1,
+        "fields": 0
+      },
+      {
+        "name": "UnityEngine.IMGUIModule.dll",
+        "types": 30,
+        "methods": 294,
+        "fields": 229
+      },
+      {
+        "name": "UnityEngine.ImageConversionModule.dll",
+        "types": 2,
+        "methods": 3,
+        "fields": 0
+      },
+      {
+        "name": "UnityEngine.Physics2DModule.dll",
+        "types": 8,
+        "methods": 41,
+        "fields": 39
+      },
+      {
+        "name": "UnityEngine.PhysicsModule.dll",
+        "types": 14,
+        "methods": 49,
+        "fields": 30
+      },
+      {
+        "name": "UnityEngine.SubsystemsModule.dll",
+        "types": 14,
+        "methods": 28,
+        "fields": 15
+      },
+      {
+        "name": "UnityEngine.UnityWebRequestModule.dll",
+        "types": 13,
+        "methods": 79,
+        "fields": 64
+      },
+      {
+        "name": "UnityEngine.AIModule.dll",
+        "types": 3,
+        "methods": 5,
+        "fields": 1
+      },
+      {
+        "name": "UnityEngine.AndroidJNIModule.dll",
+        "types": 14,
+        "methods": 193,
+        "fields": 28
+      },
+      {
+        "name": "UnityEngine.AnimationModule.dll",
+        "types": 29,
+        "methods": 56,
+        "fields": 74
+      },
+      {
+        "name": "UnityEngine.DirectorModule.dll",
+        "types": 2,
+        "methods": 3,
+        "fields": 3
+      },
+      {
+        "name": "UnityEngine.InputModule.dll",
+        "types": 5,
+        "methods": 10,
+        "fields": 14
+      },
+      {
+        "name": "UnityEngine.ParticleSystemModule.dll",
+        "types": 5,
+        "methods": 18,
+        "fields": 29
+      },
+      {
+        "name": "UnityEngine.TerrainModule.dll",
+        "types": 16,
+        "methods": 47,
+        "fields": 35
+      },
+      {
+        "name": "UnityEngine.TilemapModule.dll",
+        "types": 10,
+        "methods": 35,
+        "fields": 27
+      },
+      {
+        "name": "UnityEngine.UIElementsNativeModule.dll",
+        "types": 10,
+        "methods": 22,
+        "fields": 20
+      },
+      {
+        "name": "UnityEngine.UIModule.dll",
+        "types": 3,
+        "methods": 6,
+        "fields": 2
+      },
+      {
+        "name": "UnityEngine.UnityAnalyticsModule.dll",
+        "types": 11,
+        "methods": 18,
+        "fields": 24
+      },
+      {
+        "name": "UnityEngine.UnityWebRequestWWWModule.dll",
+        "types": 2,
+        "methods": 8,
+        "fields": 1
+      },
+      {
+        "name": "UnityEngine.VFXModule.dll",
+        "types": 10,
+        "methods": 29,
+        "fields": 12
+      },
+      {
+        "name": "UnityEngine.VRModule.dll",
+        "types": 2,
+        "methods": 2,
+        "fields": 1
+      },
+      {
+        "name": "UnityEngine.VideoModule.dll",
+        "types": 15,
+        "methods": 26,
+        "fields": 41
+      },
+      {
+        "name": "UnityEngine.XRModule.dll",
+        "types": 29,
+        "methods": 57,
+        "fields": 102
+      },
+      {
+        "name": "UnityEngine.dll",
+        "types": 1,
+        "methods": 0,
+        "fields": 0
+      },
+      {
+        "name": "Assembly-CSharp.dll",
+        "types": 258,
+        "methods": 14103,
+        "fields": 5380
+      },
+      {
+        "name": "Assembly-CSharp-firstpass.dll",
+        "types": 9,
+        "methods": 10,
+        "fields": 4
+      }
+    ]
+  },
+  "scripting_assemblies": {
+    "name_count": 78,
+    "names": [
+      "UnityEngine.dll",
+      "UnityEngine.AIModule.dll",
+      "UnityEngine.ARModule.dll",
+      "UnityEngine.AccessibilityModule.dll",
+      "UnityEngine.AndroidJNIModule.dll",
+      "UnityEngine.AnimationModule.dll",
+      "UnityEngine.AssetBundleModule.dll",
+      "UnityEngine.AudioModule.dll",
+      "UnityEngine.ClothModule.dll",
+      "UnityEngine.ClusterInputModule.dll",
+      "UnityEngine.ClusterRendererModule.dll",
+      "UnityEngine.CoreModule.dll",
+      "UnityEngine.CrashReportingModule.dll",
+      "UnityEngine.DSPGraphModule.dll",
+      "UnityEngine.DirectorModule.dll",
+      "UnityEngine.GIModule.dll",
+      "UnityEngine.GameCenterModule.dll",
+      "UnityEngine.GridModule.dll",
+      "UnityEngine.HotReloadModule.dll",
+      "UnityEngine.IMGUIModule.dll",
+      "UnityEngine.ImageConversionModule.dll",
+      "UnityEngine.InputModule.dll",
+      "UnityEngine.InputLegacyModule.dll",
+      "UnityEngine.JSONSerializeModule.dll",
+      "UnityEngine.LocalizationModule.dll",
+      "UnityEngine.ParticleSystemModule.dll",
+      "UnityEngine.PerformanceReportingModule.dll",
+      "UnityEngine.PhysicsModule.dll",
+      "UnityEngine.Physics2DModule.dll",
+      "UnityEngine.ProfilerModule.dll",
+      "UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
+      "UnityEngine.ScreenCaptureModule.dll",
+      "UnityEngine.SharedInternalsModule.dll",
+      "UnityEngine.SpriteMaskModule.dll",
+      "UnityEngine.SpriteShapeModule.dll",
+      "UnityEngine.StreamingModule.dll",
+      "UnityEngine.SubstanceModule.dll",
+      "UnityEngine.SubsystemsModule.dll",
+      "UnityEngine.TLSModule.dll",
+      "UnityEngine.TerrainModule.dll",
+      "UnityEngine.TerrainPhysicsModule.dll",
+      "UnityEngine.TextCoreModule.dll",
+      "UnityEngine.TextRenderingModule.dll",
+      "UnityEngine.TilemapModule.dll",
+      "UnityEngine.UIModule.dll",
+      "UnityEngine.UIElementsModule.dll",
+      "UnityEngine.UIElementsNativeModule.dll",
+      "UnityEngine.UNETModule.dll",
+      "UnityEngine.UmbraModule.dll",
+      "UnityEngine.UnityAnalyticsModule.dll",
+      "UnityEngine.UnityConnectModule.dll",
+      "UnityEngine.UnityCurlModule.dll",
+      "UnityEngine.UnityTestProtocolModule.dll",
+      "UnityEngine.UnityWebRequestModule.dll",
+      "UnityEngine.UnityWebRequestAssetBundleModule.dll",
+      "UnityEngine.UnityWebRequestAudioModule.dll",
+      "UnityEngine.UnityWebRequestTextureModule.dll",
+      "UnityEngine.UnityWebRequestWWWModule.dll",
+      "UnityEngine.VFXModule.dll",
+      "UnityEngine.VRModule.dll",
+      "UnityEngine.VehiclesModule.dll",
+      "UnityEngine.VideoModule.dll",
+      "UnityEngine.VirtualTexturingModule.dll",
+      "UnityEngine.WindModule.dll",
+      "UnityEngine.XRModule.dll",
+      "Assembly-CSharp-firstpass.dll",
+      "Assembly-CSharp.dll",
+      "Unity.InternalAPIEngineBridge.001.dll",
+      "Unity.2D.PixelPerfect.dll",
+      "Unity.Timeline.dll",
+      "Unity.TextMeshPro.dll",
+      "UnityEngine.UI.dll",
+      "Unity.Mathematics.dll",
+      "Unity.2D.IK.Runtime.dll",
+      "Unity.2D.Animation.Triangle.Runtime.dll",
+      "Unity.2D.Animation.Runtime.dll",
+      "Unity.2D.Common.Runtime.dll",
+      "Unity.2D.SpriteShape.Runtime.dll"
+    ],
+    "note": "ScriptingAssemblies.json lists configured scripting assemblies; this is distinct from the stripped metadata image list."
+  },
+  "auto_manager": {
+    "pe_machine": "0x14c",
+    "pe_optional_magic": "0x10b",
+    "clr_runtime_version": "v4.0.30319",
+    "cli_flags": "0x20003",
+    "target_frameworks": [
+      ".NETFramework,Version=v4.7.2"
+    ],
+    "type_definition_rows": 29,
+    "method_definition_rows": 146,
+    "field_definition_rows": 106,
+    "module_rows": 2,
+    "managed_resource_rows": 4,
+    "note": "Method/table rows count metadata records, not successfully reconstructed method bodies. The 2 Module rows are unusual; obfuscation may affect decompilers."
+  },
+  "limitations": [
+    "Il2CppDumper dump.cs and DummyDll output preserve metadata declarations and mappings, not the original C# method logic.",
+    "IL2CPP native method addresses support later disassembly and manual reconstruction; converting stubs back to C# does not reconstruct native method bodies.",
+    "Managed .NET decompilation may reconstruct logic, but obfuscation and invalid metadata can prevent some methods or resources from being decompiled.",
+    "Decompilation does not restore original comments, formatting, local names, source layout, project configuration or stripped content.",
+    "No successful rebuild or runtime behavior can be inferred from these counts."
+  ]
+}

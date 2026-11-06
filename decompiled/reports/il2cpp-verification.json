@@ -1,0 +1,304 @@
+{
+  "scope": "Static verification only; no uploaded code executed; no credential configuration copied or values included in this report.",
+  "metadata_types": 3328,
+  "dump_types": 3328,
+  "type_indexes_complete": true,
+  "metadata_methods": 31180,
+  "dump_method_declarations": 31180,
+  "metadata_images": 38,
+  "dump_image_headers": 38,
+  "dummy_dll_count": 39,
+  "dummy_helper_present": true,
+  "game_source_files": {
+    "Assembly-CSharp": 210,
+    "Assembly-CSharp-firstpass": 9
+  },
+  "metadata_literal_records": 7683,
+  "exported_literal_entries": 7679,
+  "missing_literal_records_by_hash_multiset": 4,
+  "extra_literal_records_by_hash_multiset": 0,
+  "script_sections": {
+    "ScriptMethod": 39459,
+    "ScriptString": 7679,
+    "ScriptMetadata": 2880,
+    "ScriptMetadataMethod": 5562,
+    "Addresses": 30799
+  },
+  "credential_configuration_filenames_found": [],
+  "images": [
+    {
+      "name": "mscorlib.dll",
+      "expected_types": 1614,
+      "dump_types": 1614,
+      "expected_methods": 11102,
+      "dump_method_declarations": 11102
+    },
+    {
+      "name": "System.Configuration.dll",
+      "expected_types": 10,
+      "dump_types": 10,
+      "expected_methods": 17,
+      "dump_method_declarations": 17
+    },
+    {
+      "name": "Mono.Security.dll",
+      "expected_types": 75,
+      "dump_types": 75,
+      "expected_methods": 414,
+      "dump_method_declarations": 414
+    },
+    {
+      "name": "System.Xml.dll",
+      "expected_types": 3,
+      "dump_types": 3,
+      "expected_methods": 1,
+      "dump_method_declarations": 1
+    },
+    {
+      "name": "System.dll",
+      "expected_types": 538,
+      "dump_types": 538,
+      "expected_methods": 3004,
+      "dump_method_declarations": 3004
+    },
+    {
+      "name": "System.Core.dll",
+      "expected_types": 16,
+      "dump_types": 16,
+      "expected_methods": 78,
+      "dump_method_declarations": 78
+    },
+    {
+      "name": "UnityEngine.SharedInternalsModule.dll",
+      "expected_types": 28,
+      "dump_types": 28,
+      "expected_methods": 64,
+      "dump_method_declarations": 64
+    },
+    {
+      "name": "UnityEngine.CoreModule.dll",
+      "expected_types": 500,
+      "dump_types": 500,
+      "expected_methods": 1293,
+      "dump_method_declarations": 1293
+    },
+    {
+      "name": "UnityEngine.InputLegacyModule.dll",
+      "expected_types": 5,
+      "dump_types": 5,
+      "expected_methods": 20,
+      "dump_method_declarations": 20
+    },
+    {
+      "name": "UnityEngine.TextRenderingModule.dll",
+      "expected_types": 4,
+      "dump_types": 4,
+      "expected_methods": 5,
+      "dump_method_declarations": 5
+    },
+    {
+      "name": "UnityEngine.AssetBundleModule.dll",
+      "expected_types": 4,
+      "dump_types": 4,
+      "expected_methods": 0,
+      "dump_method_declarations": 0
+    },
+    {
+      "name": "UnityEngine.AudioModule.dll",
+      "expected_types": 14,
+      "dump_types": 14,
+      "expected_methods": 39,
+      "dump_method_declarations": 39
+    },
+    {
+      "name": "UnityEngine.GridModule.dll",
+      "expected_types": 2,
+      "dump_types": 2,
+      "expected_methods": 1,
+      "dump_method_declarations": 1
+    },
+    {
+      "name": "UnityEngine.IMGUIModule.dll",
+      "expected_types": 30,
+      "dump_types": 30,
+      "expected_methods": 294,
+      "dump_method_declarations": 294
+    },
+    {
+      "name": "UnityEngine.ImageConversionModule.dll",
+      "expected_types": 2,
+      "dump_types": 2,
+      "expected_methods": 3,
+      "dump_method_declarations": 3
+    },
+    {
+      "name": "UnityEngine.Physics2DModule.dll",
+      "expected_types": 8,
+      "dump_types": 8,
+      "expected_methods": 41,
+      "dump_method_declarations": 41
+    },
+    {
+      "name": "UnityEngine.PhysicsModule.dll",
+      "expected_types": 14,
+      "dump_types": 14,
+      "expected_methods": 49,
+      "dump_method_declarations": 49
+    },
+    {
+      "name": "UnityEngine.SubsystemsModule.dll",
+      "expected_types": 14,
+      "dump_types": 14,
+      "expected_methods": 28,
+      "dump_method_declarations": 28
+    },
+    {
+      "name": "UnityEngine.UnityWebRequestModule.dll",
+      "expected_types": 13,
+      "dump_types": 13,
+      "expected_methods": 79,
+      "dump_method_declarations": 79
+    },
+    {
+      "name": "UnityEngine.AIModule.dll",
+      "expected_types": 3,
+      "dump_types": 3,
+      "expected_methods": 5,
+      "dump_method_declarations": 5
+    },
+    {
+      "name": "UnityEngine.AndroidJNIModule.dll",
+      "expected_types": 14,
+      "dump_types": 14,
+      "expected_methods": 193,
+      "dump_method_declarations": 193
+    },
+    {
+      "name": "UnityEngine.AnimationModule.dll",
+      "expected_types": 29,
+      "dump_types": 29,
+      "expected_methods": 56,
+      "dump_method_declarations": 56
+    },
+    {
+      "name": "UnityEngine.DirectorModule.dll",
+      "expected_types": 2,
+      "dump_types": 2,
+      "expected_methods": 3,
+      "dump_method_declarations": 3
+    },
+    {
+      "name": "UnityEngine.InputModule.dll",
+      "expected_types": 5,
+      "dump_types": 5,
+      "expected_methods": 10,
+      "dump_method_declarations": 10
+    },
+    {
+      "name": "UnityEngine.ParticleSystemModule.dll",
+      "expected_types": 5,
+      "dump_types": 5,
+      "expected_methods": 18,
+      "dump_method_declarations": 18
+    },
+    {
+      "name": "UnityEngine.TerrainModule.dll",
+      "expected_types": 16,
+      "dump_types": 16,
+      "expected_methods": 47,
+      "dump_method_declarations": 47
+    },
+    {
+      "name": "UnityEngine.TilemapModule.dll",
+      "expected_types": 10,
+      "dump_types": 10,
+      "expected_methods": 35,
+      "dump_method_declarations": 35
+    },
+    {
+      "name": "UnityEngine.UIElementsNativeModule.dll",
+      "expected_types": 10,
+      "dump_types": 10,
+      "expected_methods": 22,
+      "dump_method_declarations": 22
+    },
+    {
+      "name": "UnityEngine.UIModule.dll",
+      "expected_types": 3,
+      "dump_types": 3,
+      "expected_methods": 6,
+      "dump_method_declarations": 6
+    },
+    {
+      "name": "UnityEngine.UnityAnalyticsModule.dll",
+      "expected_types": 11,
+      "dump_types": 11,
+      "expected_methods": 18,
+      "dump_method_declarations": 18
+    },
+    {
+      "name": "UnityEngine.UnityWebRequestWWWModule.dll",
+      "expected_types": 2,
+      "dump_types": 2,
+      "expected_methods": 8,
+      "dump_method_declarations": 8
+    },
+    {
+      "name": "UnityEngine.VFXModule.dll",
+      "expected_types": 10,
+      "dump_types": 10,
+      "expected_methods": 29,
+      "dump_method_declarations": 29
+    },
+    {
+      "name": "UnityEngine.VRModule.dll",
+      "expected_types": 2,
+      "dump_types": 2,
+      "expected_methods": 2,
+      "dump_method_declarations": 2
+    },
+    {
+      "name": "UnityEngine.VideoModule.dll",
+      "expected_types": 15,
+      "dump_types": 15,
+      "expected_methods": 26,
+      "dump_method_declarations": 26
+    },
+    {
+      "name": "UnityEngine.XRModule.dll",
+      "expected_types": 29,
+      "dump_types": 29,
+      "expected_methods": 57,
+      "dump_method_declarations": 57
+    },
+    {
+      "name": "UnityEngine.dll",
+      "expected_types": 1,
+      "dump_types": 1,
+      "expected_methods": 0,
+      "dump_method_declarations": 0
+    },
+    {
+      "name": "Assembly-CSharp.dll",
+      "expected_types": 258,
+      "dump_types": 258,
+      "expected_methods": 14103,
+      "dump_method_declarations": 14103
+    },
+    {
+      "name": "Assembly-CSharp-firstpass.dll",
+      "expected_types": 9,
+      "dump_types": 9,
+      "expected_methods": 10,
+      "dump_method_declarations": 10
+    }
+  ],
+  "limitations": [
+    "Counts validate declaration coverage, not recovered original logic or behavior.",
+    "DummyDll and exported C# contain stubs; IL2CPP method implementations remain native machine code.",
+    "Metadata-stripped entities cannot be recovered from these counts.",
+    "The configured scripting assembly list has 78 names whereas stripped metadata has 38 images; these are different populations.",
+    "Four fewer stringliteral entries are exported than metadata records; literal hashes are compared internally without disclosing text.",
+    "Generated projects have not been rebuilt or run; no Windows11 runtime compatibility claim is made."
+  ]
+}

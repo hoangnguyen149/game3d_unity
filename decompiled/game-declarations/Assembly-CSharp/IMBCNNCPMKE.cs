@@ -1,0 +1,120 @@
+using Il2CppDummyDll;
+
+[Token(Token = "0x2000052")]
+public abstract class IMBCNNCPMKE
+{
+	[Token(Token = "0x600136C")]
+	public abstract void GLLEMCLHBIB(MJHHNEOKANP IPIEINNHAGJ);
+
+	[Token(Token = "0x600136D")]
+	public abstract void ONGNCGHGGFM(MJHHNEOKANP IPIEINNHAGJ);
+
+	[Token(Token = "0x600136E")]
+	public abstract void CAOKPOPHMHB();
+
+	[Token(Token = "0x600136F")]
+	public abstract void LHHCFPLJPEF(MJHHNEOKANP IPIEINNHAGJ);
+
+	[Token(Token = "0x6001370")]
+	public abstract void HDLGHLFGFIB(MJHHNEOKANP IPIEINNHAGJ, int MLDAECCBGMO, int BIIPGPJOIFC, int AOIIDDLGOFH, int KDEKFHMOLNM);
+
+	[Token(Token = "0x6001371")]
+	public abstract void MPKKCALMEIA(MJHHNEOKANP IPIEINNHAGJ, int BIIPGPJOIFC, int MLDAECCBGMO, int MHLMAECLEAN, int KDKIKBJFLID);
+
+	[Token(Token = "0x6001372")]
+	public abstract void JAFHPKABOJK(MJHHNEOKANP IPIEINNHAGJ, int KDEKFHMOLNM);
+
+	[Token(Token = "0x6001373")]
+	public abstract void ADKIMHPNHIH(MJHHNEOKANP IPIEINNHAGJ, PCHHOMNLFBP HGMKCGBNFCJ, PCHHOMNLFBP LJDMABBOLDP, PCHHOMNLFBP OBHABKLIFHD);
+
+	[Token(Token = "0x6001374")]
+	public abstract void ILGLFGEILCO(MJHHNEOKANP IPIEINNHAGJ, int MLDAECCBGMO, int BIIPGPJOIFC, int AOIIDDLGOFH, int KDEKFHMOLNM);
+
+	[Token(Token = "0x6001375")]
+	public abstract void DGHNKMIPEMN(MJHHNEOKANP IPIEINNHAGJ, int MLDAECCBGMO, int BIIPGPJOIFC);
+
+	[Token(Token = "0x6001376")]
+	public abstract void EGJEEBIKAMC(MJHHNEOKANP IPIEINNHAGJ, string OIODDOAECOO);
+
+	[Token(Token = "0x6001377")]
+	public abstract void IBLMNIFHOOD(MJHHNEOKANP IPIEINNHAGJ, bool BHGINLKJOIA, int MLDAECCBGMO, int BIIPGPJOIFC, int AOIIDDLGOFH, int KDEKFHMOLNM, int LFAMJHFACEL, int KCMDAJLCDBJ, string GENPILEIAKP);
+
+	[Token(Token = "0x6001378")]
+	public abstract void HJCCGGBDLBA(MJHHNEOKANP IPIEINNHAGJ);
+
+	[Token(Token = "0x6001379")]
+	public abstract void GGBBMNBEIDK(MJHHNEOKANP IPIEINNHAGJ, int MLDAECCBGMO, int BIIPGPJOIFC, int AOIIDDLGOFH, int KDEKFHMOLNM, bool BHGINLKJOIA);
+
+	[Token(Token = "0x600137A")]
+	public abstract void OJKAMINOLPA(MJHHNEOKANP IPIEINNHAGJ, int MLDAECCBGMO, int BIIPGPJOIFC, int AOIIDDLGOFH, int KDEKFHMOLNM, string IFMMOFDJOKA, string GMLMEINLOGP, string MGBLGLLMFGP);
+
+	[Token(Token = "0x600137B")]
+	public abstract void FCBBMGICFEN(MJHHNEOKANP IPIEINNHAGJ, string IFMMOFDJOKA, string GMLMEINLOGP, string MGBLGLLMFGP);
+
+	[Token(Token = "0x600137C")]
+	public abstract void GBPLPNNINJC(MJHHNEOKANP IPIEINNHAGJ, int MLDAECCBGMO, int BIIPGPJOIFC, int EMMIKHANDOF);
+
+	[Token(Token = "0x600137D")]
+	public abstract void EGOKDOJCFOI(MJHHNEOKANP IPIEINNHAGJ, int MLDAECCBGMO, int BIIPGPJOIFC, int EMMIKHANDOF);
+
+	[Token(Token = "0x600137E")]
+	public abstract void MJNDLAECGFN(MJHHNEOKANP IPIEINNHAGJ, int KLMJPOKEJMH);
+
+	[Token(Token = "0x600137F")]
+	public abstract void MOOBGCEGBMF(MJHHNEOKANP IPIEINNHAGJ, int MLDAECCBGMO, int BIIPGPJOIFC, bool MGBLGLLMFGP, bool MPPIGCNBGLL);
+
+	[Token(Token = "0x6001380")]
+	public abstract void GLPJGGJPGEH(MJHHNEOKANP IPIEINNHAGJ, int MLDAECCBGMO, int BIIPGPJOIFC, int AOIIDDLGOFH, int KDEKFHMOLNM, string[] BCMOALJOGMG);
+
+	[Token(Token = "0x6001381")]
+	public abstract void FFDDJJECBEA(MJHHNEOKANP IPIEINNHAGJ, int MLDAECCBGMO, int BIIPGPJOIFC, bool BHGINLKJOIA, bool HIJMFJKDGFM, int MLPHAPJBEAH, int KIPFBDDNIIE);
+
+	[Token(Token = "0x6001382")]
+	public abstract void PLPAFGHBNBP(MJHHNEOKANP IPIEINNHAGJ, int MLDAECCBGMO, int BIIPGPJOIFC, int DGNGMAMIBNK, int ONGMEJPDMAK);
+
+	[Token(Token = "0x6001383")]
+	public abstract void FHMLPEBNJIE(MJHHNEOKANP IPIEINNHAGJ, int MLDAECCBGMO, int BIIPGPJOIFC, int AOIIDDLGOFH, int KDEKFHMOLNM, bool BHGINLKJOIA);
+
+	[Token(Token = "0x6001384")]
+	public abstract void KDNILMMLGCF(MJHHNEOKANP IPIEINNHAGJ, int MLDAECCBGMO, int BIIPGPJOIFC, int KDEKFHMOLNM);
+
+	[Token(Token = "0x6001385")]
+	public abstract int[] FMJOBKFNGMD();
+
+	[Token(Token = "0x6001386")]
+	public abstract void DGHNKMIPEMN(MJHHNEOKANP IPIEINNHAGJ);
+
+	[Token(Token = "0x6001387")]
+	public abstract void ANPJHGIGMEH(MJHHNEOKANP IPIEINNHAGJ, bool GMFCMJBHAHH);
+
+	[Token(Token = "0x6001388")]
+	public abstract void JJPDJEBAMBA(MJHHNEOKANP IPIEINNHAGJ, int MLDAECCBGMO, int BIIPGPJOIFC, int AOIIDDLGOFH, int KDEKFHMOLNM);
+
+	[Token(Token = "0x6001389")]
+	public abstract int LBLJBDPHBCH();
+
+	[Token(Token = "0x600138A")]
+	public abstract string NENABLCLCEP();
+
+	[Token(Token = "0x600138B")]
+	public abstract void DBFEGIGCLCA(MJHHNEOKANP IPIEINNHAGJ, int MLDAECCBGMO, int BIIPGPJOIFC, int AOIIDDLGOFH, int KDEKFHMOLNM);
+
+	[Token(Token = "0x600138C")]
+	public abstract string MLLGFJNFCFE();
+
+	[Token(Token = "0x600138D")]
+	[Address(RVA = "0x6EBAC0", Offset = "0x6EA0C0", VA = "0x106EBAC0")]
+	public string MMLLGOJGKPE()
+	{
+		return null;
+	}
+
+	[Token(Token = "0x600138E")]
+	public abstract void JCICGEPHNDH(int MPPIGCNBGLL);
+
+	[Token(Token = "0x600138F")]
+	[Address(RVA = "0x4B7CE0", Offset = "0x4B62E0", VA = "0x104B7CE0")]
+	protected IMBCNNCPMKE()
+	{
+	}
+}

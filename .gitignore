@@ -1,0 +1,10 @@
+.vs/
+.idea/
+**/bin/
+**/obj/
+.DS_Store
+Thumbs.db
+Data/
+attachments/
+tools/
+native-assembly/

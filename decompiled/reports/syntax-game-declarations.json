@@ -1,0 +1,1762 @@
+{
+  "scope": "C# syntax only; no type checking, compilation, or target execution",
+  "source_root": "/workspace/reverse-output/game-declarations",
+  "file_count": 219,
+  "type_declarations": 229,
+  "method_declarations": 14023,
+  "syntax_error_count": 0,
+  "files": [
+    {
+      "file": "Assembly-CSharp-firstpass/Beebyte/Obfuscator/DoNotFakeAttribute.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp-firstpass/Beebyte/Obfuscator/MessageCode.cs",
+      "types": 1,
+      "method_declarations": 0,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp-firstpass/Beebyte/Obfuscator/ObfuscateLiteralsAttribute.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp-firstpass/Beebyte/Obfuscator/RenameAttribute.cs",
+      "types": 1,
+      "method_declarations": 3,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp-firstpass/Beebyte/Obfuscator/ReplaceLiteralsWithNameAttribute.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp-firstpass/Beebyte/Obfuscator/SkipAttribute.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp-firstpass/Beebyte/Obfuscator/SkipRenameAttribute.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp-firstpass/Beebyte/Obfuscator/SuppressLogAttribute.cs",
+      "types": 1,
+      "method_declarations": 2,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp-firstpass/Properties/AssemblyInfo.cs",
+      "types": 0,
+      "method_declarations": 0,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/ABHFJKJEKMG.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/ADLFGODFKLO.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/AGEFHGLPLKN.cs",
+      "types": 1,
+      "method_declarations": 0,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/AGNGLCEMBML.cs",
+      "types": 1,
+      "method_declarations": 97,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/AHBIBGCIHJC.cs",
+      "types": 1,
+      "method_declarations": 54,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/AIGLLOFDJCO.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/AIJMBDEIMMA.cs",
+      "types": 1,
+      "method_declarations": 154,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/AJHPJFCKDDD.cs",
+      "types": 1,
+      "method_declarations": 64,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/AJOIPCEPHEI.cs",
+      "types": 1,
+      "method_declarations": 99,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/AMMCNBACBLB.cs",
+      "types": 1,
+      "method_declarations": 145,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/ANEGEPKBKED.cs",
+      "types": 1,
+      "method_declarations": 121,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/ANPFEPGLJNO.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/APHPFBNNJGJ.cs",
+      "types": 0,
+      "method_declarations": 0,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/APJAPGHJGLA.cs",
+      "types": 1,
+      "method_declarations": 150,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/APLNDOPPNIE.cs",
+      "types": 1,
+      "method_declarations": 102,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/BAGAJNJKIAK.cs",
+      "types": 1,
+      "method_declarations": 46,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/BBKLMAIPOJA.cs",
+      "types": 1,
+      "method_declarations": 61,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/BEMBMINDBEM.cs",
+      "types": 0,
+      "method_declarations": 0,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/BFAPJKOMDEL.cs",
+      "types": 1,
+      "method_declarations": 17,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/BFGDFGELJAP.cs",
+      "types": 1,
+      "method_declarations": 116,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/BFLNNNPIGBJ.cs",
+      "types": 1,
+      "method_declarations": 94,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/BFNOKDGCDLH.cs",
+      "types": 1,
+      "method_declarations": 157,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/BKBLLLKMCHP.cs",
+      "types": 1,
+      "method_declarations": 129,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/BKLICONDENO.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/CENMJBBGNOA.cs",
+      "types": 1,
+      "method_declarations": 151,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/CFEECMJFHLI.cs",
+      "types": 1,
+      "method_declarations": 55,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/CHCOFCBCMMJ.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/CIIGGOJPNEN.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/CIIMGJFPAJB.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/CPEAODGDBIB.cs",
+      "types": 1,
+      "method_declarations": 97,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/CPGAIKIDKLH.cs",
+      "types": 1,
+      "method_declarations": 119,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/CPNMPGLGNBE.cs",
+      "types": 1,
+      "method_declarations": 158,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/DAKPHLLPALB.cs",
+      "types": 1,
+      "method_declarations": 61,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/DBABBDDOLLC.cs",
+      "types": 1,
+      "method_declarations": 43,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/DBOABHAAMDB.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/DCLKDOADHAK.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/DDGAMPGNDID.cs",
+      "types": 1,
+      "method_declarations": 5,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/DDHHJGHCCGN.cs",
+      "types": 2,
+      "method_declarations": 235,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/DEJMGBHPJPL.cs",
+      "types": 1,
+      "method_declarations": 0,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/DFHCOJEGOLO.cs",
+      "types": 1,
+      "method_declarations": 82,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/DFIBHBCKCPJ.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/DGACLAKOPGM.cs",
+      "types": 1,
+      "method_declarations": 22,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/DGGINEOGDHM.cs",
+      "types": 1,
+      "method_declarations": 110,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/DGODABDAIOE.cs",
+      "types": 1,
+      "method_declarations": 131,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/DJCILNFHHNI.cs",
+      "types": 1,
+      "method_declarations": 162,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/DMHLDDEEGIL.cs",
+      "types": 1,
+      "method_declarations": 63,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/DMPDPFDPEOL.cs",
+      "types": 1,
+      "method_declarations": 85,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/DNJICIAMBFK.cs",
+      "types": 1,
+      "method_declarations": 38,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/DNNBFOGBLLD.cs",
+      "types": 1,
+      "method_declarations": 146,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/DPEPPCNBCKB.cs",
+      "types": 1,
+      "method_declarations": 108,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/EDMIHHHFMGB.cs",
+      "types": 1,
+      "method_declarations": 69,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/EEBLKBBCOCC.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/EFJOLNKJONO.cs",
+      "types": 1,
+      "method_declarations": 189,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/EFLNLCJKPHA.cs",
+      "types": 1,
+      "method_declarations": 166,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/EIDJNBGBICD.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/EIKDDPPLKII.cs",
+      "types": 1,
+      "method_declarations": 51,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/EJKELHGLBKA.cs",
+      "types": 1,
+      "method_declarations": 20,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/EMCEDOGMDBN.cs",
+      "types": 1,
+      "method_declarations": 31,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/EMIECPABCIF.cs",
+      "types": 1,
+      "method_declarations": 49,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/ENLLELPDGGI.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/EOFNODKNFDI.cs",
+      "types": 1,
+      "method_declarations": 93,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/EOHHKPAEFJA.cs",
+      "types": 1,
+      "method_declarations": 56,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/EPEHIEEJHEB.cs",
+      "types": 1,
+      "method_declarations": 92,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/EPNCGJFJJFK.cs",
+      "types": 3,
+      "method_declarations": 233,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/FAFJLBBNMLA.cs",
+      "types": 1,
+      "method_declarations": 122,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/FBFLNIBOLOE.cs",
+      "types": 1,
+      "method_declarations": 99,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/FDCKEILODFK.cs",
+      "types": 1,
+      "method_declarations": 49,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/FFFEOFAOMKP.cs",
+      "types": 1,
+      "method_declarations": 2,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/FGNECHIPGBC.cs",
+      "types": 1,
+      "method_declarations": 58,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/FJJFIDIAOCG.cs",
+      "types": 1,
+      "method_declarations": 47,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/FKEKBCDAKBH.cs",
+      "types": 1,
+      "method_declarations": 41,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/FKGDLJBAKKC.cs",
+      "types": 1,
+      "method_declarations": 110,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/FKMELIPFDMN.cs",
+      "types": 1,
+      "method_declarations": 123,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/FLDLIMOKJLC.cs",
+      "types": 1,
+      "method_declarations": 113,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/FNHHBPBOHIO.cs",
+      "types": 1,
+      "method_declarations": 50,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/FOAJICMLICE.cs",
+      "types": 1,
+      "method_declarations": 71,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/FOAMLDDKHCO.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/FPAJMKPHNKD.cs",
+      "types": 1,
+      "method_declarations": 86,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/GAGGLABHKGE.cs",
+      "types": 1,
+      "method_declarations": 141,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/GBBIHMCEEIO.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/GCIHMDENAGI.cs",
+      "types": 1,
+      "method_declarations": 2,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/GCPJPBNAOIG.cs",
+      "types": 1,
+      "method_declarations": 160,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/GKMHKHNNPFO.cs",
+      "types": 1,
+      "method_declarations": 89,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/GLFPJJODGIH.cs",
+      "types": 1,
+      "method_declarations": 51,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/GLNFMKPAHMP.cs",
+      "types": 1,
+      "method_declarations": 49,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/GOCPEICOHLN.cs",
+      "types": 4,
+      "method_declarations": 188,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/GOEHAICBGII.cs",
+      "types": 1,
+      "method_declarations": 79,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/GPBGPAIDLLH.cs",
+      "types": 1,
+      "method_declarations": 14,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/GPEKEFGOOJG.cs",
+      "types": 1,
+      "method_declarations": 102,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/HBMDKKCLGJJ.cs",
+      "types": 1,
+      "method_declarations": 43,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/HBPMDDAINFM.cs",
+      "types": 1,
+      "method_declarations": 107,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/HDOBCOIEGCA.cs",
+      "types": 1,
+      "method_declarations": 122,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/HFKEACHJANH.cs",
+      "types": 1,
+      "method_declarations": 17,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/HFMLMLAENPN.cs",
+      "types": 1,
+      "method_declarations": 38,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/HFNLHNKBKHO.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/HHAMCFHHKGC.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/HHEHNDJBDMH.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/HJJJLPECCCI.cs",
+      "types": 1,
+      "method_declarations": 113,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/HLKHHOPPFMM.cs",
+      "types": 1,
+      "method_declarations": 96,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/HNGALNDMMAM.cs",
+      "types": 1,
+      "method_declarations": 33,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/HNICMKJFLHK.cs",
+      "types": 1,
+      "method_declarations": 74,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/HNMIHJJPPFI.cs",
+      "types": 1,
+      "method_declarations": 37,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/HOHCKAGJOGD.cs",
+      "types": 1,
+      "method_declarations": 125,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/IALLFDNFMDL.cs",
+      "types": 1,
+      "method_declarations": 33,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/ICOPOPHBCFH.cs",
+      "types": 2,
+      "method_declarations": 163,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/IDHINMJBMNE.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/IDJCAKGLJAD.cs",
+      "types": 1,
+      "method_declarations": 3,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/IFGMOINHKCH.cs",
+      "types": 1,
+      "method_declarations": 128,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/IGKEMPJJJNI.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/IGLECGNNONN.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/IHOHDCLPPIP.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/IIGOFDFOFLO.cs",
+      "types": 1,
+      "method_declarations": 120,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/IINKNMOGHFM.cs",
+      "types": 1,
+      "method_declarations": 54,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/IIPHPFCGAKF.cs",
+      "types": 1,
+      "method_declarations": 114,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/IJDJPCDMLDA.cs",
+      "types": 1,
+      "method_declarations": 116,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/IKHIPBLDOBI.cs",
+      "types": 1,
+      "method_declarations": 44,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/IMBCNNCPMKE.cs",
+      "types": 1,
+      "method_declarations": 36,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/IMHCGMKOJJJ.cs",
+      "types": 1,
+      "method_declarations": 45,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/INELOJCECLI.cs",
+      "types": 1,
+      "method_declarations": 125,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/IOIGKDBMNBE.cs",
+      "types": 1,
+      "method_declarations": 2,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/JAJLEIDGDAG.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/JBFBOBGINMJ.cs",
+      "types": 2,
+      "method_declarations": 95,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/JDKIHPIEDFL.cs",
+      "types": 1,
+      "method_declarations": 155,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/JHLAALLEPHH.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/JHMBPMFFOEA.cs",
+      "types": 1,
+      "method_declarations": 16,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/JIDDOBOGMCN.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/JIKGGCPICHJ.cs",
+      "types": 1,
+      "method_declarations": 20,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/JJLOFNINAJG.cs",
+      "types": 1,
+      "method_declarations": 80,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/JKJPGGNCANL.cs",
+      "types": 1,
+      "method_declarations": 70,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/JMEGOOCJBDC.cs",
+      "types": 1,
+      "method_declarations": 163,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/JMFGOPNIFJG.cs",
+      "types": 1,
+      "method_declarations": 108,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/JOHFNJDNMKB.cs",
+      "types": 1,
+      "method_declarations": 47,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/JOPDLNODGLL.cs",
+      "types": 1,
+      "method_declarations": 4,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/JPJOEJNDMOO.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/KAKFCPCEIML.cs",
+      "types": 1,
+      "method_declarations": 5,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/KBBMPEHHKKG.cs",
+      "types": 1,
+      "method_declarations": 96,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/KBGBFFCJMOE.cs",
+      "types": 1,
+      "method_declarations": 6,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/KBMFLCLIAHB.cs",
+      "types": 1,
+      "method_declarations": 36,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/KCAELGBKEJF.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/KEANGHEKFGB.cs",
+      "types": 1,
+      "method_declarations": 143,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/KJDNAIFBKFG.cs",
+      "types": 1,
+      "method_declarations": 68,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/KLKGHEKDJKN.cs",
+      "types": 1,
+      "method_declarations": 2,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/KOAEEDGCMDB.cs",
+      "types": 2,
+      "method_declarations": 140,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/KOJAOBLAGBP.cs",
+      "types": 1,
+      "method_declarations": 56,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/KPGCPNLJJAE.cs",
+      "types": 1,
+      "method_declarations": 2,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/LALEJKJOOMB.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/LDIEMIMOCNL.cs",
+      "types": 1,
+      "method_declarations": 118,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/LEFLOFDHOIM.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/LFDFJFAPNOH.cs",
+      "types": 3,
+      "method_declarations": 39,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/LFLMOGFOCCN.cs",
+      "types": 1,
+      "method_declarations": 112,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/LHINPOBANED.cs",
+      "types": 1,
+      "method_declarations": 88,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/LHKPPDPPLDC.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/LICOEFANDLC.cs",
+      "types": 1,
+      "method_declarations": 65,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/LLCCNOFHHFE.cs",
+      "types": 1,
+      "method_declarations": 89,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/LLCKNIBFCOM.cs",
+      "types": 1,
+      "method_declarations": 110,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/LLGLFFNEBIO.cs",
+      "types": 1,
+      "method_declarations": 35,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/LMJDPBIDLCN.cs",
+      "types": 1,
+      "method_declarations": 174,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/Main.cs",
+      "types": 1,
+      "method_declarations": 151,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/MAOPJANGHNP.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/MBHEOKMCPMD.cs",
+      "types": 1,
+      "method_declarations": 79,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/MBJJLCLNOPL.cs",
+      "types": 1,
+      "method_declarations": 83,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/MDBDBJDGDIL.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/MDGGPHGBNKE.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/MDOKBHABDII.cs",
+      "types": 2,
+      "method_declarations": 181,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/MEKJMKILHOI.cs",
+      "types": 1,
+      "method_declarations": 172,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/MEPEHBBLCLC.cs",
+      "types": 1,
+      "method_declarations": 92,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/MFNBAKLDDJL.cs",
+      "types": 1,
+      "method_declarations": 85,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/MFONLIKMDJP.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/MHLJOCDNJEH.cs",
+      "types": 1,
+      "method_declarations": 3,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/MJHHNEOKANP.cs",
+      "types": 1,
+      "method_declarations": 99,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/MOAACPPCAON.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/MPHCDOAPFKA.cs",
+      "types": 1,
+      "method_declarations": 15,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/NABBKCGENJI.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/NAKHNBOIDPK.cs",
+      "types": 1,
+      "method_declarations": 139,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/NCJIHEHPPGN.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/NIBGKNIJGIO.cs",
+      "types": 0,
+      "method_declarations": 0,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/NICNHCGEBPD.cs",
+      "types": 1,
+      "method_declarations": 232,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/NKGHJKKPIMC.cs",
+      "types": 1,
+      "method_declarations": 88,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/NLFJFBPAMOP.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/NNLGFHEONOC.cs",
+      "types": 1,
+      "method_declarations": 246,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/NNNOCELEBIO.cs",
+      "types": 1,
+      "method_declarations": 24,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/OAGGHFKEBEN.cs",
+      "types": 1,
+      "method_declarations": 50,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/OAIJOFDNFAD.cs",
+      "types": 1,
+      "method_declarations": 60,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/OCEANHHFEKC.cs",
+      "types": 3,
+      "method_declarations": 265,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/OEHLGOCBEJC.cs",
+      "types": 1,
+      "method_declarations": 52,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/OINLLPIBACP.cs",
+      "types": 1,
+      "method_declarations": 45,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/OJKLGMPNAGM.cs",
+      "types": 1,
+      "method_declarations": 67,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/OJOEAEKPDJB.cs",
+      "types": 1,
+      "method_declarations": 56,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/OKJGCDNKCKA.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/OKLPDMCIPNL.cs",
+      "types": 1,
+      "method_declarations": 40,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/OLALLDOFBND.cs",
+      "types": 1,
+      "method_declarations": 106,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/OMEDIOMAIOJ.cs",
+      "types": 1,
+      "method_declarations": 33,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/OMKPPBEHACL.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/OMPCIFEGNDC.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/ONGHDLIAPCH.cs",
+      "types": 2,
+      "method_declarations": 163,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/PBFHEPKJPDA.cs",
+      "types": 1,
+      "method_declarations": 101,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/PCFCCBOBMNB.cs",
+      "types": 1,
+      "method_declarations": 2,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/PCHHOMNLFBP.cs",
+      "types": 1,
+      "method_declarations": 104,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/PCLGJIFCAHH.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/PECIBLCOHDK.cs",
+      "types": 1,
+      "method_declarations": 168,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/PEHHFOBICKB.cs",
+      "types": 1,
+      "method_declarations": 3,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/PHLINHDNJLJ.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/PHPIIJICKCC.cs",
+      "types": 1,
+      "method_declarations": 103,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/PIFGDCANDMB.cs",
+      "types": 1,
+      "method_declarations": 160,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/PINAOJKFMBG.cs",
+      "types": 1,
+      "method_declarations": 92,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/PMLHJABNCEB.cs",
+      "types": 1,
+      "method_declarations": 34,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/POAFFGBPFIE.cs",
+      "types": 1,
+      "method_declarations": 241,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/POEFHBOENEN.cs",
+      "types": 1,
+      "method_declarations": 33,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/PrivateImplementationDetailsKQPLETG/__BB_OBFUSCATOR_VERSION_3_9_9.cs",
+      "types": 1,
+      "method_declarations": 0,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "Assembly-CSharp/Properties/AssemblyInfo.cs",
+      "types": 0,
+      "method_declarations": 0,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    }
+  ]
+}

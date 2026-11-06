@@ -1,0 +1,58 @@
+{
+  "scope": "C# syntax only; no type checking, compilation, or target execution",
+  "source_root": "/workspace/reverse-output/auto-manager-resolved",
+  "file_count": 5,
+  "type_declarations": 26,
+  "method_declarations": 109,
+  "syntax_error_count": 1,
+  "files": [
+    {
+      "file": "--------------------.cs",
+      "types": 23,
+      "method_declarations": 108,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "-.cs",
+      "types": 1,
+      "method_declarations": 0,
+      "syntax_error_count": 1,
+      "diagnostic_codes": {
+        "CS1001": 1
+      },
+      "first_locations": [
+        {
+          "code": "CS1001",
+          "line": 1,
+          "column": 17
+        }
+      ]
+    },
+    {
+      "file": "Properties/AssemblyInfo.cs",
+      "types": 0,
+      "method_declarations": 0,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "QLTK_NR/Properties/Resources.cs",
+      "types": 1,
+      "method_declarations": 1,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    },
+    {
+      "file": "QLTK_NR/Properties/Settings.cs",
+      "types": 1,
+      "method_declarations": 0,
+      "syntax_error_count": 0,
+      "diagnostic_codes": {},
+      "first_locations": []
+    }
+  ]
+}

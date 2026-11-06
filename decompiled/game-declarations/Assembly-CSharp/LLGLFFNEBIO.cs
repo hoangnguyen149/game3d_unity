@@ -1,0 +1,231 @@
+using Il2CppDummyDll;
+
+[Token(Token = "0x20000DE")]
+public class LLGLFFNEBIO
+{
+	[Token(Token = "0x4001431")]
+	[FieldOffset(Offset = "0x8")]
+	public LMJDPBIDLCN EGGCHJMMFCD;
+
+	[Token(Token = "0x4001432")]
+	[FieldOffset(Offset = "0xC")]
+	public int GPIFFAKIMDA;
+
+	[Token(Token = "0x4001433")]
+	[FieldOffset(Offset = "0x10")]
+	public int GHIIKBBNHFL;
+
+	[Token(Token = "0x4001434")]
+	[FieldOffset(Offset = "0x14")]
+	public int ICOADNJEOLF;
+
+	[Token(Token = "0x60036C4")]
+	[Address(RVA = "0x7B6250", Offset = "0x7B4850", VA = "0x107B6250")]
+	public void AHLIEEECHEN()
+	{
+	}
+
+	[Token(Token = "0x60036C5")]
+	[Address(RVA = "0x7B7780", Offset = "0x7B5D80", VA = "0x107B7780")]
+	public void MGGMBAENPCL(MJHHNEOKANP IPIEINNHAGJ, int BNHNOLFNCMD, int PIENENOCECM, int MLDAECCBGMO, int BIIPGPJOIFC, int AOIIDDLGOFH, int KDEKFHMOLNM, int LMJJBIMLMEM, bool NCJDODGFDPK)
+	{
+	}
+
+	[Token(Token = "0x60036C6")]
+	[Address(RVA = "0x7B6F00", Offset = "0x7B5500", VA = "0x107B6F00")]
+	public void JDIDBCDGGLN(MJHHNEOKANP IPIEINNHAGJ, int BNHNOLFNCMD, int MLDAECCBGMO, int BIIPGPJOIFC, int LMJJBIMLMEM)
+	{
+	}
+
+	[Token(Token = "0x60036C7")]
+	[Address(RVA = "0x7B6C30", Offset = "0x7B5230", VA = "0x107B6C30")]
+	public void HJFPBNOIONL(MJHHNEOKANP IPIEINNHAGJ, int BNHNOLFNCMD, int PIENENOCECM, int MLDAECCBGMO, int BIIPGPJOIFC, int AOIIDDLGOFH, int KDEKFHMOLNM, int LMJJBIMLMEM, bool NCJDODGFDPK)
+	{
+	}
+
+	[Token(Token = "0x60036C8")]
+	[Address(RVA = "0x7B67E0", Offset = "0x7B4DE0", VA = "0x107B67E0")]
+	public void CPNCIIHBFKI(MJHHNEOKANP IPIEINNHAGJ, int BNHNOLFNCMD, int MLDAECCBGMO, int BIIPGPJOIFC, int LMJJBIMLMEM)
+	{
+	}
+
+	[Token(Token = "0x60036C9")]
+	[Address(RVA = "0x7B72D0", Offset = "0x7B58D0", VA = "0x107B72D0")]
+	public void JPGOGGGPBNL(MJHHNEOKANP IPIEINNHAGJ, int BNHNOLFNCMD, int PIENENOCECM, int MLDAECCBGMO, int BIIPGPJOIFC, int AOIIDDLGOFH, int KDEKFHMOLNM, int LMJJBIMLMEM, bool NCJDODGFDPK)
+	{
+	}
+
+	[Token(Token = "0x60036CA")]
+	[Address(RVA = "0x7B69C0", Offset = "0x7B4FC0", VA = "0x107B69C0")]
+	public void LDBLNGKBDMC(MJHHNEOKANP IPIEINNHAGJ, int BNHNOLFNCMD, int PIENENOCECM, int MLDAECCBGMO, int BIIPGPJOIFC, int AOIIDDLGOFH, int KDEKFHMOLNM, int LMJJBIMLMEM)
+	{
+	}
+
+	[Token(Token = "0x60036CB")]
+	[Address(RVA = "0x7B69F0", Offset = "0x7B4FF0", VA = "0x107B69F0")]
+	public void ELEKIDOKFAE(MJHHNEOKANP IPIEINNHAGJ, int BNHNOLFNCMD, int PIENENOCECM, int MLDAECCBGMO, int BIIPGPJOIFC, int AOIIDDLGOFH, int KDEKFHMOLNM, int LMJJBIMLMEM)
+	{
+	}
+
+	[Token(Token = "0x60036CC")]
+	[Address(RVA = "0x7B69C0", Offset = "0x7B4FC0", VA = "0x107B69C0")]
+	public void ICEIMIEDPAI(MJHHNEOKANP IPIEINNHAGJ, int BNHNOLFNCMD, int PIENENOCECM, int MLDAECCBGMO, int BIIPGPJOIFC, int AOIIDDLGOFH, int KDEKFHMOLNM, int LMJJBIMLMEM)
+	{
+	}
+
+	[Token(Token = "0x60036CD")]
+	[Address(RVA = "0x7B6D20", Offset = "0x7B5320", VA = "0x107B6D20")]
+	public void IBHDBIMACPF(MJHHNEOKANP IPIEINNHAGJ, int BNHNOLFNCMD, int PIENENOCECM, int MLDAECCBGMO, int BIIPGPJOIFC, int AOIIDDLGOFH, int KDEKFHMOLNM, int LMJJBIMLMEM, bool NCJDODGFDPK)
+	{
+	}
+
+	[Token(Token = "0x60036CE")]
+	[Address(RVA = "0x7B7A40", Offset = "0x7B6040", VA = "0x107B7A40")]
+	public void NPKMLFKCFLH()
+	{
+	}
+
+	[Token(Token = "0x60036CF")]
+	[Address(RVA = "0x7B68D0", Offset = "0x7B4ED0", VA = "0x107B68D0")]
+	public void EDGJKBAPKIJ(MJHHNEOKANP IPIEINNHAGJ, int BNHNOLFNCMD, int PIENENOCECM, int MLDAECCBGMO, int BIIPGPJOIFC, int AOIIDDLGOFH, int KDEKFHMOLNM, int LMJJBIMLMEM, bool NCJDODGFDPK)
+	{
+	}
+
+	[Token(Token = "0x60036D0")]
+	[Address(RVA = "0x7B73C0", Offset = "0x7B59C0", VA = "0x107B73C0")]
+	public void JPKKODHCFAK(MJHHNEOKANP IPIEINNHAGJ, int BNHNOLFNCMD, int PIENENOCECM, int MLDAECCBGMO, int BIIPGPJOIFC, int AOIIDDLGOFH, int KDEKFHMOLNM, int LMJJBIMLMEM, bool NCJDODGFDPK)
+	{
+	}
+
+	[Token(Token = "0x60036D1")]
+	[Address(RVA = "0x7B6A20", Offset = "0x7B5020", VA = "0x107B6A20")]
+	public void EMJJJJHPNHD(MJHHNEOKANP IPIEINNHAGJ, int BNHNOLFNCMD, int PIENENOCECM, int MLDAECCBGMO, int BIIPGPJOIFC, int AOIIDDLGOFH, int KDEKFHMOLNM, int LMJJBIMLMEM, bool NCJDODGFDPK)
+	{
+	}
+
+	[Token(Token = "0x60036D2")]
+	[Address(RVA = "0x7B7C20", Offset = "0x7B6220", VA = "0x107B7C20")]
+	public LLGLFFNEBIO(LMJDPBIDLCN EGGCHJMMFCD, int GPIFFAKIMDA)
+	{
+	}
+
+	[Token(Token = "0x60036D3")]
+	[Address(RVA = "0x7B7B30", Offset = "0x7B6130", VA = "0x107B7B30")]
+	public void OONKOKCDIHA(MJHHNEOKANP IPIEINNHAGJ, int BNHNOLFNCMD, int PIENENOCECM, int MLDAECCBGMO, int BIIPGPJOIFC, int AOIIDDLGOFH, int KDEKFHMOLNM, int LMJJBIMLMEM)
+	{
+	}
+
+	[Token(Token = "0x60036D4")]
+	[Address(RVA = "0x7B6B10", Offset = "0x7B5110", VA = "0x107B6B10")]
+	public void GJJPJLIHGBK(MJHHNEOKANP IPIEINNHAGJ, int BNHNOLFNCMD, int PIENENOCECM, int MLDAECCBGMO, int BIIPGPJOIFC, int AOIIDDLGOFH, int KDEKFHMOLNM, int LMJJBIMLMEM)
+	{
+	}
+
+	[Token(Token = "0x60036D5")]
+	[Address(RVA = "0x7B70F0", Offset = "0x7B56F0", VA = "0x107B70F0")]
+	public void JHDGEBMNGIE(MJHHNEOKANP IPIEINNHAGJ, int BNHNOLFNCMD, int PIENENOCECM, int MLDAECCBGMO, int BIIPGPJOIFC, int AOIIDDLGOFH, int KDEKFHMOLNM, int LMJJBIMLMEM, bool NCJDODGFDPK)
+	{
+	}
+
+	[Token(Token = "0x60036D6")]
+	[Address(RVA = "0x7B7000", Offset = "0x7B5600", VA = "0x107B7000")]
+	public void JDIDBCDGGLN(MJHHNEOKANP IPIEINNHAGJ, int BNHNOLFNCMD, int PIENENOCECM, int MLDAECCBGMO, int BIIPGPJOIFC, int AOIIDDLGOFH, int KDEKFHMOLNM, int LMJJBIMLMEM, bool NCJDODGFDPK)
+	{
+	}
+
+	[Token(Token = "0x60036D7")]
+	[Address(RVA = "0x7B74B0", Offset = "0x7B5AB0", VA = "0x107B74B0")]
+	public void KHEOJLNEIJP()
+	{
+	}
+
+	[Token(Token = "0x60036D8")]
+	[Address(RVA = "0x7B6B10", Offset = "0x7B5110", VA = "0x107B6B10")]
+	public void JDIDBCDGGLN(MJHHNEOKANP IPIEINNHAGJ, int BNHNOLFNCMD, int PIENENOCECM, int MLDAECCBGMO, int BIIPGPJOIFC, int AOIIDDLGOFH, int KDEKFHMOLNM, int LMJJBIMLMEM)
+	{
+	}
+
+	[Token(Token = "0x60036D9")]
+	[Address(RVA = "0x7B6E10", Offset = "0x7B5410", VA = "0x107B6E10")]
+	public void IKOPBMFBOKO(MJHHNEOKANP IPIEINNHAGJ, int BNHNOLFNCMD, int MLDAECCBGMO, int BIIPGPJOIFC, int LMJJBIMLMEM)
+	{
+	}
+
+	[Token(Token = "0x60036DA")]
+	[Address(RVA = "0x7B69F0", Offset = "0x7B4FF0", VA = "0x107B69F0")]
+	public void GJACJNMEBDJ(MJHHNEOKANP IPIEINNHAGJ, int BNHNOLFNCMD, int PIENENOCECM, int MLDAECCBGMO, int BIIPGPJOIFC, int AOIIDDLGOFH, int KDEKFHMOLNM, int LMJJBIMLMEM)
+	{
+	}
+
+	[Token(Token = "0x60036DB")]
+	[Address(RVA = "0x7B7690", Offset = "0x7B5C90", VA = "0x107B7690")]
+	public void MEKKGDLJAIH(MJHHNEOKANP IPIEINNHAGJ, int BNHNOLFNCMD, int MLDAECCBGMO, int BIIPGPJOIFC, int LMJJBIMLMEM)
+	{
+	}
+
+	[Token(Token = "0x60036DC")]
+	[Address(RVA = "0x7B7950", Offset = "0x7B5F50", VA = "0x107B7950")]
+	public void NKEAKFNPGAK()
+	{
+	}
+
+	[Token(Token = "0x60036DD")]
+	[Address(RVA = "0x7B69C0", Offset = "0x7B4FC0", VA = "0x107B69C0")]
+	public void ELDEPGOEINI(MJHHNEOKANP IPIEINNHAGJ, int BNHNOLFNCMD, int PIENENOCECM, int MLDAECCBGMO, int BIIPGPJOIFC, int AOIIDDLGOFH, int KDEKFHMOLNM, int LMJJBIMLMEM)
+	{
+	}
+
+	[Token(Token = "0x60036DE")]
+	[Address(RVA = "0x7B75A0", Offset = "0x7B5BA0", VA = "0x107B75A0")]
+	public void MDIAKPMMLKG(MJHHNEOKANP IPIEINNHAGJ, int BNHNOLFNCMD, int PIENENOCECM, int MLDAECCBGMO, int BIIPGPJOIFC, int AOIIDDLGOFH, int KDEKFHMOLNM, int LMJJBIMLMEM, bool NCJDODGFDPK)
+	{
+	}
+
+	[Token(Token = "0x60036DF")]
+	[Address(RVA = "0x7B6610", Offset = "0x7B4C10", VA = "0x107B6610")]
+	public void BKLKICNCLNC()
+	{
+	}
+
+	[Token(Token = "0x60036E0")]
+	[Address(RVA = "0x7B71E0", Offset = "0x7B57E0", VA = "0x107B71E0")]
+	public void JPACDGBNLIN()
+	{
+	}
+
+	[Token(Token = "0x60036E1")]
+	[Address(RVA = "0x7B6430", Offset = "0x7B4A30", VA = "0x107B6430")]
+	public void AJKLDFCBPHA(MJHHNEOKANP IPIEINNHAGJ, int BNHNOLFNCMD, int MLDAECCBGMO, int BIIPGPJOIFC, int LMJJBIMLMEM)
+	{
+	}
+
+	[Token(Token = "0x60036E2")]
+	[Address(RVA = "0x7B6700", Offset = "0x7B4D00", VA = "0x107B6700")]
+	public void CAOFDJLOAEK(MJHHNEOKANP IPIEINNHAGJ, int BNHNOLFNCMD, int MLDAECCBGMO, int BIIPGPJOIFC, int LMJJBIMLMEM)
+	{
+	}
+
+	[Token(Token = "0x60036E3")]
+	[Address(RVA = "0x7B6520", Offset = "0x7B4B20", VA = "0x107B6520")]
+	public void BCIFJFDCOLF()
+	{
+	}
+
+	[Token(Token = "0x60036E4")]
+	[Address(RVA = "0x7B6B40", Offset = "0x7B5140", VA = "0x107B6B40")]
+	public void HINEFGPHGGB()
+	{
+	}
+
+	[Token(Token = "0x60036E5")]
+	[Address(RVA = "0x7B6340", Offset = "0x7B4940", VA = "0x107B6340")]
+	public void AJHGNONLJIP()
+	{
+	}
+
+	[Token(Token = "0x60036E6")]
+	[Address(RVA = "0x7B7870", Offset = "0x7B5E70", VA = "0x107B7870")]
+	public void NEEGGOOPOPP(MJHHNEOKANP IPIEINNHAGJ, int BNHNOLFNCMD, int MLDAECCBGMO, int BIIPGPJOIFC, int LMJJBIMLMEM)
+	{
+	}
+}

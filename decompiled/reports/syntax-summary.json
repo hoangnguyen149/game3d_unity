@@ -1,0 +1,23 @@
+[
+  {
+    "source_root": "/workspace/reverse-output/auto-manager",
+    "file_count": 5,
+    "type_declarations": 26,
+    "method_declarations": 109,
+    "syntax_error_count": 1
+  },
+  {
+    "source_root": "/workspace/reverse-output/auto-manager-resolved",
+    "file_count": 5,
+    "type_declarations": 26,
+    "method_declarations": 109,
+    "syntax_error_count": 1
+  },
+  {
+    "source_root": "/workspace/reverse-output/game-declarations",
+    "file_count": 219,
+    "type_declarations": 229,
+    "method_declarations": 14023,
+    "syntax_error_count": 0
+  }
+]

@@ -1,0 +1,1517 @@
+[
+  {
+    "path": "README_VI.md",
+    "bytes": 5198,
+    "sha256": "469df84ac2748ab8009e11186ccb775d8b6351cc19d9361fabd5a2c790bd3f1d"
+  },
+  {
+    "path": "auto-manager/--------------------.cs",
+    "bytes": 362783,
+    "sha256": "b5e1e19381ebfe859672fbc878d3c65e267537240dbd7360286167e47f02d310"
+  },
+  {
+    "path": "auto-manager/--------------------.resx",
+    "bytes": 5255,
+    "sha256": "ae88605f1b6382644e7ca298c6cfc521290cfb29bb9977950e257548718a79af"
+  },
+  {
+    "path": "auto-manager/-.cs",
+    "bytes": 28,
+    "sha256": "7e23e2ac9cf36087dcd9cf42dd4c705a62904102ddd753c3e4ef57d07f1992ad"
+  },
+  {
+    "path": "auto-manager/Auto Manager.csproj",
+    "bytes": 798,
+    "sha256": "47ea45ee9297491b1fda9c9be28130a974f5fc478b9487b69e2956309ccd08d8"
+  },
+  {
+    "path": "auto-manager/HEkV",
+    "bytes": 252,
+    "sha256": "2ad914c86bda011431572f9733e95beb1c7fe047343c163b6fee8af01022e562"
+  },
+  {
+    "path": "auto-manager/Properties/AssemblyInfo.cs",
+    "bytes": 628,
+    "sha256": "a00762a81a9d2f89a50df3c6c17816f449868ea89fe40d3895bb58f72dd2aa9b"
+  },
+  {
+    "path": "auto-manager/QLTK_NR/Properties/Resources.cs",
+    "bytes": 1972,
+    "sha256": "a57dbf83205301c417f3fd45d79c66772fd88f41bf0d950f24a95c1ca04e8e87"
+  },
+  {
+    "path": "auto-manager/QLTK_NR/Properties/Settings.cs",
+    "bytes": 667,
+    "sha256": "d0d251fa7eb258fece1c53cff2077100fedd09eb8beb9a31a2d907894c7dbd60"
+  },
+  {
+    "path": "auto-manager/TMiu",
+    "bytes": 531,
+    "sha256": "36113a24436cbf854238df36a6769053e739d4c729e869e5988ad1e4a67cdcc2"
+  },
+  {
+    "path": "auto-manager/app.ico",
+    "bytes": 2131,
+    "sha256": "a633e2abc41424198b61b0d3bf52f55f68e7e340b444bc5456704dfdf50c2526"
+  },
+  {
+    "path": "auto-manager-il/Auto Manager.il",
+    "bytes": 670960,
+    "sha256": "a5d6d65024155af6eaf2471c6b074a5961dda71d8018e749d34279a7e1913b90"
+  },
+  {
+    "path": "auto-manager-resolved/--------------------.cs",
+    "bytes": 354360,
+    "sha256": "71c415768d26d7ec45ed6bafc79550ded4ed64b567f88a4e1f1712f2e24ee380"
+  },
+  {
+    "path": "auto-manager-resolved/--------------------.resx",
+    "bytes": 5255,
+    "sha256": "ae88605f1b6382644e7ca298c6cfc521290cfb29bb9977950e257548718a79af"
+  },
+  {
+    "path": "auto-manager-resolved/-.cs",
+    "bytes": 28,
+    "sha256": "7e23e2ac9cf36087dcd9cf42dd4c705a62904102ddd753c3e4ef57d07f1992ad"
+  },
+  {
+    "path": "auto-manager-resolved/Auto Manager.csproj",
+    "bytes": 798,
+    "sha256": "47ea45ee9297491b1fda9c9be28130a974f5fc478b9487b69e2956309ccd08d8"
+  },
+  {
+    "path": "auto-manager-resolved/HEkV",
+    "bytes": 252,
+    "sha256": "2ad914c86bda011431572f9733e95beb1c7fe047343c163b6fee8af01022e562"
+  },
+  {
+    "path": "auto-manager-resolved/Properties/AssemblyInfo.cs",
+    "bytes": 628,
+    "sha256": "a00762a81a9d2f89a50df3c6c17816f449868ea89fe40d3895bb58f72dd2aa9b"
+  },
+  {
+    "path": "auto-manager-resolved/QLTK_NR/Properties/Resources.cs",
+    "bytes": 1972,
+    "sha256": "a57dbf83205301c417f3fd45d79c66772fd88f41bf0d950f24a95c1ca04e8e87"
+  },
+  {
+    "path": "auto-manager-resolved/QLTK_NR/Properties/Settings.cs",
+    "bytes": 637,
+    "sha256": "fa85348cdad698bf57132b68138a9290f478029053f37a3461864f4147096c9b"
+  },
+  {
+    "path": "auto-manager-resolved/TMiu",
+    "bytes": 531,
+    "sha256": "36113a24436cbf854238df36a6769053e739d4c729e869e5988ad1e4a67cdcc2"
+  },
+  {
+    "path": "auto-manager-resolved/app.ico",
+    "bytes": 2131,
+    "sha256": "a633e2abc41424198b61b0d3bf52f55f68e7e340b444bc5456704dfdf50c2526"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/ABHFJKJEKMG.cs",
+    "bytes": 1350,
+    "sha256": "2416a49d474faf6447aa4ddd4d8eb396781b1ba2d0f534de4acc1b3955bbeb05"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/ADLFGODFKLO.cs",
+    "bytes": 1120,
+    "sha256": "cdedcf4cd6d1f513ce3b695438efbb2bab2f1a0563caabdcafd53146733c72a4"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/AGEFHGLPLKN.cs",
+    "bytes": 1039,
+    "sha256": "c67c47bcc20e680047c478be420f09b860b57a24173cbde77c479b5c3202f564"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/AGNGLCEMBML.cs",
+    "bytes": 16564,
+    "sha256": "b6bbdaec3d260ba012ac247d04c0dd1fe91d63422222cbfc5b4ae01e0d18fef9"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/AHBIBGCIHJC.cs",
+    "bytes": 14155,
+    "sha256": "e14ff5e8f4433f3933a472fd4e00f9c934736ece9714f89566aa260f39092238"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/AIGLLOFDJCO.cs",
+    "bytes": 502,
+    "sha256": "31ac445291c82b490c1c975378d08c3d0c9e15ec48cf742dbd2e95a9e90005ee"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/AIJMBDEIMMA.cs",
+    "bytes": 24633,
+    "sha256": "0d6fa6c0fddd29d30a5a71050d4c9e2f3210cb8b098959b1cca4a3c7e8e95d97"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/AJHPJFCKDDD.cs",
+    "bytes": 12419,
+    "sha256": "fad1f2ab218140f0b6d5e581dd6400c7149e5917d6a13d428b6bc0a5dc17b08a"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/AJOIPCEPHEI.cs",
+    "bytes": 17788,
+    "sha256": "430f1c318f4d42cb331917e72630541185bee3bfb577bf69144aaeaae7ab2bb2"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/AMMCNBACBLB.cs",
+    "bytes": 22491,
+    "sha256": "9cd91576c1c31b967fe1c8cee97c4d876ff131c1cbd6d9e2707ff22a4cba7a83"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/ANEGEPKBKED.cs",
+    "bytes": 19429,
+    "sha256": "e04c71d369c801482c059aa70c744e0bc21b4215669c8a4a559b65cdc2b063e2"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/ANPFEPGLJNO.cs",
+    "bytes": 20234,
+    "sha256": "55a1213107a4a1b3fe7c74cfc211940235c4abda35f890f47c0cc6cb22a375ee"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/APHPFBNNJGJ.cs",
+    "bytes": 145,
+    "sha256": "51b8de10dd98ed504ee43c7d4b06ca2518b3f8d676985607afa13ae21a12e8db"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/APJAPGHJGLA.cs",
+    "bytes": 25121,
+    "sha256": "e4b1517b23e47a33fccf064126c32137065b99edfd162512500adef9a274e9c2"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/APLNDOPPNIE.cs",
+    "bytes": 18884,
+    "sha256": "cf922eeb1b25341936faacf35833298bb1cec88350884c12444fce1201638f27"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/Assembly-CSharp.csproj",
+    "bytes": 1302,
+    "sha256": "54d48e678ba3f52772219a4db7e4f75b960dff988883721963fea1cdb62eeeaa"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/BAGAJNJKIAK.cs",
+    "bytes": 7519,
+    "sha256": "4aeb6d33869a86969c47e407f730f2da0e8ba14e462a04c141e2be1d68cceaeb"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/BBKLMAIPOJA.cs",
+    "bytes": 12779,
+    "sha256": "a58547c89f1f4628b25cc0891d811f92218f799fe29c4958490f5b407c9ec6be"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/BEMBMINDBEM.cs",
+    "bytes": 88,
+    "sha256": "91eb757a3a5c5c9fa2099836e18cc87939fc476692c65568b98912c7d125ec56"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/BFAPJKOMDEL.cs",
+    "bytes": 2462,
+    "sha256": "d2103e00d9afe2c1e51fa75599a7cde3f49b948adc44c63af2322ef7e379bfa8"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/BFGDFGELJAP.cs",
+    "bytes": 18722,
+    "sha256": "9e07682c9b9086a70709209a6b60037362a3f74862e5ef1178b68265257b695e"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/BFLNNNPIGBJ.cs",
+    "bytes": 18175,
+    "sha256": "50abe17d558645c73a3a8230c88b047883dda683df3983d8e20e90f54f61d016"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/BFNOKDGCDLH.cs",
+    "bytes": 35914,
+    "sha256": "bb794428b90595537e434927421e152c57501820de8b61890c739edf61292f4c"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/BKBLLLKMCHP.cs",
+    "bytes": 22089,
+    "sha256": "8a3474bb96896046f18c4c9d6e5f2833c00c020484f7ab8fbaf3674a3c1048e8"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/BKLICONDENO.cs",
+    "bytes": 392,
+    "sha256": "837846e7693bc4721ea58e881109c862ad1e54e8ac17c906b04a0dacc71d8c66"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/CENMJBBGNOA.cs",
+    "bytes": 27509,
+    "sha256": "b0c6db90a8082d4fb70af09c49998956a9d6f6073219babe9af1bb630978130d"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/CFEECMJFHLI.cs",
+    "bytes": 9566,
+    "sha256": "83997150256af10f174122d27240a3a4df8da2c54cae452e3725d000fb4eb427"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/CHCOFCBCMMJ.cs",
+    "bytes": 569,
+    "sha256": "20d4f57b549352f135c13c16715dc65e9f5501c5bce66c315815c038f23671e9"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/CIIGGOJPNEN.cs",
+    "bytes": 666,
+    "sha256": "fd9b51b7f49f3328be8bef0732fae6b0508d00ec8e1fbf1a160a2f58167f7d5f"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/CIIMGJFPAJB.cs",
+    "bytes": 470,
+    "sha256": "2602fb1457252d2134709fad5f030863c98c0aaf871c1e3bee1aceb31edf5dc8"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/CPEAODGDBIB.cs",
+    "bytes": 17473,
+    "sha256": "8a138b6ea7111621bf51c45919cd35fd1994f3c3fae64d8eb49bf288e1c7e543"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/CPGAIKIDKLH.cs",
+    "bytes": 21307,
+    "sha256": "01ef51275c5656b52a89b4b92b5d5f06952f22a359caee5b5fa006a4c197695f"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/CPNMPGLGNBE.cs",
+    "bytes": 30736,
+    "sha256": "8fc38fe78e6bf10e044dc7d54af10a8fc3a7b709d48741a3f4741090358ff4dc"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/DAKPHLLPALB.cs",
+    "bytes": 10060,
+    "sha256": "a5cc57946db78b186db28550539863b431a4bc34dd2ecc2b2bacab60d00cf0a9"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/DBABBDDOLLC.cs",
+    "bytes": 6527,
+    "sha256": "dd73518f6d7696f3c573314cc61b60ae953cc95f79aa1174e1631a1b46541643"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/DBOABHAAMDB.cs",
+    "bytes": 1186,
+    "sha256": "65b11c4939b8d1970eb65cbc4129e7e4e2cabf8d503e49fa8b2cd57d31466e7d"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/DCLKDOADHAK.cs",
+    "bytes": 736,
+    "sha256": "f9658c0f87d945b533e6a25c973cdb6a82daef233cb590bfc4803c37e303b5c9"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/DDGAMPGNDID.cs",
+    "bytes": 425,
+    "sha256": "f79f3fcc3ed0fe322be6e4510a33275f193a08e15d3015ac681282c4750e7310"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/DDHHJGHCCGN.cs",
+    "bytes": 37983,
+    "sha256": "dcc6d8d8a14c8eb3bbcc26628570bf6ad775e5c558c25df0504d6fdbe5f1586f"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/DEJMGBHPJPL.cs",
+    "bytes": 206,
+    "sha256": "2f46e71f6f1395addd90f8e2ecd81cfc1049313b021775f14e6f4962e698cb88"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/DFHCOJEGOLO.cs",
+    "bytes": 14746,
+    "sha256": "7abd11abe46416e0203d6ee67dfb2403932155dfc63445b76bab14bbf5850ad9"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/DFIBHBCKCPJ.cs",
+    "bytes": 319,
+    "sha256": "060480c76aada7987fe431dfe6ea6d8d27358909591347f6bedfba81b0401cdb"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/DGACLAKOPGM.cs",
+    "bytes": 4597,
+    "sha256": "2dc5ce67a285c223faf9635d37655549b2418d8409198c94447a7b53a9bd6c07"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/DGGINEOGDHM.cs",
+    "bytes": 18781,
+    "sha256": "88573ce972c4a6ca8277181b45573e2ce784f3959082e9ddb926eb415358f8db"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/DGODABDAIOE.cs",
+    "bytes": 19903,
+    "sha256": "4e0ae060e9e1fd757ac9d40efa18eed84cfbfc3fa0e3de4b8cea2ba9743b7153"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/DJCILNFHHNI.cs",
+    "bytes": 26272,
+    "sha256": "199e1c91b05f3106a64ddaf2a4da08d401b413709e598ad419aa0a9ceb065e92"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/DMHLDDEEGIL.cs",
+    "bytes": 15075,
+    "sha256": "745c061ab76e5416f1d2716b9d74777242d39fe88d913c12d4976efa91bca624"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/DMPDPFDPEOL.cs",
+    "bytes": 14349,
+    "sha256": "e0547d52418171c99688b3a5616ae07f96049f57b5074385889bd762fbb7dc52"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/DNJICIAMBFK.cs",
+    "bytes": 8583,
+    "sha256": "7b8aad2ffe18f78b0cefdb88de5b986f80d2debfe4725c2c54d87943ef0e9c43"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/DNNBFOGBLLD.cs",
+    "bytes": 25845,
+    "sha256": "9e9228bf0fea8ec0980ea8f67fad8906688a9791e275ff5b709c66022ff49efe"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/DPEPPCNBCKB.cs",
+    "bytes": 62059,
+    "sha256": "888b4f5a908461898aaeeb3fb1f2b7a339cca3e9d6c5402d081624cec0e3278f"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/EDMIHHHFMGB.cs",
+    "bytes": 15155,
+    "sha256": "bebdb36c562da7f0bfbdead417c21ed901fc27e6ea3caefb7d38348e04944fde"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/EEBLKBBCOCC.cs",
+    "bytes": 385,
+    "sha256": "9398cf383e044c6e31534c2603968cd9d33999d964460c4c98ba6076e8829828"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/EFJOLNKJONO.cs",
+    "bytes": 40025,
+    "sha256": "20dd4bcdf415cf8b5d57283689595359c52b8f14bfcaf767b3752410807d2ebf"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/EFLNLCJKPHA.cs",
+    "bytes": 28691,
+    "sha256": "667ef688cac4f4b7a43568378b319e5e28d0772e85eebf3a2a7aadfe75c24e5e"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/EIDJNBGBICD.cs",
+    "bytes": 645,
+    "sha256": "37a991198efa82fc7c878f4e4e5af6f63546362a0aa2592d82c51f7b05390805"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/EIKDDPPLKII.cs",
+    "bytes": 17623,
+    "sha256": "f6a4a37846b5050f04711ef86b01aae29c30a72b1ef8c4930f4cbe1d49d24919"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/EJKELHGLBKA.cs",
+    "bytes": 5087,
+    "sha256": "3a7465d02078d454a57f4490131e2523a1ff1cb610d635e63778de79e56dc7a7"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/EMCEDOGMDBN.cs",
+    "bytes": 6803,
+    "sha256": "65917a5621acb96c5ee599564afafe003b5f4edf2293c38cb6379b61b5b42c07"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/EMIECPABCIF.cs",
+    "bytes": 7681,
+    "sha256": "a307ceb36b2d4b1a56300b4e5409f10290c95cce5eea55818b74b40ea7bab467"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/ENLLELPDGGI.cs",
+    "bytes": 1973,
+    "sha256": "76848ba6362369e5e118536778f62484143d938dd4e15cc5809ae1fe6ad6fb71"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/EOFNODKNFDI.cs",
+    "bytes": 16400,
+    "sha256": "8a305cc7f76e353e5fd9029b416610b67e6a2a51783193643771b5d735242be9"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/EOHHKPAEFJA.cs",
+    "bytes": 10931,
+    "sha256": "f0c26a090fee106f46e3be5a7fe25dfe1b4e0945e81789c1f7205ba7b4e3ba70"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/EPEHIEEJHEB.cs",
+    "bytes": 21254,
+    "sha256": "156f03f63739702db2daae4dc235e52a63a95141561558b0795f61a72495cf7d"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/EPNCGJFJJFK.cs",
+    "bytes": 40372,
+    "sha256": "cc176f83de18b3006a0166a7ae5547bb9080bc8f4c26f990d4653c233840cdcf"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/FAFJLBBNMLA.cs",
+    "bytes": 20862,
+    "sha256": "b22bbb0ad3dbc539cae7e9db2d7280be454b7d55676bf4e1068a2085df6fd8b7"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/FBFLNIBOLOE.cs",
+    "bytes": 24356,
+    "sha256": "c7ab059d87a3ea16381c4d7e234065e8cf5d89e899f5a2aa4f42ebb5c91b2549"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/FDCKEILODFK.cs",
+    "bytes": 6942,
+    "sha256": "e86c07e644dae3b0c56ebacc9517844baa2d3ac93b43e1a836d7877991080ec4"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/FFFEOFAOMKP.cs",
+    "bytes": 960,
+    "sha256": "01fa2b38cb62c196c52271228941438e3bfb035dd64887e804c2b0d227cc1f57"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/FGNECHIPGBC.cs",
+    "bytes": 10526,
+    "sha256": "c7901bcb7a6a9e7289a79ad7bf39aef00006169c5b0e277cabc3d1b17015d0f3"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/FJJFIDIAOCG.cs",
+    "bytes": 9270,
+    "sha256": "0c2b7609a6bbee0d9d3fb88881b7af7c608d1108c688e23cceeefcf04d7e863e"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/FKEKBCDAKBH.cs",
+    "bytes": 7403,
+    "sha256": "edfe83337d4d68033d4f8b352eb212b444678d0a76e344b1346799607f47fb8b"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/FKGDLJBAKKC.cs",
+    "bytes": 20386,
+    "sha256": "fa5f41dcddb8385396058cf502b938acd4fdf3788b697f26e5f4191fd1f25365"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/FKMELIPFDMN.cs",
+    "bytes": 24337,
+    "sha256": "9a7ae9fffe4b608fbd291ec7e6791d55c37c791de6cdb70db85be7bc129ea049"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/FLDLIMOKJLC.cs",
+    "bytes": 20195,
+    "sha256": "f04a97fb320efae1c235c8a27c0560acf06d60e256e1143826a7e72608fc50c3"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/FNHHBPBOHIO.cs",
+    "bytes": 8539,
+    "sha256": "2275eb179d8a2a9eb3c79ef10bb8bee21abed3f30af69dcd1ddaf5fec21365e4"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/FOAJICMLICE.cs",
+    "bytes": 16824,
+    "sha256": "081f10e60b8b2f74054ea808875b2e0b8731e071f19bedcdff6db0d0dea80137"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/FOAMLDDKHCO.cs",
+    "bytes": 483,
+    "sha256": "e5b0ec7ea24da591ee7651502c6d76070a21a28761cc0998717dc424290ee73e"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/FPAJMKPHNKD.cs",
+    "bytes": 12666,
+    "sha256": "df53319df2ccab8b5c60c8b757ee223286fd7565d2fddb2d562bb63899e45864"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/GAGGLABHKGE.cs",
+    "bytes": 23043,
+    "sha256": "0ecb44d80a84a223bd8a955e4d9087e55aa7c9ff2e988526a0f74bf6d0c5fa3a"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/GBBIHMCEEIO.cs",
+    "bytes": 719,
+    "sha256": "fd84c20bcdeec579250be53896fea38787b839c4f3d7321fb1ae55556037f369"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/GCIHMDENAGI.cs",
+    "bytes": 383,
+    "sha256": "911de889b7fc9404f3e16e6cdcdcbc85915ca1988d9f4941e1f9845a85009644"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/GCPJPBNAOIG.cs",
+    "bytes": 26745,
+    "sha256": "9629e0f35f00be4b2ef7668029e0394de95139ca6d985abd16ac948a020bb1f7"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/GKMHKHNNPFO.cs",
+    "bytes": 14642,
+    "sha256": "1c1a5a32efa4e99d36ae8f7343fd3082094c6d91088e2d7e35cda0e773228dc1"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/GLFPJJODGIH.cs",
+    "bytes": 11444,
+    "sha256": "83f21906900e66c9e95bbd0e873fc16fb4eb9b441308fcf92737eb32585cb742"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/GLNFMKPAHMP.cs",
+    "bytes": 8939,
+    "sha256": "fcd217e10e388e585d494d22b308def6b22e2ae69706c820c3c7e91865580ae3"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/GOCPEICOHLN.cs",
+    "bytes": 30391,
+    "sha256": "ff8b62fe3536e47bbe2471badc20bd1203cd1ee700f80232dde5290619940389"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/GOEHAICBGII.cs",
+    "bytes": 16043,
+    "sha256": "f3020f66be1222a641575437a1214bebb4d75c21398e5e2063183a80a1d35a5e"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/GPBGPAIDLLH.cs",
+    "bytes": 4019,
+    "sha256": "dbc57de72a5d981d685fdb4350a443988ad79198faf0f7dfe8c785a4672e8366"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/GPEKEFGOOJG.cs",
+    "bytes": 19154,
+    "sha256": "a400996306d6d225be4d548c07bc342afeeca34b026ff89adc0075c1c9a45016"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/HBMDKKCLGJJ.cs",
+    "bytes": 6102,
+    "sha256": "c9d7156d4c6299e9d705e82f0c408b50ba4ec5e4d8d5c61f01c1da00befa4260"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/HBPMDDAINFM.cs",
+    "bytes": 17385,
+    "sha256": "09476a105ae8adb815a93201b40228c511732773c0e7397de4f7e2e04a993b75"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/HDOBCOIEGCA.cs",
+    "bytes": 20982,
+    "sha256": "e0cc4b1017762c1717f2c3fe7e7a155e97079dae196d5a363a4892b95e618720"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/HFKEACHJANH.cs",
+    "bytes": 3113,
+    "sha256": "69aa2d7dd56c7adc05a2d6636b92582a00149627a26c73145237087936615663"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/HFMLMLAENPN.cs",
+    "bytes": 8302,
+    "sha256": "c10ec1159efb2872b63b4e775d1ed824d8b16c90c3c30f571f7d79fa771164ff"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/HFNLHNKBKHO.cs",
+    "bytes": 473,
+    "sha256": "85e801d8549641c47cdadf34193d0bbc647b18ba562efec633fe733ea9bb7043"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/HHAMCFHHKGC.cs",
+    "bytes": 2959,
+    "sha256": "bb6ffe487f30463286f97369d968bb17bbb6f8e6042437063b029f97ae114b09"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/HHEHNDJBDMH.cs",
+    "bytes": 1559,
+    "sha256": "aad823fcd0a902d7598d2a0eed7bbc58aa2c223c3f4d8a5fd6961439f7e36d11"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/HJJJLPECCCI.cs",
+    "bytes": 18688,
+    "sha256": "5cf211142873d6332cdb0c6d0b1dfc848b2f44319d5a22e8df6b2e64d7935939"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/HLKHHOPPFMM.cs",
+    "bytes": 19148,
+    "sha256": "53cd3eb275ab4afa0ee5b094da9da5711ab575b0343a75d0544f3e9e357c94f9"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/HNGALNDMMAM.cs",
+    "bytes": 7025,
+    "sha256": "5b4fd7a91a86f35c3e51a14f705ce8f8a8e3cc3b1b75442c616149fce24b8775"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/HNICMKJFLHK.cs",
+    "bytes": 13047,
+    "sha256": "7cc1dceb758fc8a846dcf14c34f0241d1aea9877cba9444e7ed310cc918db7bd"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/HNMIHJJPPFI.cs",
+    "bytes": 7500,
+    "sha256": "3bc70314d008dc4f09faa96d24a1df243ebdb4eebd7290f0ab33a76c9a65b98c"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/HOHCKAGJOGD.cs",
+    "bytes": 23639,
+    "sha256": "51a351ef6055bdbeba57ee99f7f0e90517f99838bc313f9abedea7b7164fa28b"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/IALLFDNFMDL.cs",
+    "bytes": 6960,
+    "sha256": "921e47244da5c74fc3999603521f54dc38bece7fbaf66f58671eac549b66c444"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/ICOPOPHBCFH.cs",
+    "bytes": 29811,
+    "sha256": "cf7b572d64017ecc8b33afa5f4b32d72e71f1478116b7f6023bdedc7231bb04e"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/IDHINMJBMNE.cs",
+    "bytes": 480,
+    "sha256": "22dbc7fecb34fbb514d7363e79222f3941c44476d186c6038e7c64257dce2444"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/IDJCAKGLJAD.cs",
+    "bytes": 1167,
+    "sha256": "6186fcdf66f9e1d9ec2ca52730f7a87a873ef3b51bd2123eb6f5501e49ebc9a9"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/IFGMOINHKCH.cs",
+    "bytes": 20628,
+    "sha256": "dcbad2d98b4bab3245f59721788414a2d2ee122177aef6398fc6553f0d62d4b1"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/IGKEMPJJJNI.cs",
+    "bytes": 482,
+    "sha256": "85fd6aae4c57eabe4e15890c137da57905f15e1698fece3af18e77857bfd0873"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/IGLECGNNONN.cs",
+    "bytes": 934,
+    "sha256": "8d5350979c169037594fbaaea0b4a35edf1af50bff47c6ca6dd6aa1313fd1881"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/IHOHDCLPPIP.cs",
+    "bytes": 388,
+    "sha256": "4bb96d95def6cda6144dbb0f69c947eeb199668c28caff42475f2ce6cdcd54f5"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/IIGOFDFOFLO.cs",
+    "bytes": 22039,
+    "sha256": "11ec10441755a7150e72a51f824015eea93e13f9def6310f96e9e0889df9f67d"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/IINKNMOGHFM.cs",
+    "bytes": 12293,
+    "sha256": "5c07d5c8955a7538df4ffb96acb52dac7c86a00bae33e0ff0919c04df3355275"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/IIPHPFCGAKF.cs",
+    "bytes": 22184,
+    "sha256": "3d6dfaae3b88b6c4ecfaf842c1c83f3e13a187bf89d75edc8c7c630b6a46d43e"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/IJDJPCDMLDA.cs",
+    "bytes": 29457,
+    "sha256": "96c28f07cf21218014327b189ef3150cd70c4d35a533730ac653fc2f369ba905"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/IKHIPBLDOBI.cs",
+    "bytes": 11113,
+    "sha256": "704180cc3c576bd2b8f654a74aca4902b773af910c2b2af60fbed50390929252"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/IMBCNNCPMKE.cs",
+    "bytes": 4851,
+    "sha256": "6e5d46d8c057d807889838fee2d6aa8b006ec20129edbff1cbc3d3caf1ae7c45"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/IMHCGMKOJJJ.cs",
+    "bytes": 7809,
+    "sha256": "182d6c522bb80f7e07728ef5121ee11ae886f99163c2d464bb780811eb669d72"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/INELOJCECLI.cs",
+    "bytes": 19179,
+    "sha256": "83d70e9a2f73c9b1b3604571c01ad62fd1a3b9e0f31dab4bbaa4dd7e413e5903"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/IOIGKDBMNBE.cs",
+    "bytes": 1423,
+    "sha256": "a6b22ea6fa18eb0a4cb94b795f5b7c6fb35c5729396848ef50b954ce2d8d24e5"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/JAJLEIDGDAG.cs",
+    "bytes": 1274,
+    "sha256": "876cdfcd5a63efc3325a8fc5138d3670d08241101dc94b3ac4927f834b638dc5"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/JBFBOBGINMJ.cs",
+    "bytes": 19941,
+    "sha256": "e50088a2ff5469f150ef3c4bf5fc92363186f7879aa971f184716c2d768c76fc"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/JDKIHPIEDFL.cs",
+    "bytes": 24738,
+    "sha256": "9aa909791323659b6d4a39519e1f2b7ef55f742f6a67e251ffda42df11b4ea29"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/JHLAALLEPHH.cs",
+    "bytes": 475,
+    "sha256": "c9121f851872ec690c21f178b10c012787049935cb2c27fb1900a7b1ae85053e"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/JHMBPMFFOEA.cs",
+    "bytes": 4579,
+    "sha256": "4c99b8a5a14068714088de8b915b688ea74d75447d44b5785170529490a3d32e"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/JIDDOBOGMCN.cs",
+    "bytes": 744,
+    "sha256": "184b4bc519efc3715acbfc1041c9fc8e1819b1ebb0c10273ba5db618e696d89b"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/JIKGGCPICHJ.cs",
+    "bytes": 3877,
+    "sha256": "c40c51cb0d93219643a56d2c3d4ad53df816b0b284ca95a11689e805ade7999d"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/JJLOFNINAJG.cs",
+    "bytes": 15377,
+    "sha256": "9cf3db73884982fe72ca123c10df738044843f25757d5f6adb5e4cd78060e879"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/JKJPGGNCANL.cs",
+    "bytes": 12045,
+    "sha256": "4cd0cca34468636d99573440570839ec4e27a2d47887c8952604849edf598ee7"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/JMEGOOCJBDC.cs",
+    "bytes": 25408,
+    "sha256": "0a7f13d84813190339f872a663428fca3847f978042d31684ba5fe964e1f7e26"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/JMFGOPNIFJG.cs",
+    "bytes": 20624,
+    "sha256": "8c25422bfdfcc437c4bd31f389121e208fa31684e1fe77cb81493392b354a563"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/JOHFNJDNMKB.cs",
+    "bytes": 9681,
+    "sha256": "e4912f4a5874c353981beb3fa7d33ebcf900b89a25aea7d83ab55cf0a0e66788"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/JOPDLNODGLL.cs",
+    "bytes": 363,
+    "sha256": "b17797269fd59bbef02435eb588dc4a5fd372c64a42a769be9dcfc2246309361"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/JPJOEJNDMOO.cs",
+    "bytes": 654,
+    "sha256": "9574292edb5c90c6f4d47b8c2a1db20f0be01ed148bcab78dfa27b58227f9c78"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/KAKFCPCEIML.cs",
+    "bytes": 1245,
+    "sha256": "53d4ac33fa50ea0f0c0fd4cdd5e7cb58c69c85dd933abd674cc1c32303c54c5d"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/KBBMPEHHKKG.cs",
+    "bytes": 18940,
+    "sha256": "c0f8f5ba1374aa605b3f5c3fb599cbf218a367670ee9545072398a3d35a3dbe0"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/KBGBFFCJMOE.cs",
+    "bytes": 392,
+    "sha256": "c3ed288549d0677d5da32960109c0a83d5c46fbb373a0c7017fb5c0f8d6f681f"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/KBMFLCLIAHB.cs",
+    "bytes": 7395,
+    "sha256": "69bd90fddc4bf6d4666b5186200ede6c4ae94dc65769d4c1b6f3f4262ea3cc33"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/KCAELGBKEJF.cs",
+    "bytes": 475,
+    "sha256": "f2ad1eebbc2c9bcbb462c260a57a7cd2949135b79a4b9ca41ba3500a4ac492c4"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/KEANGHEKFGB.cs",
+    "bytes": 24007,
+    "sha256": "52bfec0823921f0788cc4358ecae11f81a509dd99469d9121c1107dbd1a4e8f5"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/KJDNAIFBKFG.cs",
+    "bytes": 10895,
+    "sha256": "dd3b9e8dbdfa900db72af893468cb0a26854d8e8e237259445d44f988c0e158b"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/KLKGHEKDJKN.cs",
+    "bytes": 226,
+    "sha256": "7046ffb0bb079dbb460f1e70361850ffb41d44d2884df6b66c0f43d96cd1fd86"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/KOAEEDGCMDB.cs",
+    "bytes": 24892,
+    "sha256": "c0ca0249a00f4f01d03018e214e2fb72981081f6584c7b0b581a4d5106a31e10"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/KOJAOBLAGBP.cs",
+    "bytes": 11621,
+    "sha256": "c8eb289125ec6b208932cf4b9d0fd2a451ede15c04f7446c9da65fcb5a4923f9"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/KPGCPNLJJAE.cs",
+    "bytes": 570,
+    "sha256": "69e9689fd1acd9b39aa92c721be2c6d59f0536ac18522e9d1d904cb2f9253203"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/LALEJKJOOMB.cs",
+    "bytes": 156,
+    "sha256": "5bc1c3ef679ae1d8206206215cb25d71a3ed4d3b898608cc6d36e3fcf0c2ab81"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/LDIEMIMOCNL.cs",
+    "bytes": 20780,
+    "sha256": "87c47d155c21d579312fbb9190facf67f5a65c4edc555e4ba81a5703c762ed24"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/LEFLOFDHOIM.cs",
+    "bytes": 822,
+    "sha256": "d8244f7f2358c7a47545304b65630456ec921b7d5abf91380cc62df89ac52294"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/LFDFJFAPNOH.cs",
+    "bytes": 8355,
+    "sha256": "b3f6f53e4e6422d17ad0f45937226611025bb52ca6fc1d5d379f980a3545be25"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/LFLMOGFOCCN.cs",
+    "bytes": 19880,
+    "sha256": "89d177aa50e9ca50ee6cbdedec64b657f148a3d50c22c279e2f7aa4be362fb39"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/LHINPOBANED.cs",
+    "bytes": 13072,
+    "sha256": "b6bb8aeb4eae41184d76397e3e9b48813ac3a3f222d6646f922271ade1bc1ae0"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/LHKPPDPPLDC.cs",
+    "bytes": 1099,
+    "sha256": "b7ed1fb8d54a735ea0d7b39232cfcd5c31aa1af2c939312b5cb1dae95eea7031"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/LICOEFANDLC.cs",
+    "bytes": 11320,
+    "sha256": "638e42260e40fbc717fc357bb91ba3a4709c1a88137f9f01d3fd420998b2d18e"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/LLCCNOFHHFE.cs",
+    "bytes": 15735,
+    "sha256": "1c61bf48b4bfb2fb52eb93f5487d77990c245b7d6f3cc54e04cb72c06dd0f200"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/LLCKNIBFCOM.cs",
+    "bytes": 16202,
+    "sha256": "e496b837bd856669bd7bb897399bce209fd092a2183c19677ba9454d043709f6"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/LLGLFFNEBIO.cs",
+    "bytes": 8501,
+    "sha256": "7dd26a2fd1ac31a396a0acf7e88a2b59979eec77fff095a22bdfff670b0b6c57"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/LMJDPBIDLCN.cs",
+    "bytes": 34234,
+    "sha256": "f8f1376ab7c0d0bb46e4af724e245612e3ea6cdc92dd4df0a5ee84aa25f571b2"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/MAOPJANGHNP.cs",
+    "bytes": 382,
+    "sha256": "57a500c56c0514bfa0f60436499ffd246c87d514b936291308ba7aa1ea5342b0"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/MBHEOKMCPMD.cs",
+    "bytes": 16142,
+    "sha256": "0cda08293e310af05c8a44b15abb5e9a92924cae5186b3753053bb44ce599848"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/MBJJLCLNOPL.cs",
+    "bytes": 14184,
+    "sha256": "64df940bcb3803ed2ad07ce5b77a3eceb055232a72245afdd09e43f96780ca98"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/MDBDBJDGDIL.cs",
+    "bytes": 171,
+    "sha256": "b8b0dbbd77efb51604c63d64b9e8f1edc935af146ccf0e98fd7e9f73ad411af6"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/MDGGPHGBNKE.cs",
+    "bytes": 407,
+    "sha256": "3af42ab746b528035216f41fd6cdee4958c4da1e6c383d8fed7194c2ddff675e"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/MDOKBHABDII.cs",
+    "bytes": 30028,
+    "sha256": "2bb1a8c7d54b06ee450b6d1d68812ef44aa666fc7e1242f87b0a05a0ee4fadfa"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/MEKJMKILHOI.cs",
+    "bytes": 33365,
+    "sha256": "f9d4ffbe43087a9e7835abe5f32fe15fce9ef1815fb6138d187bdf06caa195d5"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/MEPEHBBLCLC.cs",
+    "bytes": 14357,
+    "sha256": "1c9009d49c114dd0759a422dc774c21c69c1cdc45e1752a4f97184d1ba2e284f"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/MFNBAKLDDJL.cs",
+    "bytes": 14297,
+    "sha256": "530eb79039a507de57292153a8ff3e769247438725fdf23fda419a2415f61b5a"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/MFONLIKMDJP.cs",
+    "bytes": 742,
+    "sha256": "4737c636ad2344e0f30034cd0b1c7ae30884029fbb04e1120710a08530609e0e"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/MHLJOCDNJEH.cs",
+    "bytes": 1163,
+    "sha256": "4e40f4a8ee406bcda3d01c529038ae0f4c0c8ebba5e5265ab24b6224a28ffd8e"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/MJHHNEOKANP.cs",
+    "bytes": 24217,
+    "sha256": "51d120391ac85182ec73a57169b0044d8ca3312edca80c632ba94bd2f9f7e7f3"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/MOAACPPCAON.cs",
+    "bytes": 384,
+    "sha256": "37223905955c3e5831d31834190ec43d591c34d3f3d548015010b3843de2c253"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/MPHCDOAPFKA.cs",
+    "bytes": 2728,
+    "sha256": "2206c25321f4d4cc40d776ae9d827b3e0100bfc08e2727785923044eef6c5add"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/Main.cs",
+    "bytes": 24955,
+    "sha256": "aa1b58f6bf7a1c308c39c1c035b2468adfd50aca2cc4a73266612381c61c0c36"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/NABBKCGENJI.cs",
+    "bytes": 992,
+    "sha256": "b9fbddf8098bfadefa336d7c4a67e9cd4ea77e01cce3ca85a7039e5b570c90d0"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/NAKHNBOIDPK.cs",
+    "bytes": 22951,
+    "sha256": "1d801e67fc1eb76b3fceb487124187b4727cfb6e75466fc887b27c43b7e86d66"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/NCJIHEHPPGN.cs",
+    "bytes": 1605,
+    "sha256": "76b3fe375c3459c2e0a6aae1dae9df24132264d81c56e0962dabbf885bd610ab"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/NIBGKNIJGIO.cs",
+    "bytes": 106,
+    "sha256": "386dca7a9dbe812e02d5004a9faffcf3a19264231e8490facfe2c15ba7e8cc4b"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/NICNHCGEBPD.cs",
+    "bytes": 80162,
+    "sha256": "d62345c0dffa0f552da8dcae569eebbe70dd45496eb9c4033bfc53c525932cdd"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/NKGHJKKPIMC.cs",
+    "bytes": 23113,
+    "sha256": "0c20787e191dac249ec4c94d3226fcf6b0aae8254310820b2a148844d994aef7"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/NLFJFBPAMOP.cs",
+    "bytes": 154,
+    "sha256": "27b2e4ac4724609f53f9fac38d397fd90999731489c521300b544ec49cea9419"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/NNLGFHEONOC.cs",
+    "bytes": 64228,
+    "sha256": "b9edeff2f73fa4dbce4c805c4b0e0e96254c19154d869eb1bb76feb0ece94131"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/NNNOCELEBIO.cs",
+    "bytes": 5191,
+    "sha256": "f02a1e98e6b4871cdc8802cfd7fc4f39041414050c9318903fce387a59f1b9d0"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/OAGGHFKEBEN.cs",
+    "bytes": 8742,
+    "sha256": "39faf57b3fad67af3a27d4d5fdd8371f42a5316c56a0012a7a2df348d68f53d2"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/OAIJOFDNFAD.cs",
+    "bytes": 10726,
+    "sha256": "1ccb75c1eb27c3b8b5e013b868a6d575d172927496f5b2fcde08bd14623fd2ae"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/OCEANHHFEKC.cs",
+    "bytes": 45086,
+    "sha256": "5ecb56341869ca943d260f8e448de4418fb2dc2a5c85179c4e2b6b984e08014e"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/OEHLGOCBEJC.cs",
+    "bytes": 8576,
+    "sha256": "6d55e75f30ae8ef3ba90492804694342febc0762d5db4029eac4642ea4ae5a4b"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/OINLLPIBACP.cs",
+    "bytes": 8272,
+    "sha256": "07b0c64c733b71b4b8f5f00bbb324d4ee855cf7006949e76e50b0fa8dfc2ba48"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/OJKLGMPNAGM.cs",
+    "bytes": 11001,
+    "sha256": "0d4ab70a83529f86d1af94217305ff117c3265bfe740f52a34f0a907893df3e6"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/OJOEAEKPDJB.cs",
+    "bytes": 12577,
+    "sha256": "7b8d99bb5360e1ec560b3a3aaafc8c8db4f590950e0fe7a7939ba6a2d91e39e5"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/OKJGCDNKCKA.cs",
+    "bytes": 402,
+    "sha256": "d4777f1044ffde4db4cbdd4ad8d1a7e0e63d18bb490ba3f94508c1bea911eb50"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/OKLPDMCIPNL.cs",
+    "bytes": 9490,
+    "sha256": "ea0fe8ab01f287d2f41fae0b4f83472c920c3e783d6a5b68a9d68abf921a333d"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/OLALLDOFBND.cs",
+    "bytes": 18065,
+    "sha256": "bf468460efb96d3de42dd1edfcafc64b8a876fb6b6c630d3e9464cdecdec4556"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/OMEDIOMAIOJ.cs",
+    "bytes": 5542,
+    "sha256": "1ef0df6e705f97cae1da411ce5074058e3f4eb8c3cdae0dbd655c7587867c8d7"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/OMKPPBEHACL.cs",
+    "bytes": 564,
+    "sha256": "6148c1014ef00e3c6f3cc332b036eca375800ba75d309e72fd3b4bec19d01c84"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/OMPCIFEGNDC.cs",
+    "bytes": 1011,
+    "sha256": "57796464a1b631e821d4a9e823750f7f3437dd117dd425f75277c3edcbd0e9b4"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/ONGHDLIAPCH.cs",
+    "bytes": 28709,
+    "sha256": "26fe8a68bad61d69ae479f87f0aa81bf80db819a8f936c538c821b81be8fb5f6"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/PBFHEPKJPDA.cs",
+    "bytes": 16095,
+    "sha256": "29645431233869d9b712b020237403397c4f98c521818508e23a2ed53e3376ad"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/PCFCCBOBMNB.cs",
+    "bytes": 1006,
+    "sha256": "aad7f346c88832eed8ed104eab721d08fb11e558434f143f48912e9f908d09ff"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/PCHHOMNLFBP.cs",
+    "bytes": 19942,
+    "sha256": "6268122fc13d42e06c2837d73adc6d78aa59b869997b3f8d0aed62d624c817b8"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/PCLGJIFCAHH.cs",
+    "bytes": 472,
+    "sha256": "ba0fcf011ce4e90e6319c9fd32190714843887e3917f402c49222ca92c0a0772"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/PECIBLCOHDK.cs",
+    "bytes": 44093,
+    "sha256": "94a1156d804ad19c96972747f1b4bbd970699e41b045ce2e52c270f394decdc8"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/PEHHFOBICKB.cs",
+    "bytes": 515,
+    "sha256": "3453283f150a9f2d9000118ef89b8702c903b813d14c6f04e7bb7409aa0b1e5e"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/PHLINHDNJLJ.cs",
+    "bytes": 928,
+    "sha256": "dac46910ac5c77746ff5d064ca2340a4335145c5a31deb3dca7c1ba246f0720d"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/PHPIIJICKCC.cs",
+    "bytes": 19278,
+    "sha256": "ac33ba6999bd8725c02f16757b0b58fbe4b20010250c98e183d0711f7b09914e"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/PIFGDCANDMB.cs",
+    "bytes": 26668,
+    "sha256": "53024f9ea7d871ee13bd2874a7a4fe9737b9f6434690047b4d7cb42f0ac9d179"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/PINAOJKFMBG.cs",
+    "bytes": 19964,
+    "sha256": "65e5c906d76ecf924646f8e0bb46858f691a33d4f8317cf4dceb05864b70c864"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/PMLHJABNCEB.cs",
+    "bytes": 6250,
+    "sha256": "90d9ce54ff1a2a73202768eaf7296c19a49d25de253ca4081b31aa517730e995"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/POAFFGBPFIE.cs",
+    "bytes": 75716,
+    "sha256": "744e581a31419eb99b8c4a443417b3a705008a675efd96d5b74e95442fc85a51"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/POEFHBOENEN.cs",
+    "bytes": 5737,
+    "sha256": "4af4d9eeb9160b56ff6b41e9cb24c3bcaa5fdaacf22082b821f6930139f41714"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/PrivateImplementationDetailsKQPLETG/__BB_OBFUSCATOR_VERSION_3_9_9.cs",
+    "bytes": 239,
+    "sha256": "b1b1c39ece91f0f20d5898c8fd740e28edd8ad9edf45565ccb20815038180886"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp/Properties/AssemblyInfo.cs",
+    "bytes": 65,
+    "sha256": "b220332e34997a9ca0277638e412b4d728cf6d333ffb1a10d564e0ff690b67dc"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp-firstpass/Assembly-CSharp-firstpass.csproj",
+    "bytes": 552,
+    "sha256": "f0cf6d07910beaccaa36ad59cb291373b02d68dada780aab2cfbbae635969ad6"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp-firstpass/Beebyte/Obfuscator/DoNotFakeAttribute.cs",
+    "bytes": 371,
+    "sha256": "f1ec57b6c2af31652f259dc5d5ea88ac4e92fa2c136830bdf9aec3cbb010d63f"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp-firstpass/Beebyte/Obfuscator/MessageCode.cs",
+    "bytes": 172,
+    "sha256": "72a42777c44ebc41664c2255735504613c17c04035655a78b1ddacbfe43bb18c"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp-firstpass/Beebyte/Obfuscator/ObfuscateLiteralsAttribute.cs",
+    "bytes": 387,
+    "sha256": "1ff2c53c061f7484c24fd1df7334bcb57119665a4ab88837120fbbabaf31a4e6"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp-firstpass/Beebyte/Obfuscator/RenameAttribute.cs",
+    "bytes": 754,
+    "sha256": "56fbe032dc16ba40c7e9926a044cbaf0bc0481f134d6c211444c57cc344e3f0d"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp-firstpass/Beebyte/Obfuscator/ReplaceLiteralsWithNameAttribute.cs",
+    "bytes": 399,
+    "sha256": "a744b65e8b82e6ba36c068afce40dad6f2f9b30a5fd7468508a8cd3deafa90bd"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp-firstpass/Beebyte/Obfuscator/SkipAttribute.cs",
+    "bytes": 361,
+    "sha256": "170845f52fc1a4a24041fd8b8c5b262ff7a005037d705f99ae9e06ff4936b1f7"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp-firstpass/Beebyte/Obfuscator/SkipRenameAttribute.cs",
+    "bytes": 373,
+    "sha256": "11ccc1bcabab65bb4dd7beb4e1f2f9d2d61db547f70ea6eb2d99d35972a5b8df"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp-firstpass/Beebyte/Obfuscator/SuppressLogAttribute.cs",
+    "bytes": 642,
+    "sha256": "14c128e8b37795b8a014588caa0e3942cc2efe98dcca469ad49afbd6440bee45"
+  },
+  {
+    "path": "game-declarations/Assembly-CSharp-firstpass/Properties/AssemblyInfo.cs",
+    "bytes": 65,
+    "sha256": "b220332e34997a9ca0277638e412b4d728cf6d333ffb1a10d564e0ff690b67dc"
+  },
+  {
+    "path": "il2cpp/DummyDll/Assembly-CSharp-firstpass.dll",
+    "bytes": 4096,
+    "sha256": "74fa1d54b569dbff8d857ec8448499e00bba6779c0bf91822c6ed46afed87f9e"
+  },
+  {
+    "path": "il2cpp/DummyDll/Assembly-CSharp.dll",
+    "bytes": 2270720,
+    "sha256": "7cc8686cd05fce2bb0eebca43ab38a36ce86ac875ad9f31c0803ff8b4d2f7ea8"
+  },
+  {
+    "path": "il2cpp/DummyDll/Il2CppDummyDll.dll",
+    "bytes": 4096,
+    "sha256": "18343059c392724f784a3eb0ba41dd9cfbd3198bff1f7d09b2686b4b3b198780"
+  },
+  {
+    "path": "il2cpp/DummyDll/Mono.Security.dll",
+    "bytes": 101888,
+    "sha256": "cc96ff07c4de4eedf1456732ed5b30096d001d6c404e1f804aa5c0edc0aa6ccb"
+  },
+  {
+    "path": "il2cpp/DummyDll/System.Configuration.dll",
+    "bytes": 5632,
+    "sha256": "e39b6bf51aa3067fcaac2d27d820c0e0b4f37fb1ae946832d2f99a94d753b295"
+  },
+  {
+    "path": "il2cpp/DummyDll/System.Core.dll",
+    "bytes": 15872,
+    "sha256": "17ebe3a3690bbb6c8c8b75fe8e2c13d333a39322238edcae2a1667a491225afd"
+  },
+  {
+    "path": "il2cpp/DummyDll/System.Xml.dll",
+    "bytes": 2560,
+    "sha256": "109089b7ceb7f82138ed6f9928462e9cb4da6314c0fab6c27b26b10977f60e56"
+  },
+  {
+    "path": "il2cpp/DummyDll/System.dll",
+    "bytes": 636928,
+    "sha256": "f80f2b4f84a817b4fed919dfccb91f709277ff23c27a8051b01477578c47f010"
+  },
+  {
+    "path": "il2cpp/DummyDll/UnityEngine.AIModule.dll",
+    "bytes": 3072,
+    "sha256": "cf0dfc8db779d86a2a1e309cb1e7580f818b57670af86ca2f2acfff8d6d8bae4"
+  },
+  {
+    "path": "il2cpp/DummyDll/UnityEngine.AndroidJNIModule.dll",
+    "bytes": 31744,
+    "sha256": "5bbcddacd4d0c49d71d19cc3c8cb5263f81be5e90fb875688c055865dfb762b4"
+  },
+  {
+    "path": "il2cpp/DummyDll/UnityEngine.AnimationModule.dll",
+    "bytes": 20992,
+    "sha256": "e61530ebb191eb99c9ed74b6b697f03f0a642f455bfd708450f539c39e076b4e"
+  },
+  {
+    "path": "il2cpp/DummyDll/UnityEngine.AssetBundleModule.dll",
+    "bytes": 2560,
+    "sha256": "1d0d30f50010274d460d0a968e55edae1d22746e565406a5fadcf5cdbcb64980"
+  },
+  {
+    "path": "il2cpp/DummyDll/UnityEngine.AudioModule.dll",
+    "bytes": 11264,
+    "sha256": "29ef6b581f869734a782301909113bb98336075458b8227c87393b5a8e30938f"
+  },
+  {
+    "path": "il2cpp/DummyDll/UnityEngine.CoreModule.dll",
+    "bytes": 347136,
+    "sha256": "259e10f68f93816157cddd73cc026d9e7abeebedf743008b4e2170b2640f32cb"
+  },
+  {
+    "path": "il2cpp/DummyDll/UnityEngine.DirectorModule.dll",
+    "bytes": 3584,
+    "sha256": "3f6c8e3224d3b393a23e2c65e4afdf3bd2671aeab9d7119c43b4273b839f2266"
+  },
+  {
+    "path": "il2cpp/DummyDll/UnityEngine.GridModule.dll",
+    "bytes": 2560,
+    "sha256": "bb5df0034f5118168c542b1876563db536541cc503f2e8b0761c9140caec7c25"
+  },
+  {
+    "path": "il2cpp/DummyDll/UnityEngine.IMGUIModule.dll",
+    "bytes": 66560,
+    "sha256": "47a01b6edacb2bbf73c36782ed11fd9934d637c437e39aafeec0dd22a39970ff"
+  },
+  {
+    "path": "il2cpp/DummyDll/UnityEngine.ImageConversionModule.dll",
+    "bytes": 3072,
+    "sha256": "752469a2622ccfa21953472646f62a1a82a85f89a4709857552f7cce5ad44aa3"
+  },
+  {
+    "path": "il2cpp/DummyDll/UnityEngine.InputLegacyModule.dll",
+    "bytes": 6144,
+    "sha256": "02f06880e702ca1986f5e1c80e50b51ced4fe9a282767ba18054fc28b9a20cab"
+  },
+  {
+    "path": "il2cpp/DummyDll/UnityEngine.InputModule.dll",
+    "bytes": 5120,
+    "sha256": "7d0023f57cf8eb41f10eedcda1b10fe9193c16a4e14b42f1b3d9f01a3c5a09a9"
+  },
+  {
+    "path": "il2cpp/DummyDll/UnityEngine.ParticleSystemModule.dll",
+    "bytes": 9216,
+    "sha256": "f44401c192773d9155a509a47a6a772974d83584a56136e748513e28088ab4a6"
+  },
+  {
+    "path": "il2cpp/DummyDll/UnityEngine.Physics2DModule.dll",
+    "bytes": 16384,
+    "sha256": "432085a0ba3510fe2c6f73a388c63980231436e471496520adfa0a5f989389f8"
+  },
+  {
+    "path": "il2cpp/DummyDll/UnityEngine.PhysicsModule.dll",
+    "bytes": 16384,
+    "sha256": "1c104cea5f04171006e233b1be2688093b4fbed4c3b91f2d67d6eabb59ff4b6d"
+  },
+  {
+    "path": "il2cpp/DummyDll/UnityEngine.SharedInternalsModule.dll",
+    "bytes": 17408,
+    "sha256": "cb91fdaa52cc01321e94696d68dd4e2943c8fc469a8b3237b436749638fd53f9"
+  },
+  {
+    "path": "il2cpp/DummyDll/UnityEngine.SubsystemsModule.dll",
+    "bytes": 8192,
+    "sha256": "69ccd61a34a224ce0511e8c3faad462342708c2e7de7fa02db4cb3d0071218d2"
+  },
+  {
+    "path": "il2cpp/DummyDll/UnityEngine.TerrainModule.dll",
+    "bytes": 13312,
+    "sha256": "9b06da5ff3f93c00c2b99b0b3e2451ad9c301c1d81cd65973c055f5f6137ca79"
+  },
+  {
+    "path": "il2cpp/DummyDll/UnityEngine.TextRenderingModule.dll",
+    "bytes": 4096,
+    "sha256": "7c0d8421be4657cfea7d366b776341f2678b2b1ab3b658aaaa387841b3d5b519"
+  },
+  {
+    "path": "il2cpp/DummyDll/UnityEngine.TilemapModule.dll",
+    "bytes": 10752,
+    "sha256": "90474901127d98697013f1c48ee0db11539196ad9345904baa90f8a2b713833f"
+  },
+  {
+    "path": "il2cpp/DummyDll/UnityEngine.UIElementsNativeModule.dll",
+    "bytes": 8192,
+    "sha256": "09bd10d502340b2f67f902a859e4c1b86c1658e70d9f68fd019dd30955df9a01"
+  },
+  {
+    "path": "il2cpp/DummyDll/UnityEngine.UIModule.dll",
+    "bytes": 3584,
+    "sha256": "e339964cfec8cc643877268e9605946cab4790ee93b6e22b6c667c5e479b909c"
+  },
+  {
+    "path": "il2cpp/DummyDll/UnityEngine.UnityAnalyticsModule.dll",
+    "bytes": 7680,
+    "sha256": "1f7d61f2373ebaadcd26c0386c23e72851e45eb4fb95b7b78fccccd854e0e1f4"
+  },
+  {
+    "path": "il2cpp/DummyDll/UnityEngine.UnityWebRequestModule.dll",
+    "bytes": 19456,
+    "sha256": "0812e961524b808452ed1f9df9da853d1e67e7d845782321e2989c48ad7d2cbf"
+  },
+  {
+    "path": "il2cpp/DummyDll/UnityEngine.UnityWebRequestWWWModule.dll",
+    "bytes": 3584,
+    "sha256": "c88636e8a4709bcf6818d58575c48ed6d0605b3094605bf63218a00224c0cef9"
+  },
+  {
+    "path": "il2cpp/DummyDll/UnityEngine.VFXModule.dll",
+    "bytes": 8704,
+    "sha256": "16a31893564e7ba380ddd72b6bd09e7fea8c372ff5107a03a3503d7204cf94c1"
+  },
+  {
+    "path": "il2cpp/DummyDll/UnityEngine.VRModule.dll",
+    "bytes": 2560,
+    "sha256": "8cca4dc42534c454e1f9c43188422db50c680580320bb91deb84d0e1820ff09e"
+  },
+  {
+    "path": "il2cpp/DummyDll/UnityEngine.VideoModule.dll",
+    "bytes": 9728,
+    "sha256": "135e6dc24d3284733333713cea5ba8654723ee0e379152346ce7134c0cff7ae9"
+  },
+  {
+    "path": "il2cpp/DummyDll/UnityEngine.XRModule.dll",
+    "bytes": 23040,
+    "sha256": "e60ae7ed4acd053a7b566911152aa1a7897897ee231d86655c7090971208eb28"
+  },
+  {
+    "path": "il2cpp/DummyDll/UnityEngine.dll",
+    "bytes": 2048,
+    "sha256": "4f044fa9a28d5ff30f22c5095ad30f4d0167564a61cef70b3e0f84a07393f989"
+  },
+  {
+    "path": "il2cpp/DummyDll/mscorlib.dll",
+    "bytes": 2214912,
+    "sha256": "4f4df4155bc087163333adde75e579afaf57c86ca18881843200fa6c9cd5f0e9"
+  },
+  {
+    "path": "il2cpp/dump.cs",
+    "bytes": 5887262,
+    "sha256": "82161633ca2aeec4ad92e42a9698ef12a2237bd696e75350044358eb1d6b9c83"
+  },
+  {
+    "path": "il2cpp/il2cpp.h",
+    "bytes": 6284221,
+    "sha256": "78b9ad6fadd5b29fe8f43215653d064f9880109eb3aa8291a3a584864d8bf2ed"
+  },
+  {
+    "path": "il2cpp/script.json",
+    "bytes": 14610147,
+    "sha256": "7bd284c536913042ffc9423c8448a9b5ec490ec9d4dd727aab408388cb54a37e"
+  },
+  {
+    "path": "il2cpp/stringliteral.json",
+    "bytes": 630451,
+    "sha256": "f54a327c6d8a7710b8687d3d4b07b461e244f71e25ff0e5fac1cb6c8ae5e0b43"
+  },
+  {
+    "path": "reports/VALIDATION_VI.md",
+    "bytes": 2258,
+    "sha256": "4a87312f1da164d0f684422008cf904d8130bfd8b251480237aaa7e07f50b1ab"
+  },
+  {
+    "path": "reports/il2cpp-assessment.md",
+    "bytes": 2970,
+    "sha256": "3e02c174e0e41c9308bbe924fb1a86d054b4cf2398e5a7567439c13887394bf2"
+  },
+  {
+    "path": "reports/il2cpp-verification.json",
+    "bytes": 8281,
+    "sha256": "c5c34a50817e8be1a3b122019bd1333e78b4a22cbe691aa0661bbcd0089360ce"
+  },
+  {
+    "path": "reports/il2cppdumper-provenance.md",
+    "bytes": 983,
+    "sha256": "efc1124a95b4c987e946922583d980d61a5ed9c52771ed4984b437baf7642244"
+  },
+  {
+    "path": "reports/il2cppdumper.log",
+    "bytes": 267,
+    "sha256": "b36a5ea6633530d93bbfba7731e42c6dcac98ce5d4d4ec40e19814b1a0d71f28"
+  },
+  {
+    "path": "reports/ilspy-firstpass.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "reports/ilspy-game.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "reports/ilspy-manager-il.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "reports/ilspy-manager-resolved.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "reports/ilspy-manager.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "reports/input-metadata-audit.json",
+    "bytes": 11224,
+    "sha256": "6ee4a105bf475ae4161ec2a2f8ac1e8aaae9a743ec58288d8a0464ba3a573e19"
+  },
+  {
+    "path": "reports/manager-assessment.md",
+    "bytes": 4183,
+    "sha256": "e9887acda8caf4b9d5da30c2b043839c55422840ba16fede6f7209b4a3116e69"
+  },
+  {
+    "path": "reports/objdump-gameassembly.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "reports/syntax-auto-manager-resolved.json",
+    "bytes": 1364,
+    "sha256": "84fb72301c4edecca510a6624fd122c2bfe7467b23cf3b53585983b8d7381c18"
+  },
+  {
+    "path": "reports/syntax-auto-manager.json",
+    "bytes": 1355,
+    "sha256": "68935bc141545758dfa994aa5119b826bdf5bb1591ed43f6b249750b4699d756"
+  },
+  {
+    "path": "reports/syntax-game-declarations.json",
+    "bytes": 44659,
+    "sha256": "8a25ebabb4a256ef7090e386a0a5e14f023a3118371c30e186862a3334da57ba"
+  },
+  {
+    "path": "reports/syntax-summary.json",
+    "bytes": 561,
+    "sha256": "b09c5cb2b80c683647c03cbf034ebaa385474d7105252a9688d0dc27d44b5201"
+  }
+]
