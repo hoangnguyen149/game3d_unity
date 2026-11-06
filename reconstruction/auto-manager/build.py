@@ -73,7 +73,7 @@ for name in reference_names:
         raise SystemExit('Missing reference assembly: ' + name)
 sources = sorted(p for p in root.rglob('*.cs')
                  if p.name != '-.cs' and not any(x in p.relative_to(root).parts for x in ['build-support', 'bin', 'obj', 'reports']))
-response = ['/nostdlib+', '/target:winexe', '/platform:anycpu32bitpreferred', '/unsafe+', '/langversion:12.0',
+response = ['/nostdlib+', '/target:winexe', '/platform:anycpu32bitpreferred', '/unsafe+', '/langversion:12.0', '/warnaserror+',
             '/deterministic+', '/debug:portable', '/pathmap:' + str(root) + '=/_/auto-manager',
             '/out:' + str(out / 'QLTK_NR.exe'), '/win32icon:' + str(root / 'app.ico')]
 response += ['/reference:' + str(refs / (name + '.dll')) for name in reference_names]
@@ -96,6 +96,7 @@ summary = {
     'bytes': output.stat().st_size,
     'sha256': sha256,
     'runtime_equivalence_verified': False,
+    'warnings_as_errors': True,
 }
 (out / 'build-summary.json').write_text(json.dumps(summary, indent=2), encoding='utf-8')
 print(json.dumps(summary, indent=2))

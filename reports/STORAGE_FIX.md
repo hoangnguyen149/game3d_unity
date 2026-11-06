@@ -1,5 +1,7 @@
 # Sửa lỗi thiếu thư mục khi lưu Data/data.ini
 
+Đây là báo cáo bản vá lưu dữ liệu; các số hash/size và 10 warning dưới đây thuộc lần build của bản vá này. Bản build mới hơn đã dọn warning được ghi tại [WARNING_CLEANUP.md](WARNING_CLEANUP.md).
+
 Log Windows cho thấy `DirectoryNotFoundException` tại `File.WriteAllText` trong hàm lưu tài khoản, được gọi sau khi thêm tài khoản. Parent `Data` chưa tồn tại; hàm cũ không tạo thư mục và còn xóa tệp dữ liệu trước khi hoàn thành quá trình lưu.
 
 ## Bản sửa

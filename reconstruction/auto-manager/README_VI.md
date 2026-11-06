@@ -29,6 +29,7 @@ Script biên dịch công cụ đóng resource riêng bằng `csc`, chép nguyê
 6. C# không cho phép `[Out] ref` đơn lẻ (`CS0662`), nên tám tham số trên có thêm cờ metadata `In` ngoài cờ `Out` gốc. Đây là khác biệt được giữ công khai, chưa patch lại metadata. Không được gọi đầu ra là khôi phục chính xác.
 7. Giữ nguyên byte hai resource `TMiu` và `HEkV`. Icon được đóng dưới logical name tên lớp Form đã escaped + `.resources`, vì `ComponentResourceManager(typeof(FormType))` tìm resource theo tên kiểu đã biên dịch. Điều này sửa liên kết cho tên phục dựng, không lấy lại tên Unicode gốc.
 8. Thêm TargetFrameworkAttribute .NET Framework 4.7.2 vốn được project ILSpy giao cho MSBuild tạo. Dùng platform `anycpu32bitpreferred` để giữ CLI flags 32-bit-preferred của đầu vào.
+9. Dọn sáu đoạn không thể chạy tới và hai lớp closure dư gây 10 warning. Delegate bắt biến đang được dùng giữ nguyên; không gán giá trị giả cho field hoặc tắt cảnh báo. Build hiện tại bật `/warnaserror+` và đạt 0 warning/0 error. [Báo cáo](../../reports/WARNING_CLEANUP.md).
 
 `Auto Manager.ilspy-project.txt` là cấu hình xuất ban đầu được giữ làm tài liệu, không phải đường build đã kiểm chứng.
 

@@ -1,6 +1,6 @@
 # Kết quả Docker và bản phục dựng Auto Manager
 
-Đây là báo cáo lần build phục dựng đầu tiên. Các bản sửa tiếp theo được ghi tại [SELECTION_FIX.md](SELECTION_FIX.md) và [STORAGE_FIX.md](STORAGE_FIX.md); hash/size 77.312 byte dưới đây thuộc bản đầu, không phải EXE hiện tại trong gói tải.
+Đây là báo cáo lần build phục dựng đầu tiên. Các cập nhật tiếp theo được ghi tại [SELECTION_FIX.md](SELECTION_FIX.md), [STORAGE_FIX.md](STORAGE_FIX.md) và [WARNING_CLEANUP.md](WARNING_CLEANUP.md); hash/size và 10 warning dưới đây thuộc bản đầu, không phải bản hiện tại trong gói tải.
 
 Đã thực hiện trên Docker Engine Linux amd64 trong cloud, Docker Compose v2.40.3, .NET SDK 8.0.427. Các lệnh Compose này cũng được cung cấp cho Docker Desktop ở chế độ Linux containers; chưa chạy Docker Desktop hoặc GUI trên máy Windows của người dùng.
 

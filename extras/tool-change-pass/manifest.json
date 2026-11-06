@@ -1,0 +1,182 @@
+{
+  "format_version": 1,
+  "package": "TOOLCHAGEPASS",
+  "variant": "repository_with_empty_configuration_templates",
+  "status": "bundled_reference_unexecuted",
+  "contains_source_project": false,
+  "runtime_compatibility_verified": false,
+  "archive_checks": [
+    "path safety",
+    "Windows path safety",
+    "duplicate detection",
+    "symlink rejection",
+    "size limits",
+    "CRC"
+  ],
+  "personal_configuration_removed_or_replaced": [
+    "AddAccount.txt",
+    "Data/Account.txt",
+    "Data/Setting.ini",
+    "key.txt"
+  ],
+  "configuration_templates": {
+    "templates/AddAccount.example.txt": "AddAccount.txt",
+    "templates/Account.example.txt": "Data/Account.txt",
+    "templates/Setting.example.ini": "Data/Setting.ini",
+    "templates/key.example.txt": "key.txt"
+  },
+  "notes": [
+    "Original personal configuration values and hashes are intentionally omitted.",
+    "Binary payload bytes are preserved; this is not a binary security audit.",
+    "This manifest inventories files in its own package, excluding manifest.json itself."
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 225,
+      "sha256": "8ea8b517b6b57d1d019219fc729aa215f386d4032df63de9328eea1b6e961a33"
+    },
+    {
+      "path": "Auto_Doi_PassWord.exe",
+      "bytes": 688128,
+      "sha256": "e7468cdf0478086e4a53914cb81715c3b8414d33795c90a479c4df976aa708ed"
+    },
+    {
+      "path": "Auto_Doi_PassWord.exe.config",
+      "bytes": 563,
+      "sha256": "dd2a10593cccb1d99df5d76e63cd5081ba7e3387aed34ded0ef9588aacd4d3a1"
+    },
+    {
+      "path": "Auto_Doi_PassWord.pdb",
+      "bytes": 130560,
+      "sha256": "795b5c11d023fbd033dada0237d30e0f6e20ed8d5fb72e73ac665e8f9f6834e1"
+    },
+    {
+      "path": "BouncyCastle.Crypto.dll",
+      "bytes": 2609152,
+      "sha256": "333903c7d22a27098e45fc64b77a264aa220605cfbd3e329c200d7e4b42c881c"
+    },
+    {
+      "path": "HtmlAgilityPack.dll",
+      "bytes": 171520,
+      "sha256": "2278da79da677977aa10538c61d931582c161c713c5a6ea4cc68ec5f9c499e02"
+    },
+    {
+      "path": "Microsoft.Bcl.AsyncInterfaces.dll",
+      "bytes": 26904,
+      "sha256": "80678203bd0203a6594f4e330b22543c0de5059382bb1c9334b7868b8f31b1bc"
+    },
+    {
+      "path": "Newtonsoft.Json.dll",
+      "bytes": 711952,
+      "sha256": "e1e27af7b07eeedf5ce71a9255f0422816a6fc5849a483c6714e1b472044fa9d"
+    },
+    {
+      "path": "README_VI.md",
+      "bytes": 3129,
+      "sha256": "ca3fc8c17de7370d6c4a356daf1674b36d857cc56f406183b21478ab76636c5f"
+    },
+    {
+      "path": "RestSharp.dll",
+      "bytes": 190976,
+      "sha256": "65b406d8d07c89d1a10455bfb5c08d725fdbeeceaac95df03bbd9c519d361d21"
+    },
+    {
+      "path": "System.Buffers.dll",
+      "bytes": 20856,
+      "sha256": "accccfbe45d9f08ffeed9916e37b33e98c65be012cfff6e7fa7b67210ce1fefb"
+    },
+    {
+      "path": "System.CodeDom.dll",
+      "bytes": 30984,
+      "sha256": "e8c88b0448083663910587efeacb6a1977749fe3ffe83b263fc01f7b63d7dfd2"
+    },
+    {
+      "path": "System.Memory.dll",
+      "bytes": 142240,
+      "sha256": "bf3fb84664f4097f1a8a9bc71a51dcf8cf1a905d4080a4d290da1730866e856f"
+    },
+    {
+      "path": "System.Numerics.Vectors.dll",
+      "bytes": 115856,
+      "sha256": "1d3ef8698281e7cf7371d1554afef5872b39f96c26da772210a33da041ba1183"
+    },
+    {
+      "path": "System.Runtime.CompilerServices.Unsafe.dll",
+      "bytes": 18024,
+      "sha256": "37768488e8ef45729bc7d9a2677633c6450042975bb96516e186da6cb9cd0dcf"
+    },
+    {
+      "path": "System.Text.Encodings.Web.dll",
+      "bytes": 79024,
+      "sha256": "e9c4f5eed186cb129c527c4b8d67d163ea2f2396e9d8b96e30b5e7c12203ce84"
+    },
+    {
+      "path": "System.Text.Json.dll",
+      "bytes": 644888,
+      "sha256": "86c3f263ae9b4469ab1266c80471087082447eb4a38e6b97bf5e84de15c07a1d"
+    },
+    {
+      "path": "System.Threading.Tasks.Extensions.dll",
+      "bytes": 25984,
+      "sha256": "4f81ffd0dc7204db75afc35ea4291769b07c440592f28894260eea76626a23c6"
+    },
+    {
+      "path": "System.ValueTuple.dll",
+      "bytes": 25232,
+      "sha256": "e905d102585b22c6df04f219af5cbdbfa7bc165979e9788b62df6dcc165e10f4"
+    },
+    {
+      "path": "WebDriver.Support.dll",
+      "bytes": 44544,
+      "sha256": "69fe7cc1146825f517cf5998ec519f958fc85d0ef91c382ec8fd70ab191ae01f"
+    },
+    {
+      "path": "WebDriver.dll",
+      "bytes": 6574592,
+      "sha256": "87e7f44c144b41ef44f0707dbfee2e3d1927be9d886bbc714dc982e0e687a748"
+    },
+    {
+      "path": "chromedriver.exe",
+      "bytes": 17645056,
+      "sha256": "4ecd236abc5cf0d396fef43cefc76f7b834a2560e75c666d01a92fea1caa9f1e"
+    },
+    {
+      "path": "runtimes/linux/native/selenium-manager",
+      "bytes": 5500736,
+      "sha256": "90c81fbaf5b6c3ba6a5d00481634917cf714074783d8543de737c31f6652b687"
+    },
+    {
+      "path": "runtimes/osx/native/selenium-manager",
+      "bytes": 8160544,
+      "sha256": "ee4c1db828eb7a370d2defc67adf77364b7362ccd413714bd4405ea8fc2d917f"
+    },
+    {
+      "path": "runtimes/win/native/selenium-manager.exe",
+      "bytes": 3699200,
+      "sha256": "088599c2f7d69a392b02ef44da98e77d1aa423673c7c5e265bdfadde99f4fdf5"
+    },
+    {
+      "path": "templates/Account.example.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "templates/AddAccount.example.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "templates/Setting.example.ini",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "templates/key.example.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "declared_framework": ".NET Framework 4.8",
+  "configuration_inspection": "Only startup and assembly binding XML sections; no appSettings or connectionStrings."
+}

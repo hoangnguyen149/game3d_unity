@@ -1,1 +1,1 @@
-4ffffd18d7ec8298fb622a271351aeb7680f9ff16ac5561a22fa8dd7de22d9a7  AutoManager-reconstructed-Docker.zip
+08d759dcc3f439108232dbef07971fc27477110971bfcdd5ebeff0b32e4d0bd8  AutoManager-reconstructed-Docker.zip

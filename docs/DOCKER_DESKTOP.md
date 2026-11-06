@@ -41,6 +41,8 @@ docker compose run --rm rebuild-manager
 
 Compiler tạo `docker-output/manager/QLTK_NR.exe` (WinForms, x86, .NET Framework 4.7.2), log và báo cáo build. Đây là bản phục dựng riêng trong `reconstruction/auto-manager/`; các tệp xuất ban đầu trong `decompiled/` giữ nguyên để đối chiếu.
 
+Bản hiện tại đã dọn các cảnh báo mã chết/lớp closure dư và build với `/warnaserror+`: warning mới sẽ làm build thất bại. Lần kiểm chứng hiện tại có 0 warning và 0 error; xem [báo cáo](../reports/WARNING_CLEANUP.md).
+
 Quá trình build xử lý lỗi biểu diễn C# của decompiler bằng các sửa đổi có ghi nhận. Thân hàm game IL2CPP không được thay bằng mã demo để tạo kết quả build thành công. Đọc báo cáo trong thư mục phục dựng trước khi đánh giá tương đương hành vi.
 
 ## Kiểm tra tiêu chí khôi phục đầy đủ

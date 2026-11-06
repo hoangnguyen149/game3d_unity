@@ -1,0 +1,15 @@
+# Personal runtime configuration: keep these files local.
+/Data/Account.txt
+/Data/Setting.ini
+/key.txt
+/AddAccount.txt
+# Runtime output, logs and caches.
+/Logs/
+/logs/
+/Log/
+/log/
+*.log
+*.tmp
+*.bak
+/chromedriver.log
+/.cache/

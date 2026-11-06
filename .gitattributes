@@ -11,3 +11,4 @@ reconstruction/**/*.py text eol=lf
 validation/*.py text eol=lf
 docker/*.py text eol=lf
 compose*.yaml text eol=lf
+extras/tool-change-pass/** -text
