@@ -1,0 +1,72 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 945B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.12-slim-bookworm@sha256:935c3c5b12357a7e10caa9c1e6ca5692344d97cf229832ef584be2cec9fc03df
+#2 DONE 0.0s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 123B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 2.77kB done
+#4 DONE 0.0s
+
+#5 [stage-0 1/6] FROM docker.io/library/python:3.12-slim-bookworm@sha256:935c3c5b12357a7e10caa9c1e6ca5692344d97cf229832ef584be2cec9fc03df
+#5 DONE 0.0s
+
+#6 [stage-0 2/6] RUN apt-get update     && apt-get install -y --no-install-recommends libicu72 libstdc++6     && rm -rf /var/lib/apt/lists/*
+#6 0.768 Get:1 http://deb.debian.org/debian bookworm InRelease [151 kB]
+#6 0.858 Get:2 http://deb.debian.org/debian bookworm-updates InRelease [55.4 kB]
+#6 0.911 Get:3 http://deb.debian.org/debian-security bookworm-security InRelease [34.8 kB]
+#6 0.966 Get:4 http://deb.debian.org/debian bookworm/main amd64 Packages [8790 kB]
+#6 1.261 Get:5 http://deb.debian.org/debian bookworm-updates/main amd64 Packages [6924 B]
+#6 1.294 Get:6 http://deb.debian.org/debian-security bookworm-security/main amd64 Packages [361 kB]
+#6 1.912 Fetched 9400 kB in 1s (7308 kB/s)
+#6 1.912 Reading package lists...
+#6 2.433 Reading package lists...
+#6 2.954 Building dependency tree...
+#6 3.102 Reading state information...
+#6 3.230 libstdc++6 is already the newest version (12.2.0-14+deb12u1).
+#6 3.230 libstdc++6 set to manually installed.
+#6 3.230 The following NEW packages will be installed:
+#6 3.231   libicu72
+#6 3.308 0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+#6 3.308 Need to get 9376 kB of archives.
+#6 3.308 After this operation, 37.0 MB of additional disk space will be used.
+#6 3.308 Get:1 http://deb.debian.org/debian bookworm/main amd64 libicu72 amd64 72.1-3+deb12u1 [9376 kB]
+#6 3.597 debconf: delaying package configuration, since apt-utils is not installed
+#6 3.619 Fetched 9376 kB in 0s (33.1 MB/s)
+#6 3.634 Selecting previously unselected package libicu72:amd64.
+#6 3.634 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 6701 files and directories currently installed.)
+#6 3.634 Preparing to unpack .../libicu72_72.1-3+deb12u1_amd64.deb ...
+#6 3.637 Unpacking libicu72:amd64 (72.1-3+deb12u1) ...
+#6 4.060 Setting up libicu72:amd64 (72.1-3+deb12u1) ...
+#6 4.065 Processing triggers for libc-bin (2.36-9+deb12u14) ...
+#6 DONE 4.1s
+
+#7 [stage-0 3/6] COPY docker/install_toolchain.py docker/toolchain.json /opt/toolchain/
+#7 DONE 0.3s
+
+#8 [stage-0 4/6] RUN --mount=type=secret,id=ca_bundle,required=false     python /opt/toolchain/install_toolchain.py
+#8 5.193 SHA-512 verified: dotnet-sdk.tar.gz
+#8 10.74 SHA-512 verified: net472.nupkg
+#8 11.15 Microsoft SDK and net472 reference assemblies installed.
+#8 DONE 11.2s
+
+#9 [stage-0 5/6] WORKDIR /project
+#9 DONE 1.7s
+
+#10 [stage-0 6/6] RUN dotnet --version
+#10 3.530 8.0.427
+#10 DONE 3.5s
+
+#11 exporting to image
+#11 exporting layers
+#11 exporting layers 1.9s done
+#11 writing image sha256:971188196eca93c723b5881036424a0945c4324a1f44e6289ca8fce957e40f02 done
+#11 naming to docker.io/library/mabu-source-toolchain:local done
+#11 DONE 1.9s

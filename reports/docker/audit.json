@@ -1,0 +1,1749 @@
+{
+  "schema_version": 1,
+  "utc_time": "2026-11-06T09:55:31.588732+00:00",
+  "scope": "Integrity and static declaration audit of preserved decompilation artifacts; no original or reconstructed target code executed.",
+  "environment": {
+    "python": "3.12.16",
+    "platform": "Linux",
+    "machine": "x86_64"
+  },
+  "integrity_status": "passed",
+  "original_artifacts_rebuild_readiness": "blocked",
+  "original_source_fully_restored": false,
+  "require_rebuild_ready": false,
+  "exit_code": 0,
+  "checks_run": 330,
+  "failed_check_count": 0,
+  "failures": [],
+  "observations": {
+    "source_manifest": {
+      "entries": 303,
+      "verified_files": 303
+    },
+    "archives": [
+      {
+        "file": "Mabu6sao-decompiled.zip",
+        "entries": 304,
+        "bytes": 4999868
+      },
+      {
+        "file": "Mabu6sao-native-x86.zip",
+        "entries": 2,
+        "bytes": 32972778
+      }
+    ],
+    "il2cpp": {
+      "type_declarations": 3328,
+      "method_declarations": 31180,
+      "metadata_images": 38,
+      "dummy_dll_count": 39,
+      "game_source_files": {
+        "Assembly-CSharp": 210,
+        "Assembly-CSharp-firstpass": 9
+      },
+      "empty_brace_blocks_heuristic": 10024,
+      "default_return_expressions": 2143,
+      "method_logic_recovered": false,
+      "interpretation": "Counts cover declarations; empty/default bodies do not recover native method implementations."
+    },
+    "literal_counts": {
+      "exported": 7679,
+      "metadata_records": 7683,
+      "values_in_report": false
+    },
+    "manager_il": {
+      "types": 29,
+      "methods": 146,
+      "fields": 106
+    },
+    "manager_raw_source": [
+      {
+        "variant": "auto-manager",
+        "known_syntax_blocker_observed": true,
+        "historical_roslyn_diagnostic": "CS1001",
+        "fresh_csharp_compilation": "not performed"
+      },
+      {
+        "variant": "auto-manager-resolved",
+        "known_syntax_blocker_observed": true,
+        "historical_roslyn_diagnostic": "CS1001",
+        "fresh_csharp_compilation": "not performed"
+      }
+    ]
+  },
+  "blockers": [
+    {
+      "code": "il2cpp_bodies_unrecovered",
+      "status": "unresolved",
+      "detail": "Exported game C# contains declaration stubs; original method bodies remain native."
+    },
+    {
+      "code": "raw_manager_empty_type",
+      "status": "unresolved_in_preserved_exports",
+      "detail": "Raw/resolved decompiler exports contain an unnamed metadata type; original CS1001 is reported, not waived."
+    },
+    {
+      "code": "original_source_unavailable",
+      "status": "unresolved",
+      "detail": "The exact original Unity project and original C# source are not established by this audit."
+    },
+    {
+      "code": "target_runtime_unverified",
+      "status": "not_performed",
+      "detail": "This audit executes no target code and does not test Windows GUI/game behavior."
+    }
+  ],
+  "checks": [
+    {
+      "check": "pinned_manifest_hash",
+      "passed": true,
+      "path": "decompiled/reports/package-files.json"
+    },
+    {
+      "check": "pinned_manifest_hash",
+      "passed": true,
+      "path": "decompiled/reports/input-metadata-audit.json"
+    },
+    {
+      "check": "pinned_manifest_hash",
+      "passed": true,
+      "path": "downloads/Mabu6sao-SHA256.json"
+    },
+    {
+      "check": "source_manifest_entry_count",
+      "passed": true,
+      "actual": 303
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "README_VI.md"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "auto-manager/--------------------.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "auto-manager/--------------------.resx"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "auto-manager/-.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "auto-manager/Auto Manager.csproj"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "auto-manager/HEkV"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "auto-manager/Properties/AssemblyInfo.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "auto-manager/QLTK_NR/Properties/Resources.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "auto-manager/QLTK_NR/Properties/Settings.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "auto-manager/TMiu"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "auto-manager/app.ico"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "auto-manager-il/Auto Manager.il"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "auto-manager-resolved/--------------------.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "auto-manager-resolved/--------------------.resx"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "auto-manager-resolved/-.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "auto-manager-resolved/Auto Manager.csproj"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "auto-manager-resolved/HEkV"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "auto-manager-resolved/Properties/AssemblyInfo.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "auto-manager-resolved/QLTK_NR/Properties/Resources.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "auto-manager-resolved/QLTK_NR/Properties/Settings.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "auto-manager-resolved/TMiu"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "auto-manager-resolved/app.ico"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/ABHFJKJEKMG.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/ADLFGODFKLO.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/AGEFHGLPLKN.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/AGNGLCEMBML.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/AHBIBGCIHJC.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/AIGLLOFDJCO.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/AIJMBDEIMMA.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/AJHPJFCKDDD.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/AJOIPCEPHEI.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/AMMCNBACBLB.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/ANEGEPKBKED.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/ANPFEPGLJNO.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/APHPFBNNJGJ.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/APJAPGHJGLA.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/APLNDOPPNIE.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/Assembly-CSharp.csproj"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/BAGAJNJKIAK.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/BBKLMAIPOJA.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/BEMBMINDBEM.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/BFAPJKOMDEL.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/BFGDFGELJAP.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/BFLNNNPIGBJ.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/BFNOKDGCDLH.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/BKBLLLKMCHP.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/BKLICONDENO.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/CENMJBBGNOA.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/CFEECMJFHLI.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/CHCOFCBCMMJ.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/CIIGGOJPNEN.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/CIIMGJFPAJB.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/CPEAODGDBIB.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/CPGAIKIDKLH.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/CPNMPGLGNBE.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/DAKPHLLPALB.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/DBABBDDOLLC.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/DBOABHAAMDB.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/DCLKDOADHAK.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/DDGAMPGNDID.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/DDHHJGHCCGN.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/DEJMGBHPJPL.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/DFHCOJEGOLO.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/DFIBHBCKCPJ.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/DGACLAKOPGM.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/DGGINEOGDHM.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/DGODABDAIOE.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/DJCILNFHHNI.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/DMHLDDEEGIL.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/DMPDPFDPEOL.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/DNJICIAMBFK.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/DNNBFOGBLLD.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/DPEPPCNBCKB.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/EDMIHHHFMGB.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/EEBLKBBCOCC.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/EFJOLNKJONO.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/EFLNLCJKPHA.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/EIDJNBGBICD.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/EIKDDPPLKII.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/EJKELHGLBKA.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/EMCEDOGMDBN.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/EMIECPABCIF.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/ENLLELPDGGI.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/EOFNODKNFDI.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/EOHHKPAEFJA.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/EPEHIEEJHEB.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/EPNCGJFJJFK.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/FAFJLBBNMLA.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/FBFLNIBOLOE.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/FDCKEILODFK.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/FFFEOFAOMKP.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/FGNECHIPGBC.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/FJJFIDIAOCG.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/FKEKBCDAKBH.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/FKGDLJBAKKC.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/FKMELIPFDMN.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/FLDLIMOKJLC.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/FNHHBPBOHIO.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/FOAJICMLICE.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/FOAMLDDKHCO.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/FPAJMKPHNKD.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/GAGGLABHKGE.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/GBBIHMCEEIO.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/GCIHMDENAGI.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/GCPJPBNAOIG.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/GKMHKHNNPFO.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/GLFPJJODGIH.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/GLNFMKPAHMP.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/GOCPEICOHLN.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/GOEHAICBGII.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/GPBGPAIDLLH.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/GPEKEFGOOJG.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/HBMDKKCLGJJ.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/HBPMDDAINFM.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/HDOBCOIEGCA.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/HFKEACHJANH.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/HFMLMLAENPN.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/HFNLHNKBKHO.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/HHAMCFHHKGC.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/HHEHNDJBDMH.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/HJJJLPECCCI.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/HLKHHOPPFMM.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/HNGALNDMMAM.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/HNICMKJFLHK.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/HNMIHJJPPFI.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/HOHCKAGJOGD.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/IALLFDNFMDL.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/ICOPOPHBCFH.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/IDHINMJBMNE.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/IDJCAKGLJAD.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/IFGMOINHKCH.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/IGKEMPJJJNI.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/IGLECGNNONN.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/IHOHDCLPPIP.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/IIGOFDFOFLO.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/IINKNMOGHFM.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/IIPHPFCGAKF.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/IJDJPCDMLDA.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/IKHIPBLDOBI.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/IMBCNNCPMKE.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/IMHCGMKOJJJ.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/INELOJCECLI.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/IOIGKDBMNBE.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/JAJLEIDGDAG.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/JBFBOBGINMJ.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/JDKIHPIEDFL.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/JHLAALLEPHH.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/JHMBPMFFOEA.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/JIDDOBOGMCN.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/JIKGGCPICHJ.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/JJLOFNINAJG.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/JKJPGGNCANL.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/JMEGOOCJBDC.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/JMFGOPNIFJG.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/JOHFNJDNMKB.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/JOPDLNODGLL.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/JPJOEJNDMOO.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/KAKFCPCEIML.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/KBBMPEHHKKG.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/KBGBFFCJMOE.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/KBMFLCLIAHB.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/KCAELGBKEJF.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/KEANGHEKFGB.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/KJDNAIFBKFG.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/KLKGHEKDJKN.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/KOAEEDGCMDB.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/KOJAOBLAGBP.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/KPGCPNLJJAE.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/LALEJKJOOMB.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/LDIEMIMOCNL.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/LEFLOFDHOIM.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/LFDFJFAPNOH.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/LFLMOGFOCCN.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/LHINPOBANED.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/LHKPPDPPLDC.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/LICOEFANDLC.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/LLCCNOFHHFE.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/LLCKNIBFCOM.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/LLGLFFNEBIO.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/LMJDPBIDLCN.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/MAOPJANGHNP.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/MBHEOKMCPMD.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/MBJJLCLNOPL.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/MDBDBJDGDIL.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/MDGGPHGBNKE.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/MDOKBHABDII.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/MEKJMKILHOI.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/MEPEHBBLCLC.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/MFNBAKLDDJL.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/MFONLIKMDJP.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/MHLJOCDNJEH.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/MJHHNEOKANP.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/MOAACPPCAON.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/MPHCDOAPFKA.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/Main.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/NABBKCGENJI.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/NAKHNBOIDPK.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/NCJIHEHPPGN.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/NIBGKNIJGIO.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/NICNHCGEBPD.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/NKGHJKKPIMC.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/NLFJFBPAMOP.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/NNLGFHEONOC.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/NNNOCELEBIO.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/OAGGHFKEBEN.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/OAIJOFDNFAD.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/OCEANHHFEKC.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/OEHLGOCBEJC.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/OINLLPIBACP.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/OJKLGMPNAGM.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/OJOEAEKPDJB.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/OKJGCDNKCKA.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/OKLPDMCIPNL.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/OLALLDOFBND.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/OMEDIOMAIOJ.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/OMKPPBEHACL.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/OMPCIFEGNDC.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/ONGHDLIAPCH.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/PBFHEPKJPDA.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/PCFCCBOBMNB.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/PCHHOMNLFBP.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/PCLGJIFCAHH.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/PECIBLCOHDK.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/PEHHFOBICKB.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/PHLINHDNJLJ.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/PHPIIJICKCC.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/PIFGDCANDMB.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/PINAOJKFMBG.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/PMLHJABNCEB.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/POAFFGBPFIE.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/POEFHBOENEN.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/PrivateImplementationDetailsKQPLETG/__BB_OBFUSCATOR_VERSION_3_9_9.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp/Properties/AssemblyInfo.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp-firstpass/Assembly-CSharp-firstpass.csproj"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp-firstpass/Beebyte/Obfuscator/DoNotFakeAttribute.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp-firstpass/Beebyte/Obfuscator/MessageCode.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp-firstpass/Beebyte/Obfuscator/ObfuscateLiteralsAttribute.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp-firstpass/Beebyte/Obfuscator/RenameAttribute.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp-firstpass/Beebyte/Obfuscator/ReplaceLiteralsWithNameAttribute.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp-firstpass/Beebyte/Obfuscator/SkipAttribute.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp-firstpass/Beebyte/Obfuscator/SkipRenameAttribute.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp-firstpass/Beebyte/Obfuscator/SuppressLogAttribute.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "game-declarations/Assembly-CSharp-firstpass/Properties/AssemblyInfo.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "il2cpp/DummyDll/Assembly-CSharp-firstpass.dll"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "il2cpp/DummyDll/Assembly-CSharp.dll"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "il2cpp/DummyDll/Il2CppDummyDll.dll"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "il2cpp/DummyDll/Mono.Security.dll"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "il2cpp/DummyDll/System.Configuration.dll"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "il2cpp/DummyDll/System.Core.dll"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "il2cpp/DummyDll/System.Xml.dll"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "il2cpp/DummyDll/System.dll"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "il2cpp/DummyDll/UnityEngine.AIModule.dll"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "il2cpp/DummyDll/UnityEngine.AndroidJNIModule.dll"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "il2cpp/DummyDll/UnityEngine.AnimationModule.dll"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "il2cpp/DummyDll/UnityEngine.AssetBundleModule.dll"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "il2cpp/DummyDll/UnityEngine.AudioModule.dll"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "il2cpp/DummyDll/UnityEngine.CoreModule.dll"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "il2cpp/DummyDll/UnityEngine.DirectorModule.dll"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "il2cpp/DummyDll/UnityEngine.GridModule.dll"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "il2cpp/DummyDll/UnityEngine.IMGUIModule.dll"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "il2cpp/DummyDll/UnityEngine.ImageConversionModule.dll"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "il2cpp/DummyDll/UnityEngine.InputLegacyModule.dll"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "il2cpp/DummyDll/UnityEngine.InputModule.dll"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "il2cpp/DummyDll/UnityEngine.ParticleSystemModule.dll"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "il2cpp/DummyDll/UnityEngine.Physics2DModule.dll"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "il2cpp/DummyDll/UnityEngine.PhysicsModule.dll"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "il2cpp/DummyDll/UnityEngine.SharedInternalsModule.dll"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "il2cpp/DummyDll/UnityEngine.SubsystemsModule.dll"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "il2cpp/DummyDll/UnityEngine.TerrainModule.dll"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "il2cpp/DummyDll/UnityEngine.TextRenderingModule.dll"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "il2cpp/DummyDll/UnityEngine.TilemapModule.dll"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "il2cpp/DummyDll/UnityEngine.UIElementsNativeModule.dll"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "il2cpp/DummyDll/UnityEngine.UIModule.dll"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "il2cpp/DummyDll/UnityEngine.UnityAnalyticsModule.dll"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "il2cpp/DummyDll/UnityEngine.UnityWebRequestModule.dll"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "il2cpp/DummyDll/UnityEngine.UnityWebRequestWWWModule.dll"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "il2cpp/DummyDll/UnityEngine.VFXModule.dll"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "il2cpp/DummyDll/UnityEngine.VRModule.dll"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "il2cpp/DummyDll/UnityEngine.VideoModule.dll"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "il2cpp/DummyDll/UnityEngine.XRModule.dll"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "il2cpp/DummyDll/UnityEngine.dll"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "il2cpp/DummyDll/mscorlib.dll"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "il2cpp/dump.cs"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "il2cpp/il2cpp.h"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "il2cpp/script.json"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "il2cpp/stringliteral.json"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "reports/VALIDATION_VI.md"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "reports/il2cpp-assessment.md"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "reports/il2cpp-verification.json"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "reports/il2cppdumper-provenance.md"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "reports/il2cppdumper.log"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "reports/ilspy-firstpass.log"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "reports/ilspy-game.log"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "reports/ilspy-manager-il.log"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "reports/ilspy-manager-resolved.log"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "reports/ilspy-manager.log"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "reports/input-metadata-audit.json"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "reports/manager-assessment.md"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "reports/objdump-gameassembly.log"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "reports/syntax-auto-manager-resolved.json"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "reports/syntax-auto-manager.json"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "reports/syntax-game-declarations.json"
+    },
+    {
+      "check": "source_file_integrity",
+      "passed": true,
+      "path": "reports/syntax-summary.json"
+    },
+    {
+      "check": "download_set",
+      "passed": true
+    },
+    {
+      "check": "archive_hash",
+      "passed": true,
+      "path": "Mabu6sao-decompiled.zip"
+    },
+    {
+      "check": "archive_unique_paths",
+      "passed": true,
+      "path": "Mabu6sao-decompiled.zip"
+    },
+    {
+      "check": "archive_entry_count",
+      "passed": true,
+      "path": "Mabu6sao-decompiled.zip",
+      "actual": 304
+    },
+    {
+      "check": "archive_crc",
+      "passed": true,
+      "path": "Mabu6sao-decompiled.zip"
+    },
+    {
+      "check": "archive_hash",
+      "passed": true,
+      "path": "Mabu6sao-native-x86.zip"
+    },
+    {
+      "check": "archive_unique_paths",
+      "passed": true,
+      "path": "Mabu6sao-native-x86.zip"
+    },
+    {
+      "check": "archive_entry_count",
+      "passed": true,
+      "path": "Mabu6sao-native-x86.zip",
+      "actual": 2
+    },
+    {
+      "check": "archive_crc",
+      "passed": true,
+      "path": "Mabu6sao-native-x86.zip"
+    },
+    {
+      "check": "il2cpp_type_indexes",
+      "passed": true,
+      "actual": 3328
+    },
+    {
+      "check": "il2cpp_method_declarations",
+      "passed": true,
+      "actual": 31180
+    },
+    {
+      "check": "il2cpp_image_headers",
+      "passed": true,
+      "actual": 38
+    },
+    {
+      "check": "dummy_dll_count",
+      "passed": true,
+      "actual": 39
+    },
+    {
+      "check": "dummy_helper_present",
+      "passed": true
+    },
+    {
+      "check": "game_source_count",
+      "passed": true,
+      "assembly": "Assembly-CSharp",
+      "actual": 210
+    },
+    {
+      "check": "game_source_count",
+      "passed": true,
+      "assembly": "Assembly-CSharp-firstpass",
+      "actual": 9
+    },
+    {
+      "check": "stub_evidence_present",
+      "passed": true
+    },
+    {
+      "check": "literal_export_count",
+      "passed": true,
+      "actual": 7679
+    },
+    {
+      "check": "manager_il_types",
+      "passed": true,
+      "actual": 29
+    },
+    {
+      "check": "manager_il_methods",
+      "passed": true,
+      "actual": 146
+    },
+    {
+      "check": "manager_il_fields",
+      "passed": true,
+      "actual": 106
+    },
+    {
+      "check": "known_empty_type_evidence",
+      "passed": true,
+      "variant": "auto-manager"
+    },
+    {
+      "check": "known_empty_type_evidence",
+      "passed": true,
+      "variant": "auto-manager-resolved"
+    }
+  ]
+}

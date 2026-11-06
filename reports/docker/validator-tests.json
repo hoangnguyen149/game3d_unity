@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "utc_time": "2026-11-06T09:55:42.776146+00:00",
+  "scope": "Validation-tool behavior using real preserved artifacts and isolated damaged copies; no target code execution.",
+  "case_count": 5,
+  "passed": 5,
+  "failed": 0,
+  "cases": [
+    {
+      "name": "preserved_artifacts_integrity",
+      "passed": true,
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "detected_checks": [],
+      "rebuild_readiness": "blocked"
+    },
+    {
+      "name": "strict_mode_reports_unresolved_original_rebuild",
+      "passed": true,
+      "expected_exit": 2,
+      "actual_exit": 2,
+      "detected_checks": [],
+      "rebuild_readiness": "blocked"
+    },
+    {
+      "name": "source_corruption_detected",
+      "passed": true,
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "detected_checks": [
+        "source_file_integrity"
+      ],
+      "rebuild_readiness": "blocked"
+    },
+    {
+      "name": "archive_corruption_detected",
+      "passed": true,
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "detected_checks": [
+        "archive_hash"
+      ],
+      "rebuild_readiness": "blocked"
+    },
+    {
+      "name": "missing_game_assembly_detected",
+      "passed": true,
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "detected_checks": [
+        "dummy_dll_count",
+        "missing_source_file"
+      ],
+      "rebuild_readiness": "blocked"
+    }
+  ]
+}

@@ -1,12 +1,30 @@
 # Mabu6sao — kết quả dịch ngược
 
-Repository lưu kết quả phân tích tĩnh của `mabu6sao.rar` / `toolcheckpas.rar`, gồm mã C# và IL phục dựng từ Auto Manager, metadata và khai báo của game Unity IL2CPP. Hai file tham khảo có cùng nội dung.
+Repository lưu kết quả dịch ngược, bản phục dựng Auto Manager có thể biên dịch và workflow Docker Desktop. Dữ liệu tham khảo là `mabu6sao.rar` / `toolcheckpas.rar`; hai file có cùng nội dung.
 
-**Đây chưa phải mã nguồn C# gốc hoàn chỉnh và chưa có bản rebuild chạy được.** Phần game chỉ khôi phục khai báo và ánh xạ mã máy; thân hàm C# gốc chưa được khôi phục. Auto Manager còn một lỗi cú pháp do một kiểu không có tên trong metadata.
+**Đã build thành công bản phục dựng Auto Manager trong Docker; chưa khôi phục đầy đủ mã C# gốc hoặc rebuild game Unity.** EXE chưa được chạy/kiểm thử GUI trên Windows 11. Bản export Auto Manager ban đầu vẫn giữ nguyên lỗi metadata để đối chiếu; các sửa đổi nằm riêng trong `reconstruction/`.
+
+## Build và kiểm tra bằng Docker Desktop
+
+Dùng Linux containers, mở PowerShell tại repository:
+
+```powershell
+docker compose build toolchain
+docker compose run --rm audit
+docker compose run --rm validator-tests
+docker compose run --rm rebuild-manager
+```
+
+EXE phục dựng: `docker-output/manager/QLTK_NR.exe`. Đã kiểm chứng bằng Docker Engine Linux: 330 kiểm tra toàn vẹn đạt, 5/5 ca kiểm tra validator đạt, build EXE thành công với 10 warning. Các lượt kiểm tra/build chạy không mạng và chỉ đọc checkout.
+
+`docker compose run --rm readiness` hiện trả exit `2`, thể hiện bản export gốc còn thiếu điều kiện khôi phục toàn bộ. Không dùng kết quả integrity để kết luận game đã hoạt động.
+
+[Hướng dẫn Docker Desktop](docs/DOCKER_DESKTOP.md) · [Báo cáo thực tế](reports/DOCKER_VALIDATION.md) · [Các sửa đổi phục dựng](reconstruction/auto-manager/README_VI.md).
 
 ## Tải kết quả
 
-- [C# và dữ liệu phân tích — khoảng 5 MB](downloads/Mabu6sao-decompiled.zip)
+- [Auto Manager phục dựng đã build trong Docker](downloads/AutoManager-reconstructed-Docker.zip) — chưa kiểm thử GUI/runtime Windows.
+- [C# và dữ liệu phân tích ban đầu — khoảng 5 MB](downloads/Mabu6sao-decompiled.zip)
 - [Hợp ngữ x86 GameAssembly — khoảng 33 MB](downloads/Mabu6sao-native-x86.zip)
 - [SHA-256 của các gói tải](downloads/Mabu6sao-SHA256.txt)
 - [Thông báo công bố](THONG_BAO.md)
@@ -15,6 +33,7 @@ Repository lưu kết quả phân tích tĩnh của `mabu6sao.rar` / `toolcheckp
 
 | Đường dẫn | Nội dung |
 | --- | --- |
+| [Auto Manager reconstruction](reconstruction/auto-manager/) | Bản sửa riêng và harness build trực tiếp bằng compiler, có tài liệu đối chiếu IL. |
 | [Auto Manager resolved](decompiled/auto-manager-resolved/) | Bản C# có bổ sung reference .NET Framework 4.7.2 khi dịch ngược; nên đọc trước. |
 | [Auto Manager raw](decompiled/auto-manager/) | Bản C# xuất ban đầu để đối chiếu. |
 | [Auto Manager IL](decompiled/auto-manager-il/) | Mã IL; đủ 29 type, 146 method và 106 field theo metadata. |
@@ -29,10 +48,11 @@ Repository lưu kết quả phân tích tĩnh của `mabu6sao.rar` / `toolcheckp
 
 - Các gói ZIP đã được kiểm tra toàn vẹn và có checksum.
 - C# game declarations: 219 tệp, 0 lỗi cú pháp trong lần kiểm tra Roslyn; đây là kiểm tra khai báo, không xác nhận logic game.
-- Auto Manager resolved: không còn 39 chú thích `Unknown result type` của bản raw, nhưng vẫn còn 1 lỗi cú pháp `CS1001` trong `-.cs`.
-- Chưa build lại Auto Manager/game, chưa chạy target hoặc kiểm thử trên Windows 11.
+- Auto Manager resolved ban đầu: không còn 39 chú thích `Unknown result type` của bản raw, nhưng vẫn còn 1 lỗi cú pháp `CS1001` trong `-.cs`.
+- Auto Manager reconstruction: đã compile Windows PE32/.NET Framework 4.7.2, 77.312 byte, giữ 10 warning và ghi rõ khác biệt metadata/tên phục dựng.
+- Chưa chạy EXE, kiểm thử Windows 11 hoặc build game Unity. Game declarations vẫn thiếu thân hàm C# thực và project Unity đầy đủ.
 
-Mở tệp bằng Visual Studio Code/Visual Studio để đọc. Các project xuất ra chưa thể dùng để tạo một bản game hoạt động ngay. Cấu hình tài khoản từ `Data/*.ini` của bản tham khảo không được đưa vào repository.
+Mở tệp bằng Visual Studio Code/Visual Studio để đọc. Đường build đã kiểm chứng của bản phục dựng là `build.py` qua Docker, không phải project ILSpy xuất ban đầu. Cấu hình tài khoản từ `Data/*.ini` của bản tham khảo không được đưa vào repository.
 
 ## Công cụ đã sử dụng
 

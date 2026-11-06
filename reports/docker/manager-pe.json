@@ -1,0 +1,9 @@
+{
+  "format": "PE32 managed Windows GUI",
+  "machine": "0x14c",
+  "cli_flags": "0x20003",
+  "target_framework": ".NETFramework,Version=v4.7.2",
+  "bytes": 77312,
+  "sha256": "adcfd416dd2d66e7daaee6ecf2ffe56b7c57933ee1d91a6f6268b145883095ef",
+  "executed": false
+}

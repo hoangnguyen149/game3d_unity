@@ -1,0 +1,46 @@
+#1 [internal] load local bake definitions
+#1 reading from stdin 806B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 945B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/python:3.12-slim-bookworm@sha256:935c3c5b12357a7e10caa9c1e6ca5692344d97cf229832ef584be2cec9fc03df
+#3 DONE 0.0s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 123B done
+#4 DONE 0.0s
+
+#5 [stage-0 1/6] FROM docker.io/library/python:3.12-slim-bookworm@sha256:935c3c5b12357a7e10caa9c1e6ca5692344d97cf229832ef584be2cec9fc03df
+#5 DONE 0.0s
+
+#6 [internal] load build context
+#6 transferring context: 116B done
+#6 DONE 0.0s
+
+#7 [stage-0 2/6] RUN apt-get update     && apt-get install -y --no-install-recommends libicu72 libstdc++6     && rm -rf /var/lib/apt/lists/*
+#7 CACHED
+
+#8 [stage-0 4/6] RUN --mount=type=secret,id=ca_bundle,required=false     python /opt/toolchain/install_toolchain.py
+#8 CACHED
+
+#9 [stage-0 5/6] WORKDIR /project
+#9 CACHED
+
+#10 [stage-0 3/6] COPY docker/install_toolchain.py docker/toolchain.json /opt/toolchain/
+#10 CACHED
+
+#11 [stage-0 6/6] RUN dotnet --version
+#11 CACHED
+
+#12 exporting to image
+#12 exporting layers done
+#12 writing image sha256:c44b2f72c23b59fe7ebebe9be2e099b8efc5f5a007e7c08413728344665fc2d8 done
+#12 naming to docker.io/library/mabu-source-toolchain:local done
+#12 DONE 0.0s
+
+#13 resolving provenance for metadata file
+#13 DONE 0.0s
+ mabu-source-toolchain:local  Built

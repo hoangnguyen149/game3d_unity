@@ -6,3 +6,8 @@ downloads/** -text
 *.ico binary
 README.md text eol=lf
 THONG_BAO.md text eol=lf
+reconstruction/**/*.cs text eol=lf
+reconstruction/**/*.py text eol=lf
+validation/*.py text eol=lf
+docker/*.py text eol=lf
+compose*.yaml text eol=lf

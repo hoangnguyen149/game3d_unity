@@ -1,0 +1,10 @@
+# Optional public CA bundle for managed environments. Normal Docker Desktop
+# builds use compose.yaml alone and the image's default CA roots.
+services:
+  toolchain:
+    build:
+      secrets:
+        - ca_bundle
+secrets:
+  ca_bundle:
+    file: ${MABU_CA_BUNDLE:-/etc/ssl/certs/ca-certificates.crt}

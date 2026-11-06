@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "description": "Pinned evidence for the preserved decompilation artifacts, not recovered original source or runtime readiness.",
+  "pinned_manifests": {
+    "decompiled/reports/package-files.json": "2f8ff6514fd631d12bd005c9afe591063fc831633974859713dce8f66b3a37db",
+    "decompiled/reports/input-metadata-audit.json": "6ee4a105bf475ae4161ec2a2f8ac1e8aaae9a743ec58288d8a0464ba3a573e19",
+    "downloads/Mabu6sao-SHA256.json": "b95e5c9b2c4b3caa3a6ffa9cc90024d5b10e51381011b188d6c2600d67753556"
+  },
+  "source_manifest_entries": 303,
+  "metadata_types": 3328,
+  "metadata_methods": 31180,
+  "metadata_images": 38,
+  "dummy_dll_count": 39,
+  "manager_il": {
+    "types": 29,
+    "methods": 146,
+    "fields": 106
+  },
+  "game_source_files": {
+    "Assembly-CSharp": 210,
+    "Assembly-CSharp-firstpass": 9
+  },
+  "exported_literal_entries": 7679,
+  "metadata_literal_records": 7683,
+  "archive_entries": {
+    "Mabu6sao-decompiled.zip": 304,
+    "Mabu6sao-native-x86.zip": 2
+  }
+}

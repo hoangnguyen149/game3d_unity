@@ -1,13 +1,13 @@
-# Công bố kết quả dịch ngược Mabu6sao
+# Cập nhật phục dựng và build bằng Docker
 
-Bộ kết quả dịch ngược đã được công bố tại [hoangnguyen149/game3d_unity](https://github.com/hoangnguyen149/game3d_unity). Hai tệp tham khảo `mabu6sao.rar` và `toolcheckpas.rar` có cùng nội dung.
+Đã cập nhật [hoangnguyen149/game3d_unity](https://github.com/hoangnguyen149/game3d_unity) với mã phục dựng Auto Manager và cấu hình Docker Desktop dùng Linux containers.
 
-Gói công bố gồm:
+Kết quả đã kiểm chứng bằng Docker Engine Linux:
 
-- C# và IL phục dựng từ Auto Manager, kèm bản đã bổ sung thư viện tham chiếu .NET Framework 4.7.2.
-- 219 tệp C# khai báo của game; bản dump chứa 3.328 kiểu, 31.180 khai báo phương thức và 39 Dummy DLL phục vụ phân tích. Phần này chưa khôi phục thân hàm C# gốc của game IL2CPP.
-- Báo cáo kiểm chứng, metadata, ánh xạ địa chỉ và bản hợp ngữ x86 của `GameAssembly.dll`.
+- Build bản Auto Manager phục dựng thành Windows PE32/.NET Framework 4.7.2 thành công; EXE 77.312 byte, còn 10 warning compiler.
+- 330 kiểm tra toàn vẹn dữ liệu đạt và 5/5 ca kiểm tra phát hiện lỗi đạt.
+- Tiêu chí khôi phục đầy đủ bản gốc vẫn chưa đạt: phần game IL2CPP hiện là khai báo/ánh xạ, chưa khôi phục thân hàm C# hoặc project Unity hoàn chỉnh.
 
-Tải [gói C# và dữ liệu phân tích](downloads/Mabu6sao-decompiled.zip) hoặc [gói hợp ngữ x86](downloads/Mabu6sao-native-x86.zip). Xem [README](README.md) trước khi sử dụng.
+Tải [EXE phục dựng và báo cáo build](downloads/AutoManager-reconstructed-Docker.zip), xem [hướng dẫn Docker Desktop](docs/DOCKER_DESKTOP.md) và [bằng chứng kiểm chứng](reports/DOCKER_VALIDATION.md).
 
-Các gói ZIP đã được kiểm tra toàn vẹn. Auto Manager còn một lỗi cú pháp do kiểu không có tên trong metadata. Chưa có bản rebuild thành công hoặc kiểm thử chạy trên Windows 11; kết quả này không bảo đảm khôi phục đầy đủ mã nguồn gốc.
+Các output dịch ngược ban đầu được giữ nguyên. Những sửa đổi phục dựng và khác biệt metadata được ghi trong [tài liệu Auto Manager](reconstruction/auto-manager/README_VI.md). Chưa chạy EXE hoặc kiểm thử GUI/đăng nhập/game trên Windows 11; build thành công không phải cam kết tương đương đầy đủ với bản gốc.

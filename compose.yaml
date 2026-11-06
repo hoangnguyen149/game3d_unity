@@ -1,0 +1,43 @@
+x-offline: &offline
+  image: mabu-source-toolchain:local
+  pull_policy: never
+  platform: linux/amd64
+  working_dir: /project
+  network_mode: none
+  read_only: true
+  cap_drop: [ALL]
+  security_opt: ["no-new-privileges:true"]
+  mem_limit: 2g
+  cpus: 2.0
+  tmpfs:
+    - /tmp:size=268435456
+  volumes:
+    - .:/project:ro
+    - ./docker-output:/out
+
+services:
+  toolchain:
+    image: mabu-source-toolchain:local
+    platform: linux/amd64
+    profiles: [tools]
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    command: [dotnet, --version]
+    network_mode: none
+
+  audit:
+    <<: *offline
+    command: [python, validation/check.py, --repo, /project, --output, /out/audit.json]
+
+  validator-tests:
+    <<: *offline
+    command: [python, validation/self_test.py, --repo, /project, --output, /out/validator-tests.json]
+
+  readiness:
+    <<: *offline
+    command: [python, validation/check.py, --repo, /project, --output, /out/readiness.json, --require-rebuild-ready]
+
+  rebuild-manager:
+    <<: *offline
+    command: [python, reconstruction/auto-manager/build.py, --dotnet, /opt/dotnet/dotnet, --refs, /opt/net472refs, --out, /out/manager]
