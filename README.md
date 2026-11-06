@@ -13,12 +13,15 @@ docker compose build toolchain
 docker compose run --rm audit
 docker compose run --rm validator-tests
 docker compose run --rm selection-tests
+docker compose run --rm storage-tests
 docker compose run --rm rebuild-manager
 ```
 
 EXE phục dựng: `docker-output/manager/QLTK_NR.exe`. Đã kiểm chứng bằng Docker Engine Linux: 330 kiểm tra toàn vẹn đạt, 5/5 ca kiểm tra validator đạt, 9/9 kiểm thử hồi quy chọn tài khoản đạt, build EXE thành công với 10 warning. Các lượt kiểm tra/build chạy không mạng và chỉ đọc checkout.
 
 Đã sửa lỗi `NullReferenceException` khi bấm chạy/xóa mà bảng chưa có ô hiện hành. Bản sửa kiểm tra dòng được chọn trước mọi thao tác và hiển thị hướng dẫn thêm/chọn tài khoản. [Chi tiết bản sửa và phạm vi kiểm thử](reports/SELECTION_FIX.md).
+
+Đã sửa lỗi `DirectoryNotFoundException` khi lưu `Data/data.ini`: tự tạo parent và lưu qua tệp tạm trước khi thay tệp cũ. 7/7 kiểm thử filesystem đạt trong Docker; vị trí và định dạng dữ liệu không thay đổi. [Báo cáo lưu dữ liệu](reports/STORAGE_FIX.md).
 
 `docker compose run --rm readiness` hiện trả exit `2`, thể hiện bản export gốc còn thiếu điều kiện khôi phục toàn bộ. Không dùng kết quả integrity để kết luận game đã hoạt động.
 

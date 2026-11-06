@@ -23,3 +23,5 @@ Exit codes for `check.py`:
 ## Selected-account regression tests
 
 `docker compose run --rm selection-tests` compiles the actual production `AccountSelection.cs` with its .NET 8 test harness using the installed SDK, without restore or external packages. Nine cases cover absent/empty selection, placeholder/invalid indices, exact dispatch for valid indices, and zero launch/delete effects for rejected selection. This executes neither the reconstructed executable nor WinForms. Results are written to `docker-output/selection-tests/tests.json`; failed tests or compilation return nonzero.
+
+`docker compose run --rm storage-tests` likewise compiles the actual production `AccountStorage.cs` and runs seven filesystem cases on synthetic temporary files. They cover missing parents, replacement, empty/Unicode content, CWD-relative paths, failed commit cleanup and preserving an existing file when writing is denied. The permission case requires the documented Linux worker with dropped capabilities. Results are written to `docker-output/storage-tests/tests.json`. No real account data, reconstructed EXE or WinForms is executed.

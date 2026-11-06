@@ -1,5 +1,7 @@
 # Sửa NullReference khi bấm chạy/xóa mà chưa chọn tài khoản
 
+Đây là báo cáo bản vá lựa chọn tài khoản. Bản mới hơn có thêm sửa lỗi lưu thư mục được ghi tại [STORAGE_FIX.md](STORAGE_FIX.md); hash/size bên dưới thuộc riêng phiên bản của bản vá này.
+
 Người dùng báo lỗi Windows trong handler kết thúc bằng `_F572`, tại dòng 284 của bản build đầu. Dòng đó truy cập `DataGridView.CurrentCell.RowIndex` mà chưa kiểm tra `CurrentCell`. Khi danh sách trống hoặc bảng chưa có ô hiện hành, `CurrentCell` là null. Một handler xóa cũng dùng cùng phép truy cập và còn tắt nút trước khi đọc lựa chọn.
 
 Đây là lỗi xử lý trạng thái lựa chọn của ứng dụng. Bật JIT debugging không sửa được nguyên nhân này.

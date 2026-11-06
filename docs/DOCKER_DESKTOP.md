@@ -22,6 +22,7 @@ Lượt build đầu cần Internet tới Docker Hub, Debian, `builds.dotnet.mic
 docker compose run --rm audit
 docker compose run --rm validator-tests
 docker compose run --rm selection-tests
+docker compose run --rm storage-tests
 ```
 
 `audit` xác minh manifest, hash/CRC các gói tải, độ bao phủ IL/metadata và các dấu vết thân hàm rỗng. Exit `0` nghĩa dữ liệu giữ toàn vẹn, không có nghĩa đã lấy lại mã gốc hoặc game chạy được.
@@ -29,6 +30,8 @@ docker compose run --rm selection-tests
 `validator-tests` kiểm tra chính bộ kiểm chứng bằng dữ liệu thật: baseline, tiêu chí đầy đủ, sửa một tệp source, làm hỏng ZIP và bỏ một DLL. Các thay đổi chỉ nằm trong bản sao tạm của container.
 
 `selection-tests` chạy 9 ca hồi quy trên chính logic chọn tài khoản được dùng trong hai nút chạy/xóa. Kiểm tra lựa chọn trống, placeholder, chỉ số không hợp lệ và lựa chọn hợp lệ; chưa thực thi giao diện WinForms. Khi dùng app, thêm/chọn một dòng tài khoản trước khi bấm chạy hoặc xóa.
+
+`storage-tests` chạy 7 ca filesystem bằng dữ liệu giả tạm thời. Kiểm tra tự tạo `Data`, thay tệp, Unicode, đường dẫn tương đối và bảo vệ dữ liệu cũ khi ghi thất bại. App tự tạo thư mục khi lưu tài khoản, không cần tạo thủ công. Đường dẫn dữ liệu vẫn được tính từ working directory như bản trước.
 
 ## Build bản phục dựng Auto Manager
 
@@ -54,6 +57,7 @@ Lệnh này hiện trả **exit `2`**: metadata nguyên bản còn thân hàm ga
 - `docker-output/validator-tests.json`: kết quả các ca phát hiện lỗi.
 - `docker-output/readiness.json`: tiêu chí chưa đủ để khôi phục/build toàn bộ bản gốc.
 - `docker-output/selection-tests/tests.json`: các kiểm thử hồi quy cho lỗi chọn tài khoản.
+- `docker-output/storage-tests/tests.json`: các kiểm thử hồi quy cho lỗi thư mục và lưu tệp.
 - `docker-output/manager/`: EXE, PDB, log compiler, resource và báo cáo của bản phục dựng.
 - [Báo cáo Docker đã thực hiện](../reports/DOCKER_VALIDATION.md): phân biệt kết quả thực tế và bước chưa chạy.
 

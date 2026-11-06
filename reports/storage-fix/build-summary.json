@@ -1,0 +1,24 @@
+{
+  "result": "compiled_only_not_executed",
+  "target": ".NET Framework 4.7.2 WinForms, PE32 with original 32-bit-preferred CLI flags",
+  "sources": [
+    "--------------------.cs",
+    "AccountSelection.cs",
+    "AccountStorage.cs",
+    "CryptoOverrides.cs",
+    "Properties/AssemblyInfo.cs",
+    "QLTK_NR/Properties/Resources.cs",
+    "QLTK_NR/Properties/Settings.cs",
+    "ReconstructionAssemblyInfo.cs"
+  ],
+  "excluded_metadata_only_type": "0x0200001D: empty name, invalid parent, zero members",
+  "resource_logical_names": [
+    "TMiu",
+    "HEkV",
+    "_F4DE_E4B6_EFC0_E906_E7DE_EFA2_F567_F8CA_F1ED_EEF8_F18F_E002_F2C3_EAA0_E089_E787_E156_EB04_F559_E28E.resources"
+  ],
+  "output": "QLTK_NR.exe",
+  "bytes": 79872,
+  "sha256": "4498304a5961bf7c5256fd9b45e808556f6c6b5f7351021812cca6db1dd09d26",
+  "runtime_equivalence_verified": false
+}

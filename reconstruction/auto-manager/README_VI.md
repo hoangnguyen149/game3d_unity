@@ -34,6 +34,8 @@ Script biên dịch công cụ đóng resource riêng bằng `csc`, chép nguyê
 
 ## Kết quả và giới hạn
 
+Bản sửa lưu dữ liệu: hàm lưu đã serialize xong mới gọi `AccountStorage.Save`; helper tự tạo parent và ghi tệp tạm cùng thư mục rồi replace/move. Không còn xóa `data.ini` trước khi lưu. Giữ nguyên đường dẫn tương đối và giá trị bản ghi. 7/7 kiểm thử filesystem đạt trong Docker, gồm bảo vệ dữ liệu cũ khi ghi thất bại. [Chi tiết bản sửa](../../reports/STORAGE_FIX.md).
+
 Bản sửa thao tác chọn tài khoản: hai nút chạy/xóa dùng `AccountSelection` kiểm tra ô hiện hành, dòng placeholder và giới hạn danh sách trước mọi thao tác. Khi danh sách trống hoặc chưa chọn dòng, hiển thị hướng dẫn thêm/chọn tài khoản. Đây là sửa lỗi chức năng theo báo lỗi Windows, không phải khôi phục nguyên byte hành vi lỗi của bản đầu vào. Có 9 kiểm thử hồi quy cho logic chọn/thực hiện thao tác, chạy trong Docker; chưa chạy lại GUI Windows của bản sửa. Chi tiết: [báo cáo sửa lỗi](../../reports/SELECTION_FIX.md).
 
 Lần csc trực tiếp trước khi bổ sung TargetFramework/platform: exit 0, 10 warning (6 unreachable code và 4 closure field chưa được gán). Công cụ đóng resource riêng build và kiểm tra byte thành công. Kết quả Docker hiện hành và hash đầu ra cuối cùng nằm trong báo cáo ở root repository và trong `build-summary.json` của lần chạy đó.

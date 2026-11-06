@@ -1,0 +1,36 @@
+{
+  "scope": "Production AccountStorage on temporary synthetic files; no account data or WinForms executed",
+  "tests": 7,
+  "passed": 7,
+  "failed": 0,
+  "cases": [
+    {
+      "name": "missing_nested_parent_created",
+      "passed": true
+    },
+    {
+      "name": "existing_file_replaced_with_complete_contents",
+      "passed": true
+    },
+    {
+      "name": "empty_contents_persisted",
+      "passed": true
+    },
+    {
+      "name": "unicode_directory_and_contents_round_trip",
+      "passed": true
+    },
+    {
+      "name": "relative_path_stays_in_working_directory",
+      "passed": true
+    },
+    {
+      "name": "failed_commit_cleans_temporary_and_preserves_destination",
+      "passed": true
+    },
+    {
+      "name": "failed_write_keeps_existing_data",
+      "passed": true
+    }
+  ]
+}

@@ -45,3 +45,7 @@ services:
   selection-tests:
     <<: *offline
     command: [python, validation/run_manager_selection_tests.py, --dotnet, /opt/dotnet/dotnet, --out, /out/selection-tests]
+
+  storage-tests:
+    <<: *offline
+    command: [python, validation/run_manager_storage_tests.py, --dotnet, /opt/dotnet/dotnet, --out, /out/storage-tests]
